@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "macos-27",
+  "platform": "macOS",
+  "device": "Mac17,6",
+  "major_version": 27,
+  "baseline": {
+    "version": "27.0 beta 4",
+    "build": "26A5388g",
+    "released": "2026-07-20T00:00:00Z",
+    "beta": true,
+    "rc": false
+  }
+}
