@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - .github/workflows/discover.yml
+      - diffs/**
       - manifests/**
       - track.json
   workflow_dispatch:
