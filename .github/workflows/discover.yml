@@ -1,0 +1,24 @@
+name: Discover macOS 27 firmware
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/discover.yml
+      - manifests/**
+      - track.json
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: macos-27-discovery-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    permissions:
+      contents: read
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@706f81699f03d4ee2b803db4c52a99a98ce32fdc
+    with:
+      policy-path: track.json
+      manifests-dir: manifests
