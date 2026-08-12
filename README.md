@@ -5,6 +5,12 @@ Browsable firmware-diff payloads for macOS 27, published from
 
 ## Available diffs
 
+- [27.0 (26A5353q) vs. 27.0 (26A5368g)](diffs/27_0_26A5353q_vs_27_0_26A5368g/README.md)
+  ([manifest](manifests/27_0_26A5353q_vs_27_0_26A5368g.json))
+- [27.0 (26A5368g) vs. 27.0 (26A5378j)](diffs/27_0_26A5368g_vs_27_0_26A5378j/README.md)
+  ([manifest](manifests/27_0_26A5368g_vs_27_0_26A5378j.json))
+- [27.0 (26A5378j) vs. 27.0 (26A5378n)](diffs/27_0_26A5378j_vs_27_0_26A5378n/README.md)
+  ([manifest](manifests/27_0_26A5378j_vs_27_0_26A5378n.json))
 - [27.0 (26A5378n) vs. 27.0 (26A5388g)](diffs/27_0_26A5378n_vs_27_0_26A5388g/README.md)
   ([manifest](manifests/27_0_26A5378n_vs_27_0_26A5388g.json))
 
