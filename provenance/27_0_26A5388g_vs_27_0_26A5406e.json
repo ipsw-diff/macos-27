@@ -1,0 +1,52 @@
+{
+  "catalog_commit": "dc1eaf8c4a2c9c1e133337724e4bce6cd255df9d",
+  "discovery": {
+    "baseline": {
+      "beta": true,
+      "build": "26A5388g",
+      "rc": false,
+      "released": "2026-07-20T00:00:00Z",
+      "version": "27.0 beta 4"
+    },
+    "device": "Mac17,6",
+    "latest": {
+      "beta": true,
+      "build": "26A5406e",
+      "rc": false,
+      "released": "2026-08-10T00:00:00Z",
+      "version": "27.0 beta 5"
+    },
+    "major_version": 27,
+    "platform": "macOS",
+    "schema_version": 1,
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.707, BuildCommit: 9f1fa9bd3d58ae7c42a9a696225e965adc54e43f"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "4e52b0122c11ed09494c9f70c58b83d71933c6afd9980748813dbdcd575b84af",
+      "size": 22662343948,
+      "url": "https://updates.cdn-apple.com/2026SummerSeed/fullrestores/140-55718/5809AFC6-1923-4590-AAFC-904A0283E659/UniversalMac_27.0_26A5388g_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "8064e8cc9b23dcfc758f51d6ebd3e15e846baae65760bc53f1e7591ff50d56d3",
+      "size": 22743302878,
+      "url": "https://updates.cdn-apple.com/2026SummerSeed/fullrestores/140-81421/E76AF7DE-7F9D-4808-B023-AC9A8313B177/UniversalMac_27.0_26A5406e_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "79b016493a2b0e5b0719ef722af873554474572b",
+  "source_tag": "payload/27_0_26A5388g_vs_27_0_26A5406e",
+  "workflow_commit": "d207406ac2f6633c8c25164b1f00d8a2e0ed2cea",
+  "workflow_run": "https://github.com/ipsw-diff/macos-27/actions/runs/31744986285"
+}
