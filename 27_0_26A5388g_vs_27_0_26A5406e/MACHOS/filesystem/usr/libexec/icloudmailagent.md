@@ -1,0 +1,81 @@
+## icloudmailagent
+
+> `/usr/libexec/icloudmailagent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__eh_frame`
+
+```diff
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APIManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APIRequestModel.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APNSManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationManager+Error.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationSyncManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/Constants.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/DeviceLockObserver.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/Logger.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/MCCAgentConnectionManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/MCCSecretAgentService.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/OSTransactionHelper.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/PDSRegistrarService.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/RCOverrideHelper.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/SyncAPIs.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/icloudmailagent.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/icloudmailagent_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/main.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/APNS/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/Categorization Sync/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/Categorization/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.td5yzT/Sources/icloudMCCKit/icloudmailagent/Utilities/
++ _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1En_n
++ _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctF028$sSiSo7NSErrorCSgIeyByy_Sis5I12_pSgIegyg_TRSiSo0M0CSgIeyByy_Tf1nEn_nTm
++ _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1nEn_n
++ _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1En_n
++ _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF031$sSo12NSDictionaryCSgSo7NSErroro13IeyByy_SDys11ij8VypGSgs5K12_pSgIeggg_TRSo0N0CSgSo0Q0CSgIeyByy_Tf1En_n
++ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1nEn_n
++ _$s15icloudmailagent21MCCSecretAgentServiceC18pingWithcompletionyyySb_s5Error_pSgtcF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5G12_pSgIegyg_TR0I1C0kL0VSo0N0CSgIeyByy_Tf1En_nTf4dg_n
++ _$s15icloudmailagent21MCCSecretAgentServiceC21clearAllUserOverrides13withTimestamp10completionySd_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5L12_pSgIegyg_TR0N1C0pQ0VSo0S0CSgIeyByy_Tf1nEn_nTf4nng_n
++ _$s15icloudmailagent21MCCSecretAgentServiceC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5K12_pSgIegyg_TR0M1C0oP0VSo0R0CSgIeyByy_Tf1nEn_nTf4nng_n
++ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5S12_pSgIegyg_TR0U1C0wX0VSo0Z0CSgIeyByy_Tf1nnEn_n
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APIManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APIRequestModel.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/APNSManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationManager+Error.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/CategorizationSyncManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/Constants.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/DeviceLockObserver.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/Logger.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/MCCAgentConnectionManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/MCCSecretAgentService.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/OSTransactionHelper.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/PDSRegistrarService.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/RCOverrideHelper.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/SyncAPIs.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/icloudmailagent.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/icloudmailagent_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent_macOS.build/Objects-normal/arm64e/main.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/APNS/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/Categorization Sync/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/Categorization/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0smNbY/Sources/icloudMCCKit/icloudmailagent/Utilities/
+- _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_n
+- _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctF028$sSiSo7NSErrorCSgIeyByy_Sis5I12_pSgIegyg_TRSiSo0M0CSgIeyByy_Tf1ncn_nTm
+- _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1ncn_n
+- _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_n
+- _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF031$sSo12NSDictionaryCSgSo7NSErroro13IeyByy_SDys11ij8VypGSgs5K12_pSgIeggg_TRSo0N0CSgSo0Q0CSgIeyByy_Tf1cn_n
+- _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1ncn_n
+- _$s15icloudmailagent21MCCSecretAgentServiceC18pingWithcompletionyyySb_s5Error_pSgtcF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5G12_pSgIegyg_TR0I1C0kL0VSo0N0CSgIeyByy_Tf1cn_nTf4dg_n
+- _$s15icloudmailagent21MCCSecretAgentServiceC21clearAllUserOverrides13withTimestamp10completionySd_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5L12_pSgIegyg_TR0N1C0pQ0VSo0S0CSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s15icloudmailagent21MCCSecretAgentServiceC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5K12_pSgIegyg_TR0M1C0oP0VSo0R0CSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5S12_pSgIegyg_TR0U1C0wX0VSo0Z0CSgIeyByy_Tf1nncn_n
+```

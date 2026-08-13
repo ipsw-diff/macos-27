@@ -1,0 +1,134 @@
+## ConfigurationProfilesUI
+
+> `/System/Library/PrivateFrameworks/ConfigurationProfilesUI.framework/Versions/A/ConfigurationProfilesUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-1911.0.1.0.0
++1911.0.5.0.0
+   __TEXT.__text: 0x5ac5c
+   __TEXT.__objc_methlist: 0x31a8
+   __TEXT.__const: 0xa0
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/AsyncUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/CFUtil.cp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/FileUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/LocUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/Logger.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/MiscUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/NSUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/ODUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/SecurityUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/SerialRunner.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/StdErrors.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/Common/XPCUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/AccountsUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/AppleAccountUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPAdminRights.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPDestination.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPInstallerUIPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPProfileAdminRights.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CloudConfigUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ConfigProfileUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/DMCUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/HTTPUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/MDMMigrationUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/MDMXPCUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ManagedAppleIDUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ProfilesPrefPaneUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/SecureBoot.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/UserManagementUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_AuthUtilPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_Common/CPUI_UtilsPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_Common/DMCEnrollmentMCXConnection.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_MiscPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_CloudConfiguration.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_CloudConfigurationViewController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_SACloudConfigurationHelper.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CloudConfigInfoSheetController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfile.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfileASWebAuth.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfileClassic.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ManagedAccounts/CPUI_ManagedAccounts.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/AccountDrivenEnrollment.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/AccountDrivenEnrollmentUI.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/CPUI_ORGOBYODPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/EnrollmentControllerBase.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/ORGOBYODEnrollment.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/ORGOBYODUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/Phase2Enrollment.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QF48UE/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ProgressWindow/CPUI_ProgressWindowController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/AsyncUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/CFUtil.cp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/FileUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/LocUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/Logger.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/MiscUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/NSUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/ODUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/SecurityUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/SerialRunner.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/StdErrors.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/Common/XPCUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/AccountsUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/AppleAccountUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPAdminRights.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPDestination.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPInstallerUIPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CPProfileAdminRights.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/CloudConfigUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ConfigProfileUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/DMCUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/HTTPUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/MDMMigrationUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/MDMXPCUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ManagedAppleIDUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/ProfilesPrefPaneUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/SecureBoot.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPCommon/UserManagementUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_AuthUtilPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_Common/CPUI_UtilsPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_Common/DMCEnrollmentMCXConnection.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CPUI_MiscPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_CloudConfiguration.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_CloudConfigurationViewController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CPUI_SACloudConfigurationHelper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/CloudConfigInfoSheetController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfile.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfileASWebAuth.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/CloudConfiguration/GetEnrollmentProfileClassic.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ManagedAccounts/CPUI_ManagedAccounts.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/AccountDrivenEnrollment.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/AccountDrivenEnrollmentUI.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/CPUI_ORGOBYODPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/EnrollmentControllerBase.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/ORGOBYODEnrollment.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/ORGOBYODUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ORGOBYOD/Phase2Enrollment.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oGZI5s/Sources/MCXTools_uiframeworks/ConfigProfiles/CPUI_Framework/ProgressWindow/CPUI_ProgressWindowController.mm"
+```

@@ -1,0 +1,20 @@
+## esp.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/Current/Frameworks/esp.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__DATA.__data`
+
+```diff
+
+-680.0.0.0.0
++681.0.0.0.0
+   __TEXT.__text: 0xc379c
+   __TEXT.__const: 0x35ca
+   __TEXT.__cstring: 0x1064
+```
