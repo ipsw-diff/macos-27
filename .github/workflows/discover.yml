@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - .github/workflows/discover.yml
+      - .github/workflows/generate.yml
+      - docs/GENERATION-CLOSURE.md
       - diffs/**
       - manifests/**
       - track.json
@@ -19,7 +21,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@706f81699f03d4ee2b803db4c52a99a98ce32fdc
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@dc1eaf8c4a2c9c1e133337724e4bce6cd255df9d
     with:
       policy-path: track.json
       manifests-dir: manifests
