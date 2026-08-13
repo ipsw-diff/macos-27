@@ -1,0 +1,20 @@
+## chsrom.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/Current/Frameworks/chsrom.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA.__data`
+
+```diff
+
+-680.0.0.0.0
++681.0.0.0.0
+   __TEXT.__text: 0x10200
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__const: 0xb2b01
+```

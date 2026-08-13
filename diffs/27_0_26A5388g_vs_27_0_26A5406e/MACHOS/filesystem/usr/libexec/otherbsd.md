@@ -1,0 +1,33 @@
+## otherbsd
+
+> `/usr/libexec/otherbsd`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
+```diff
+
+-3298.0.21.0.0
++3298.0.26.0.2
+   __TEXT.__text: 0x1518
+   __TEXT.__auth_stubs: 0x4a0
+   __TEXT.__objc_stubs: 0x40
+-  __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x558
++  __TEXT.__const: 0x50
++  __TEXT.__cstring: 0x562
+   __TEXT.__oslogstring: 0xc5
+   __TEXT.__objc_methname: 0x2d
+   __TEXT.__unwind_info: 0xb0
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5ixXmV/Binaries/libxpc_executables/install/Symbols/otherbsd"
++ "@(#)VERSION:Darwin Auxiliary Bootstrapper Version 1.0.0: Mon Aug  3 23:18:50 PDT 2026; root:libxpc_executables-3298.0.26.0.2~272/otherbsd/RELEASE_ARM64E"
++ "Darwin Auxiliary Bootstrapper Version 1.0.0: Mon Aug  3 23:18:50 PDT 2026; root:libxpc_executables-3298.0.26.0.2~272/otherbsd/RELEASE_ARM64E"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5v8qSb/Binaries/libxpc_executables/install/Symbols/otherbsd"
+- "@(#)VERSION:Darwin Auxiliary Bootstrapper Version 1.0.0: Mon Jul 13 21:49:06 PDT 2026; root:libxpc_executables-3298.0.21~90/otherbsd/RELEASE_ARM64E"
+- "Darwin Auxiliary Bootstrapper Version 1.0.0: Mon Jul 13 21:49:06 PDT 2026; root:libxpc_executables-3298.0.21~90/otherbsd/RELEASE_ARM64E"
+```

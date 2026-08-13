@@ -1,0 +1,68 @@
+## libAppleEXR.dylib
+
+> `/usr/lib/libAppleEXR.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-1005.0.0.0.0
+-  __TEXT.__text: 0x9f4b8
++1006.0.0.0.0
++  __TEXT.__text: 0x9f700
+   __TEXT.__objc_methlist: 0x254
+   __TEXT.__const: 0x211ac
+   __TEXT.__gcc_except_tab: 0x4e0
+Functions:
+~ __ZL21CompressedInterleave2IjL10StreamType1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_mmjPvl : 500 -> 496
+~ __ZL21CompressedInterleave2IjL10StreamType0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_mmjPvl : 516 -> 512
+~ __ZL21CompressedInterleave2ItL10StreamType1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_mmjPvl : 464 -> 484
+~ __ZL21CompressedInterleave2IjL10StreamType1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_mmjPvl : 496 -> 504
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_0ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 900 -> 932
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_0ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 868 -> 888
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_1ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 920 -> 972
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_1ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 888 -> 900
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_1ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 880 -> 888
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_1ELS0_0ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 904 -> 912
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_0ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 908 -> 964
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_0ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 888 -> 904
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_0ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 952 -> 988
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_0ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 948 -> 972
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_1ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 900 -> 908
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_1ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 956 -> 968
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_1ELS0_1ELS0_0EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 984 -> 996
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_0ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 908 -> 960
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_0ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 888 -> 896
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_0ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 884 -> 892
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_0ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 904 -> 912
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_1ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 964 -> 1020
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_1ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 960 -> 976
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_1ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 956 -> 968
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_1ELS0_0ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 984 -> 996
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_0ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 904 -> 912
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_0ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 920 -> 928
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_0ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 956 -> 968
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_0ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 984 -> 996
+~ __ZL21CompressedInterleave4ItL10StreamType0ELS0_1ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 976 -> 988
+~ __ZL21CompressedInterleave4IjL10StreamType0ELS0_1ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 996 -> 1000
+~ __ZL21CompressedInterleave4ItL10StreamType1ELS0_1ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 996 -> 1012
+~ __ZL21CompressedInterleave4IjL10StreamType1ELS0_1ELS0_1ELS0_1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfoSB_SB_SB_mmjPvl : 1036 -> 1052
+~ __ZL16CompressedPlanarItL10StreamType1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfommjPvl : 384 -> 388
+~ __ZL16CompressedPlanarIjL10StreamType1EEvPKvPK11TileDecoderRK8TileInfoRK11ChannelInfommjPvl : 448 -> 452
+```

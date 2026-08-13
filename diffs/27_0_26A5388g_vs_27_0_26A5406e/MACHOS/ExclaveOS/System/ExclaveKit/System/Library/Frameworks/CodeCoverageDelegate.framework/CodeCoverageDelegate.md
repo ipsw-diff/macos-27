@@ -1,0 +1,25 @@
+## CodeCoverageDelegate
+
+> `/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate`
+
+```diff
+
+-1490.0.20.0.0
++1490.0.21.0.0
+   __TEXT.__text: 0x3298
+   __TEXT.__cstring: 0x317
+   __TEXT.__const: 0x2c0
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate-099c3e23aff72239b8e5ae2e8d8e8485.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_ek.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.swift.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Oyd3Uu/Sources/ExclavePlatform_extra_exclavekit/CodeCoverageDelegate/CodeCoverageDelegate/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate-addaf0c2f2cbefddaad5902fa1cf0a49.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_ek.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.swift.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1pcAQ4/Sources/ExclavePlatform_extra_exclavekit/CodeCoverageDelegate/CodeCoverageDelegate/
+```

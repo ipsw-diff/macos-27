@@ -1,0 +1,508 @@
+## HybridDatabase
+
+> `/System/Library/PrivateFrameworks/HybridDatabase.framework/Versions/A/HybridDatabase`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH.__data`
+- `__AUTH.__thread_vars`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-49.0.1.0.0
+-  __TEXT.__text: 0x8046a4
++54.0.0.0.0
++  __TEXT.__text: 0x807984
+   __TEXT.__init_offsets: 0x3c
+-  __TEXT.__gcc_except_tab: 0x554a0
+-  __TEXT.__const: 0xe9d00
+-  __TEXT.__constg_swiftt: 0xac8
+-  __TEXT.__swift5_typeref: 0x8f6
++  __TEXT.__gcc_except_tab: 0x55850
++  __TEXT.__const: 0xe9e80
++  __TEXT.__swift5_typeref: 0x90a
++  __TEXT.__swift5_reflstr: 0x70d
++  __TEXT.__swift5_assocty: 0xb0
++  __TEXT.__constg_swiftt: 0xb00
++  __TEXT.__swift5_fieldmd: 0xb30
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x6ad
+-  __TEXT.__swift5_fieldmd: 0xa98
+-  __TEXT.__cstring: 0x243fd
+-  __TEXT.__swift5_assocty: 0x98
+-  __TEXT.__swift5_proto: 0x1dc
+-  __TEXT.__swift5_types: 0xec
+-  __TEXT.__oslogstring: 0x31e3
++  __TEXT.__cstring: 0x24906
++  __TEXT.__swift5_proto: 0x1e8
++  __TEXT.__swift5_types: 0xf4
++  __TEXT.__oslogstring: 0x31d6
+   __TEXT.__swift5_capture: 0x1e0
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x1a9c0
+-  __TEXT.__eh_frame: 0x3ed8
++  __TEXT.__unwind_info: 0x1aab0
++  __TEXT.__eh_frame: 0x3fe0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__weak_got: 0x20
+   __DATA_CONST.__objc_selrefs: 0xc8
+   __DATA_CONST.__got: 0x540
+-  __AUTH_CONST.__const: 0x39610
++  __AUTH_CONST.__const: 0x39738
+   __AUTH_CONST.__cfstring: 0x60
+   __AUTH_CONST.__objc_const: 0xb70
+   __AUTH_CONST.__weak_auth_got: 0x28
+
+   __AUTH.__data: 0xc8
+   __AUTH.__thread_vars: 0x78
+   __AUTH.__thread_bss: 0x28
+-  __DATA.__data: 0x4ac
++  __DATA.__data: 0x4b4
++  __DATA.__bss: 0x4018
+   __DATA.__common: 0x30
+-  __DATA.__bss: 0x3e68
+   __DATA_DIRTY.__data: 0x978
+   __DATA_DIRTY.__common: 0x18
+-  __DATA_DIRTY.__bss: 0x4538
++  __DATA_DIRTY.__bss: 0x4528
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 22239
++  Functions: 22283
+   Symbols:   440
+-  CStrings:  5623
++  CStrings:  5659
+ 
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/doc_score_compute.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/doc_term_stats_collection.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/parsed_fts_query.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/query_fts_index.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/json/src/functions/extract_functions/json_extract.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/json/src/utils/json_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/function/query_hnsw_index.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_config.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_graph.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_index.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_index_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_ddl.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_extension.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_extension_clause.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_file_scan.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_graph_pattern.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_reading_clause.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_updating_clause.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/copy/bind_copy_from.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bind_expression/bind_subquery_expression.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/binder.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/bound_statement_visitor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/binder/expression/expression_util.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/catalog_entry_type.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/index_catalog_entry.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/rel_group_catalog_entry.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/table_catalog_entry.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_set.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/arrow/arrow_row_batch.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/copier_config/csv_reader_config.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/copier_config/reader_config.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/conflict_action.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/extend_direction_util.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/path_semantic.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/query_rel_type.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/rel_direction.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/table_type.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/enums/transaction_action.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/expression_type.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/file_system.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/local_file_system.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/virtual_file_system.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/index/index_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/task_system/task_scheduler.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/type_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/types/interval_t.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/types/types.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/types/value/value.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/common/vector/value_vector.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/expression_evaluator_visitor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/path_evaluator.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/pattern_evaluator.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/extension/extension.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/aggregate/min_max.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/aggregate_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/array/array_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/cast_from_string_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/comparison_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_frontier.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_task.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/gds/output_writer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/internal_id/internal_id_creation_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/list/list_range_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/list/list_sort_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/path/length_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/string/regex_replace_function.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/table/projected_graph_info.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/table/stats_info.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/table/storage_info.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/table/table_info.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/utility/count_if.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/vector_arithmetic_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/vector_cast_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/function/vector_hash_functions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/graph/parsed_graph_entry.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/main/client_context.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/optimizer/acc_hash_join_optimizer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/optimizer/correlated_subquery_unnest_solver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/optimizer/projection_push_down_optimizer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/expression/parsed_expression.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/parsed_statement_visitor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_copy.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_ddl.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_expression.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_reading_clause.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_transaction.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/transformer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/parser/visitor/standalone_call_rewriter.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/cardinality_estimator.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/join_plan_solver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/join_tree.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/extend/base_logical_extend.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/factorization/flatten_resolver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_explain.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_flatten.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_hash_join.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/persistent/logical_delete.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/persistent/logical_set.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/append_simple.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_copy.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_join_order.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_read.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_subquery.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_update.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/planner.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/planner/query_planner.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_copy_from.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_delete.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_extend.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_insert.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_scan_node_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_semi_masker.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_set.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_simple.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/map/plan_mapper.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/aggregate/simple_aggregate.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/alter.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/create_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/drop.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/hash_join/hash_join_probe.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/order_by/order_by_key_encoder.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/order_by/top_k.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/path_property_probe.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/delete_executor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/index_builder.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/reader/copy_from_error.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/reader/parquet/column_reader.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/writer/parquet/column_writer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/writer/parquet/parquet_rle_bp_encoder.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/scan/scan_rel_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/alter_storage_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/buffer_manager/bm_page_lock.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/buffer_manager/buffer_manager.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/checkpointer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/compression/compression.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/compression/float_compression.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/free_space_manager.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/index/hash_index.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/index/hash_index_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/local_storage/local_node_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/local_storage/local_storage.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/predicate/constant_predicate.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/storage_manager.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/chunked_node_group.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk_scan_cursor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk_stats.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_chunked_node_group.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_column_chunk_checkpoint_cursor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_node_group.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/dictionary_column.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/list_column.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/list_segment.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/node_group.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/node_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/pk_equals.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/rel_table.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/rel_table_data.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment_metadata.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment_split_streamer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/string_segment.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/table/version_info.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/undo_buffer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/wal/wal_record.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/src/storage/wal/wal_replayer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/bitstate.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/compile.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/dfa.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/include/walker-inl.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/nfa.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/onepass.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/parse.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/prog.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/re2.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/regexp.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/simplify.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rSQsQi/Sources/HybridDatabase/libhybriddatabase/third_party/re2/tostring.cpp"
++ "54"
++ "Assertion failed in \"#%{public}s:#%{public}d\": #%{public}s"
++ "Assertion failed in \"{}:{}\": {}"
++ "ChunkedCSRHeader::integrityCheck: CSR offset {} at index {} is less than offset {} at index {}"
++ "ChunkedCSRHeader::integrityCheck: Largest CSR offset {} is larger than the number of rows in the CSR {}."
++ "Found CHECKPOINT record in WAL but no shadow file"
++ "HybridSearch.IntegrityCheckCorruptionErrorSilenced"
++ "InMemChunkedCSRHeader::populateCSRLengthFromOffsets: CSR offset {} at index {} is less than offset {} at index {}"
++ "IntegrityCheck: Mismatch between existence of null column of column '{}' ({}) and null segment ({})."
++ "Predicate contains {} conjunctive expressions, which exceeds the maximum of {}."
++ "WAL file size {} is larger than the corruptWALSizeLimit {}."
++ "catalogSizeMB"
++ "com.apple.HybridSearch.index.errors"
++ "com.apple.hybriddatabase.retokenize.status"
++ "com.apple.hybriddatabase.storage.deletions"
++ "connectionConfigError"
++ "connectionInitializationFailed"
++ "currentLength >= numDeletedRows"
++ "dataFileSizeMB"
++ "databaseInitializationFailed"
++ "deletionPercent"
++ "entry"
++ "errorCode"
++ "errorDescription"
++ "errorDomain"
++ "errorMsg"
++ "fsmFreeSizeMB"
++ "getFlatTupleFailed"
++ "getNextQueryResultFailed"
++ "hnswIndexNotReady"
++ "i == 0 || csrOffsets[i] >= csrOffsets[i - 1]"
++ "metadataSizeMB"
++ "operation"
++ "pagesToVacuum"
++ "prepareStatmentFailed"
++ "queryExecutionFailed"
++ "shadowSizeMB"
++ "topKInputCount"
++ "totalPages"
++ "transactionManager"
++ "valueConversionFailed"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/doc_score_compute.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/doc_term_stats_collection.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/parsed_fts_query.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/fts/src/function/query_fts_index.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/json/src/functions/extract_functions/json_extract.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/json/src/utils/json_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/function/query_hnsw_index.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_config.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_graph.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_index.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/extension/vector/src/index/hnsw_index_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_ddl.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_extension.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_extension_clause.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_file_scan.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_graph_pattern.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_reading_clause.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/bind_updating_clause.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind/copy/bind_copy_from.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bind_expression/bind_subquery_expression.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/binder.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/bound_statement_visitor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/binder/expression/expression_util.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/catalog_entry_type.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/index_catalog_entry.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/rel_group_catalog_entry.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_entry/table_catalog_entry.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/catalog/catalog_set.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/arrow/arrow_row_batch.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/copier_config/csv_reader_config.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/copier_config/reader_config.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/conflict_action.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/extend_direction_util.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/path_semantic.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/query_rel_type.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/rel_direction.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/table_type.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/enums/transaction_action.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/expression_type.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/file_system.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/local_file_system.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/file_system/virtual_file_system.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/index/index_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/task_system/task_scheduler.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/type_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/types/interval_t.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/types/types.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/types/value/value.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/common/vector/value_vector.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/expression_evaluator_visitor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/path_evaluator.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/expression_evaluator/pattern_evaluator.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/extension/extension.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/aggregate/min_max.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/aggregate_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/array/array_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/cast_from_string_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/comparison_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_frontier.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_task.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/gds/gds_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/gds/output_writer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/internal_id/internal_id_creation_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/list/list_range_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/list/list_sort_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/path/length_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/string/regex_replace_function.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/table/projected_graph_info.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/table/stats_info.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/table/storage_info.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/table/table_info.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/utility/count_if.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/vector_arithmetic_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/vector_cast_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/function/vector_hash_functions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/graph/parsed_graph_entry.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/main/client_context.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/optimizer/acc_hash_join_optimizer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/optimizer/correlated_subquery_unnest_solver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/optimizer/projection_push_down_optimizer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/expression/parsed_expression.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/parsed_statement_visitor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_copy.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_ddl.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_expression.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_reading_clause.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transform/transform_transaction.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/transformer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/parser/visitor/standalone_call_rewriter.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/cardinality_estimator.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/join_plan_solver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/join_order/join_tree.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/extend/base_logical_extend.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/factorization/flatten_resolver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_explain.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_flatten.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/logical_hash_join.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/persistent/logical_delete.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/operator/persistent/logical_set.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/append_simple.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_copy.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_join_order.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_read.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_subquery.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/plan/plan_update.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/planner.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/planner/query_planner.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_copy_from.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_delete.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_extend.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_insert.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_scan_node_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_semi_masker.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_set.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/map_simple.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/map/plan_mapper.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/aggregate/simple_aggregate.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/alter.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/create_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/ddl/drop.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/hash_join/hash_join_probe.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/order_by/order_by_key_encoder.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/order_by/top_k.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/path_property_probe.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/delete_executor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/index_builder.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/reader/copy_from_error.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/reader/parquet/column_reader.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/writer/parquet/column_writer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/persistent/writer/parquet/parquet_rle_bp_encoder.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/processor/operator/scan/scan_rel_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/alter_storage_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/buffer_manager/bm_page_lock.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/buffer_manager/buffer_manager.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/checkpointer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/compression/compression.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/compression/float_compression.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/free_space_manager.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/index/hash_index.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/index/hash_index_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/local_storage/local_node_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/local_storage/local_storage.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/predicate/constant_predicate.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/storage_manager.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/chunked_node_group.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk_scan_cursor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/column_chunk_stats.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_chunked_node_group.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_column_chunk_checkpoint_cursor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/csr_node_group.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/dictionary_column.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/list_column.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/list_segment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/node_group.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/node_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/pk_equals.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/rel_table.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/rel_table_data.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment_metadata.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/segment_split_streamer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/string_segment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/table/version_info.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/undo_buffer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/wal/wal_record.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/src/storage/wal/wal_replayer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/bitstate.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/compile.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/dfa.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/include/walker-inl.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/nfa.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/onepass.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/parse.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/prog.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/re2.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/regexp.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/simplify.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.xxhBe2/Sources/HybridDatabase/libhybriddatabase/third_party/re2/tostring.cpp"
+- "49.0.1"
+- "Assertion failed in file \"#%{public}s\" on line #%{public}d: #%{public}s"
+- "Assertion failed in file \"{}\" on line {}: {}"
+- "Mismatch between null segment and null column existance."
+- "encountered"
+```
