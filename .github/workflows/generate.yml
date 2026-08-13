@@ -20,19 +20,10 @@ jobs:
       IPSW_VERSION: 3.1.707
       IPSW_ARCHIVE_SHA256: 002113c7b9eaf4d06d5bb77dcbeb809f9b942ff18ba9fe906f3a8d2aab12df00
       SYMBOLICATOR_COMMIT: 81178cfe6c8869612ef092f6471fce3e17d95b20
-      PREVIOUS_BUILD: 26A5388g
-      PREVIOUS_INPUT: UniversalMac_27.0_26A5388g_Restore.ipsw
-      PREVIOUS_SIZE: "22662343948"
-      PREVIOUS_SHA256: 4e52b0122c11ed09494c9f70c58b83d71933c6afd9980748813dbdcd575b84af
-      PREVIOUS_URL: https://updates.cdn-apple.com/2026SummerSeed/fullrestores/140-55718/5809AFC6-1923-4590-AAFC-904A0283E659/UniversalMac_27.0_26A5388g_Restore.ipsw
-      NEXT_BUILD: 26A5406e
-      NEXT_INPUT: UniversalMac_27.0_26A5406e_Restore.ipsw
-      NEXT_SIZE: "22743302878"
-      NEXT_SHA256: 8064e8cc9b23dcfc758f51d6ebd3e15e846baae65760bc53f1e7591ff50d56d3
-      NEXT_URL: https://updates.cdn-apple.com/2026SummerSeed/fullrestores/140-81421/E76AF7DE-7F9D-4808-B023-AC9A8313B177/UniversalMac_27.0_26A5406e_Restore.ipsw
-      DIFF_NAME: 27_0_26A5388g_vs_27_0_26A5406e
-      SPEC_ID: macos-27.0-26A5388g-26A5406e
-      SOURCE_TAG: payload/27_0_26A5388g_vs_27_0_26A5406e
+      TRACK_ID: macos-27
+      PLATFORM: macOS
+      DEVICE: Mac17,6
+      MAJOR_VERSION: "27"
 
     steps:
       - name: Require default-branch dispatch
@@ -59,23 +50,6 @@ jobs:
           ref: ${{ env.CATALOG_COMMIT }}
           path: catalog
           persist-credentials: false
-
-      - name: Reject pre-existing publication state
-        run: |
-          set -euo pipefail
-          test ! -e "$DIFF_NAME"
-          test ! -e "diffs/$DIFF_NAME"
-          test ! -e "manifests/$DIFF_NAME.json"
-          test ! -e "provenance/$DIFF_NAME.json"
-          branch="generated/macos-27-$NEXT_BUILD"
-          if git ls-remote --exit-code --heads origin "refs/heads/$branch" >/dev/null 2>&1; then
-            echo "refusing to overwrite existing branch $branch" >&2
-            exit 1
-          fi
-          if git ls-remote --exit-code --tags origin "refs/tags/$SOURCE_TAG" >/dev/null 2>&1; then
-            echo "refusing to overwrite existing source tag $SOURCE_TAG" >&2
-            exit 1
-          fi
 
       - name: Free disk space
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be # v1.3.1
@@ -113,7 +87,7 @@ jobs:
           printf '%s\n' "$install_dir" >> "$GITHUB_PATH"
           "$install_dir/ipsw" version
 
-      - name: Require the reviewed beta 5 candidate
+      - name: Resolve the reviewed candidate and exact IPSWs
         working-directory: catalog
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -124,19 +98,111 @@ jobs:
             --manifests-dir ../manifests)"
           printf '%s\n' "$result" | tee "$RUNNER_TEMP/discovery-before.json"
           jq --exit-status \
-            --arg previous "$PREVIOUS_BUILD" \
-            --arg next "$NEXT_BUILD" \
+            --arg track "$TRACK_ID" \
+            --arg platform "$PLATFORM" \
+            --arg device "$DEVICE" \
+            --argjson major "$MAJOR_VERSION" \
             '.status == "candidate" and
-             .track_id == "macos-27" and
-             .platform == "macOS" and
-             .device == "Mac17,6" and
-             .major_version == 27 and
-             .baseline.build == $previous and
-             .latest.build == $next and
-             .latest.version == "27.0 beta 5" and
-             .latest.beta == true and
-             .latest.rc == false' \
+             .track_id == $track and
+             .platform == $platform and
+             .device == $device and
+             .major_version == $major and
+             .baseline.build != .latest.build' \
             "$RUNNER_TEMP/discovery-before.json"
+
+          previous_build="$(jq --exit-status --raw-output '.baseline.build' "$RUNNER_TEMP/discovery-before.json")"
+          previous_label="$(jq --exit-status --raw-output '.baseline.version' "$RUNNER_TEMP/discovery-before.json")"
+          next_build="$(jq --exit-status --raw-output '.latest.build' "$RUNNER_TEMP/discovery-before.json")"
+          next_label="$(jq --exit-status --raw-output '.latest.version' "$RUNNER_TEMP/discovery-before.json")"
+          previous_version="${previous_label%% *}"
+          next_version="${next_label%% *}"
+          safe_label='^[A-Za-z0-9][A-Za-z0-9._ -]*$'
+          [[ "$previous_build" =~ ^[A-Za-z0-9]+$ ]]
+          [[ "$next_build" =~ ^[A-Za-z0-9]+$ ]]
+          [[ "$previous_version" =~ ^[0-9]+(\.[0-9]+)*$ ]]
+          [[ "$next_version" =~ ^[0-9]+(\.[0-9]+)*$ ]]
+          [[ "$previous_label" =~ $safe_label ]]
+          [[ "$next_label" =~ $safe_label ]]
+
+          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
+            --build "$previous_build" --urls --json --no-color \
+            > "$RUNNER_TEMP/previous-ipsw.json"
+          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
+            --build "$next_build" --urls --json --no-color \
+            > "$RUNNER_TEMP/next-ipsw.json"
+
+          validate_record() {
+            local path="$1"
+            jq --exit-status --arg device "$DEVICE" '
+              type == "array" and length == 1 and
+              .[0].type == "ipsw" and
+              (.[0].deviceMap | index($device)) != null and
+              (.[0].size | type == "number" and . > 0 and floor == .) and
+              (.[0].hashes["sha2-256"] | type == "string" and test("^[0-9a-f]{64}$")) and
+              (.[0].links | type == "array") and
+              ([.[0].links[] | select(.active == true)] | length == 1) and
+              ([.[0].links[] | select(.active == true)][0].url |
+                type == "string" and
+                test("^https://([A-Za-z0-9-]+\\.)*(apple\\.com|cdn-apple\\.com)/[^[:space:]]+$"))
+            ' "$path"
+          }
+          validate_record "$RUNNER_TEMP/previous-ipsw.json"
+          validate_record "$RUNNER_TEMP/next-ipsw.json"
+
+          previous_url="$(jq --exit-status --raw-output '[.[0].links[] | select(.active == true)][0].url' "$RUNNER_TEMP/previous-ipsw.json")"
+          previous_size="$(jq --exit-status --raw-output '.[0].size' "$RUNNER_TEMP/previous-ipsw.json")"
+          previous_sha256="$(jq --exit-status --raw-output '.[0].hashes["sha2-256"]' "$RUNNER_TEMP/previous-ipsw.json")"
+          next_url="$(jq --exit-status --raw-output '[.[0].links[] | select(.active == true)][0].url' "$RUNNER_TEMP/next-ipsw.json")"
+          next_size="$(jq --exit-status --raw-output '.[0].size' "$RUNNER_TEMP/next-ipsw.json")"
+          next_sha256="$(jq --exit-status --raw-output '.[0].hashes["sha2-256"]' "$RUNNER_TEMP/next-ipsw.json")"
+          previous_input="${previous_url##*/}"
+          next_input="${next_url##*/}"
+          [[ "$previous_input" =~ ^[A-Za-z0-9._+-]+\.ipsw$ ]]
+          [[ "$next_input" =~ ^[A-Za-z0-9._+-]+\.ipsw$ ]]
+          [[ "$previous_input" == *"_${previous_build}_"* ]]
+          [[ "$next_input" == *"_${next_build}_"* ]]
+
+          previous_slug="${previous_version//./_}"
+          next_slug="${next_version//./_}"
+          diff_name="${previous_slug}_${previous_build}_vs_${next_slug}_${next_build}"
+          spec_id="macos-${next_version}-${previous_build}-${next_build}"
+          source_tag="payload/$diff_name"
+          {
+            printf 'PREVIOUS_BUILD=%s\n' "$previous_build"
+            printf 'PREVIOUS_LABEL=%s\n' "$previous_label"
+            printf 'PREVIOUS_VERSION=%s\n' "$previous_version"
+            printf 'PREVIOUS_INPUT=%s\n' "$previous_input"
+            printf 'PREVIOUS_SIZE=%s\n' "$previous_size"
+            printf 'PREVIOUS_SHA256=%s\n' "$previous_sha256"
+            printf 'PREVIOUS_URL=%s\n' "$previous_url"
+            printf 'NEXT_BUILD=%s\n' "$next_build"
+            printf 'NEXT_LABEL=%s\n' "$next_label"
+            printf 'NEXT_VERSION=%s\n' "$next_version"
+            printf 'NEXT_INPUT=%s\n' "$next_input"
+            printf 'NEXT_SIZE=%s\n' "$next_size"
+            printf 'NEXT_SHA256=%s\n' "$next_sha256"
+            printf 'NEXT_URL=%s\n' "$next_url"
+            printf 'DIFF_NAME=%s\n' "$diff_name"
+            printf 'SPEC_ID=%s\n' "$spec_id"
+            printf 'SOURCE_TAG=%s\n' "$source_tag"
+          } >> "$GITHUB_ENV"
+
+      - name: Reject pre-existing publication state
+        run: |
+          set -euo pipefail
+          test ! -e "$DIFF_NAME"
+          test ! -e "diffs/$DIFF_NAME"
+          test ! -e "manifests/$DIFF_NAME.json"
+          test ! -e "provenance/$DIFF_NAME.json"
+          branch="generated/macos-27-$NEXT_BUILD"
+          if git ls-remote --exit-code --heads origin "refs/heads/$branch" >/dev/null 2>&1; then
+            echo "refusing to overwrite existing branch $branch" >&2
+            exit 1
+          fi
+          if git ls-remote --exit-code --tags origin "refs/tags/$SOURCE_TAG" >/dev/null 2>&1; then
+            echo "refusing to overwrite existing source tag $SOURCE_TAG" >&2
+            exit 1
+          fi
 
       - name: Install apfs-fuse
         env:
@@ -186,14 +252,23 @@ jobs:
           free -h
 
       - name: Download and verify exact IPSWs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          previous="$RUNNER_TEMP/$PREVIOUS_INPUT"
-          next="$RUNNER_TEMP/$NEXT_INPUT"
-          curl --fail --location --retry 5 --retry-all-errors \
-            --continue-at - --output "$previous" "$PREVIOUS_URL"
-          curl --fail --location --retry 5 --retry-all-errors \
-            --continue-at - --output "$next" "$NEXT_URL"
+          previous_dir="$RUNNER_TEMP/previous"
+          next_dir="$RUNNER_TEMP/next"
+          mkdir -p "$previous_dir" "$next_dir"
+          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
+            --build "$PREVIOUS_BUILD" --output "$previous_dir" --confirm
+          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
+            --build "$NEXT_BUILD" --output "$next_dir" --confirm
+          previous="$previous_dir/$PREVIOUS_INPUT"
+          next="$next_dir/$NEXT_INPUT"
+          test -f "$previous"
+          test -f "$next"
+          test "$(find "$previous_dir" -maxdepth 1 -type f -name '*.ipsw' | wc -l)" -eq 1
+          test "$(find "$next_dir" -maxdepth 1 -type f -name '*.ipsw' | wc -l)" -eq 1
           test "$(stat --printf='%s' "$previous")" = "$PREVIOUS_SIZE"
           test "$(stat --printf='%s' "$next")" = "$NEXT_SIZE"
           printf '%s  %s\n' "$PREVIOUS_SHA256" "$previous" | sha256sum --check --strict
@@ -205,7 +280,7 @@ jobs:
           output="$RUNNER_TEMP/generated"
           mkdir -p "$output"
           ipsw diff \
-            --title '27.0 (26A5388g) .vs 27.0 (26A5406e)' \
+            --title "$PREVIOUS_VERSION ($PREVIOUS_BUILD) .vs $NEXT_VERSION ($NEXT_BUILD)" \
             --output "$output" \
             --markdown \
             --fw \
@@ -218,8 +293,8 @@ jobs:
             --signatures "$RUNNER_TEMP/symbolicator/kernel" \
             --block-list '__TEXT.__info_plist' \
             --block-list '__AUTH_CONST.__auth_ptr' \
-            "$RUNNER_TEMP/$PREVIOUS_INPUT" \
-            "$RUNNER_TEMP/$NEXT_INPUT"
+            "$RUNNER_TEMP/previous/$PREVIOUS_INPUT" \
+            "$RUNNER_TEMP/next/$NEXT_INPUT"
           test -f "$output/$DIFF_NAME/README.md"
           test "$(find "$output" -mindepth 1 -maxdepth 1 -type d | wc -l)" -eq 1
           mv "$output/$DIFF_NAME" "$DIFF_NAME"
@@ -254,17 +329,22 @@ jobs:
             --arg source_commit "$SOURCE_COMMIT" \
             --arg source_path "$DIFF_NAME" \
             --arg previous_build "$PREVIOUS_BUILD" \
+            --arg previous_version "$PREVIOUS_VERSION" \
             --arg previous_input "$PREVIOUS_INPUT" \
             --arg next_build "$NEXT_BUILD" \
+            --arg next_version "$NEXT_VERSION" \
             --arg next_input "$NEXT_INPUT" \
+            --arg platform "$PLATFORM" \
+            --arg device "$DEVICE" \
+            --argjson major_version "$MAJOR_VERSION" \
             '{
               schema_version: 1,
               id: $id,
-              platform: "macOS",
-              major_version: 27,
-              device: "Mac17,6",
-              from: {version: "27.0", build: $previous_build, input: $previous_input},
-              to: {version: "27.0", build: $next_build, input: $next_input},
+              platform: $platform,
+              major_version: $major_version,
+              device: $device,
+              from: {version: $previous_version, build: $previous_build, input: $previous_input},
+              to: {version: $next_version, build: $next_build, input: $next_input},
               source: {
                 repository: "https://github.com/ipsw-diff/macos-27",
                 commit: $source_commit,
@@ -388,7 +468,7 @@ jobs:
           {
             echo '## Generated branch ready for review'
             echo
-            echo "- macOS 27 beta 4 ($PREVIOUS_BUILD) to beta 5 ($NEXT_BUILD)"
+            echo "- $PREVIOUS_LABEL ($PREVIOUS_BUILD) to $NEXT_LABEL ($NEXT_BUILD)"
             echo "- permanent payload source tag: \`$SOURCE_TAG\`"
             echo "- generator: ipsw $IPSW_VERSION"
             echo "- workflow run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
