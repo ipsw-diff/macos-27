@@ -16,9 +16,9 @@ jobs:
     permissions:
       contents: write
     env:
-      CATALOG_COMMIT: dc1eaf8c4a2c9c1e133337724e4bce6cd255df9d
-      IPSW_VERSION: 3.1.707
-      IPSW_ARCHIVE_SHA256: 002113c7b9eaf4d06d5bb77dcbeb809f9b942ff18ba9fe906f3a8d2aab12df00
+      CATALOG_COMMIT: 19ddd7c2131d6048eee396a41e5dc7fa9acebf2b
+      IPSW_VERSION: 3.1.708
+      IPSW_ARCHIVE_SHA256: 75e697a302a39ac8dc3c9a5a7d5d56b9389d52a9761d5643634e0de7f396cf3c
       SYMBOLICATOR_COMMIT: 81178cfe6c8869612ef092f6471fce3e17d95b20
       TRACK_ID: macos-27
       PLATFORM: macOS
@@ -70,12 +70,12 @@ jobs:
       - name: Cache AppleDB
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: ~/.config/ipsw
-          key: appledb-v1-${{ runner.os }}
+          path: ${{ runner.temp }}/ipsw-config/appledb
+          key: appledb-v2-${{ runner.os }}
 
       - name: Install pinned ipsw
         env:
-          IPSW_URL: https://github.com/blacktop/ipsw/releases/download/v3.1.707/ipsw_3.1.707_linux_x86_64.tar.gz
+          IPSW_URL: https://github.com/blacktop/ipsw/releases/download/v3.1.708/ipsw_3.1.708_linux_x86_64.tar.gz
         run: |
           set -euo pipefail
           archive="$RUNNER_TEMP/ipsw.tar.gz"
@@ -87,33 +87,65 @@ jobs:
           printf '%s\n' "$install_dir" >> "$GITHUB_PATH"
           "$install_dir/ipsw" version
 
-      - name: Resolve the reviewed candidate and exact IPSWs
-        working-directory: catalog
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+      - name: Query complete exact-track IPSW source inventory
         run: |
           set -euo pipefail
+          config_dir="$RUNNER_TEMP/ipsw-config"
+          mkdir -p "$config_dir"
+          touch "$config_dir/config.yaml"
+          ipsw --config "$config_dir/config.yaml" dl appledb \
+            --os "$PLATFORM" \
+            --device "$DEVICE" \
+            --version "$MAJOR_VERSION." \
+            --urls \
+            --json \
+            --no-color > "$RUNNER_TEMP/ipsw-sources.json"
+          jq --exit-status 'type == "array" and length > 0' \
+            "$RUNNER_TEMP/ipsw-sources.json" >/dev/null
+          appledb_commit="$(git -C "$config_dir/appledb" rev-parse HEAD)"
+          [[ "$appledb_commit" =~ ^[0-9a-f]{40}$ ]]
+          printf '%s\n' "$appledb_commit" > "$RUNNER_TEMP/appledb-commit"
+
+      - name: Resolve the first reviewed queue edge and exact IPSWs
+        working-directory: catalog
+        run: |
+          set -euo pipefail
+          appledb_commit="$(cat "$RUNNER_TEMP/appledb-commit")"
           result="$(uv run ipsw-diff-catalog discover \
             --policy ../track.json \
-            --manifests-dir ../manifests)"
+            --manifests-dir ../manifests \
+            --appledb-repo "$RUNNER_TEMP/ipsw-config/appledb" \
+            --appledb-commit "$appledb_commit" \
+            --ipsw-sources "$RUNNER_TEMP/ipsw-sources.json")"
           printf '%s\n' "$result" | tee "$RUNNER_TEMP/discovery-before.json"
           jq --exit-status \
             --arg track "$TRACK_ID" \
             --arg platform "$PLATFORM" \
             --arg device "$DEVICE" \
             --argjson major "$MAJOR_VERSION" \
+            --arg appledb_commit "$appledb_commit" \
             '.status == "candidate" and
              .track_id == $track and
              .platform == $platform and
              .device == $device and
              .major_version == $major and
-             .baseline.build != .latest.build' \
+             .appledb.commit == $appledb_commit and
+             (.edges | length > 0) and
+             .edges[0].from.build != .edges[0].to.build' \
             "$RUNNER_TEMP/discovery-before.json"
 
-          previous_build="$(jq --exit-status --raw-output '.baseline.build' "$RUNNER_TEMP/discovery-before.json")"
-          previous_label="$(jq --exit-status --raw-output '.baseline.version' "$RUNNER_TEMP/discovery-before.json")"
-          next_build="$(jq --exit-status --raw-output '.latest.build' "$RUNNER_TEMP/discovery-before.json")"
-          next_label="$(jq --exit-status --raw-output '.latest.version' "$RUNNER_TEMP/discovery-before.json")"
+          previous_build="$(jq --exit-status --raw-output '.edges[0].from.build' "$RUNNER_TEMP/discovery-before.json")"
+          previous_label="$(jq --exit-status --raw-output '.edges[0].from.version' "$RUNNER_TEMP/discovery-before.json")"
+          previous_input="$(jq --exit-status --raw-output '.edges[0].from.source.input' "$RUNNER_TEMP/discovery-before.json")"
+          previous_url="$(jq --exit-status --raw-output '.edges[0].from.source.url' "$RUNNER_TEMP/discovery-before.json")"
+          previous_size="$(jq --exit-status --raw-output '.edges[0].from.source.size' "$RUNNER_TEMP/discovery-before.json")"
+          previous_sha256="$(jq --exit-status --raw-output '.edges[0].from.source.sha256' "$RUNNER_TEMP/discovery-before.json")"
+          next_build="$(jq --exit-status --raw-output '.edges[0].to.build' "$RUNNER_TEMP/discovery-before.json")"
+          next_label="$(jq --exit-status --raw-output '.edges[0].to.version' "$RUNNER_TEMP/discovery-before.json")"
+          next_input="$(jq --exit-status --raw-output '.edges[0].to.source.input' "$RUNNER_TEMP/discovery-before.json")"
+          next_url="$(jq --exit-status --raw-output '.edges[0].to.source.url' "$RUNNER_TEMP/discovery-before.json")"
+          next_size="$(jq --exit-status --raw-output '.edges[0].to.source.size' "$RUNNER_TEMP/discovery-before.json")"
+          next_sha256="$(jq --exit-status --raw-output '.edges[0].to.source.sha256' "$RUNNER_TEMP/discovery-before.json")"
           previous_version="${previous_label%% *}"
           next_version="${next_label%% *}"
           safe_label='^[A-Za-z0-9][A-Za-z0-9._ -]*$'
@@ -123,40 +155,6 @@ jobs:
           [[ "$next_version" =~ ^[0-9]+(\.[0-9]+)*$ ]]
           [[ "$previous_label" =~ $safe_label ]]
           [[ "$next_label" =~ $safe_label ]]
-
-          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
-            --build "$previous_build" --urls --json --no-color \
-            > "$RUNNER_TEMP/previous-ipsw.json"
-          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
-            --build "$next_build" --urls --json --no-color \
-            > "$RUNNER_TEMP/next-ipsw.json"
-
-          validate_record() {
-            local path="$1"
-            jq --exit-status --arg device "$DEVICE" '
-              type == "array" and length == 1 and
-              .[0].type == "ipsw" and
-              (.[0].deviceMap | index($device)) != null and
-              (.[0].size | type == "number" and . > 0 and floor == .) and
-              (.[0].hashes["sha2-256"] | type == "string" and test("^[0-9a-f]{64}$")) and
-              (.[0].links | type == "array") and
-              ([.[0].links[] | select(.active == true)] | length == 1) and
-              ([.[0].links[] | select(.active == true)][0].url |
-                type == "string" and
-                test("^https://([A-Za-z0-9-]+\\.)*(apple\\.com|cdn-apple\\.com)/[^[:space:]]+$"))
-            ' "$path"
-          }
-          validate_record "$RUNNER_TEMP/previous-ipsw.json"
-          validate_record "$RUNNER_TEMP/next-ipsw.json"
-
-          previous_url="$(jq --exit-status --raw-output '[.[0].links[] | select(.active == true)][0].url' "$RUNNER_TEMP/previous-ipsw.json")"
-          previous_size="$(jq --exit-status --raw-output '.[0].size' "$RUNNER_TEMP/previous-ipsw.json")"
-          previous_sha256="$(jq --exit-status --raw-output '.[0].hashes["sha2-256"]' "$RUNNER_TEMP/previous-ipsw.json")"
-          next_url="$(jq --exit-status --raw-output '[.[0].links[] | select(.active == true)][0].url' "$RUNNER_TEMP/next-ipsw.json")"
-          next_size="$(jq --exit-status --raw-output '.[0].size' "$RUNNER_TEMP/next-ipsw.json")"
-          next_sha256="$(jq --exit-status --raw-output '.[0].hashes["sha2-256"]' "$RUNNER_TEMP/next-ipsw.json")"
-          previous_input="${previous_url##*/}"
-          next_input="${next_url##*/}"
           [[ "$previous_input" =~ ^[A-Za-z0-9._+-]+\.ipsw$ ]]
           [[ "$next_input" =~ ^[A-Za-z0-9._+-]+\.ipsw$ ]]
           [[ "$previous_input" == *"_${previous_build}_"* ]]
@@ -252,19 +250,19 @@ jobs:
           free -h
 
       - name: Download and verify exact IPSWs
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           previous_dir="$RUNNER_TEMP/previous"
           next_dir="$RUNNER_TEMP/next"
           mkdir -p "$previous_dir" "$next_dir"
-          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
-            --build "$PREVIOUS_BUILD" --output "$previous_dir" --confirm
-          ipsw dl appledb --os "$PLATFORM" --device "$DEVICE" \
-            --build "$NEXT_BUILD" --output "$next_dir" --confirm
           previous="$previous_dir/$PREVIOUS_INPUT"
           next="$next_dir/$NEXT_INPUT"
+          curl --fail --location --silent --show-error \
+            --retry 5 --retry-delay 5 --retry-all-errors \
+            --output "$previous" "$PREVIOUS_URL"
+          curl --fail --location --silent --show-error \
+            --retry 5 --retry-delay 5 --retry-all-errors \
+            --output "$next" "$NEXT_URL"
           test -f "$previous"
           test -f "$next"
           test "$(find "$previous_dir" -maxdepth 1 -type f -name '*.ipsw' | wc -l)" -eq 1
@@ -371,10 +369,6 @@ jobs:
             --destination-repository https://github.com/ipsw-diff/macos-27 \
             --output ../README.md
 
-          latest="$(jq --exit-status --compact-output '.latest' "$RUNNER_TEMP/discovery-before.json")"
-          jq --argjson latest "$latest" '.baseline = $latest' track.json > "$RUNNER_TEMP/track.json"
-          mv "$RUNNER_TEMP/track.json" track.json
-
           ipsw_version="$(ipsw version)"
           jq -n --sort-keys \
             --arg catalog_commit "$CATALOG_COMMIT" \
@@ -413,7 +407,6 @@ jobs:
       - name: Validate publication branch
         env:
           SOURCE_COMMIT: ${{ steps.source.outputs.commit }}
-          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           spec="$RUNNER_TEMP/$SPEC_ID.json"
@@ -428,7 +421,7 @@ jobs:
             --output ../README.md \
             --check
 
-          git add -- README.md track.json "diffs/$DIFF_NAME" \
+          git add -- README.md "diffs/$DIFF_NAME" \
             "manifests/$DIFF_NAME.json" "provenance/$DIFF_NAME.json"
           git -c commit.gpgsign=false commit --no-gpg-sign \
             -m "Publish macOS $PREVIOUS_BUILD to $NEXT_BUILD diff"
@@ -442,10 +435,14 @@ jobs:
 
           result="$(uv --directory catalog run ipsw-diff-catalog discover \
             --policy ../track.json \
-            --manifests-dir ../manifests)"
+            --manifests-dir ../manifests \
+            --appledb-repo "$RUNNER_TEMP/ipsw-config/appledb" \
+            --appledb-commit "$(cat "$RUNNER_TEMP/appledb-commit")" \
+            --ipsw-sources "$RUNNER_TEMP/ipsw-sources.json")"
           printf '%s\n' "$result" | tee "$RUNNER_TEMP/discovery-after.json"
           jq --exit-status --arg build "$NEXT_BUILD" \
-            '.status == "current" and .baseline.build == $build and .latest.build == $build' \
+            '(.status == "current" or .status == "candidate") and
+             ([.edges[].to.build] | index($build)) == null' \
             "$RUNNER_TEMP/discovery-after.json"
           test -z "$(git status --porcelain=v1 --untracked-files=all -- . ':!catalog')"
           test -z "$(git -C catalog status --porcelain=v1 --untracked-files=all)"
@@ -474,7 +471,7 @@ jobs:
             echo "- workflow run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
             echo "- open pull request: $compare_url"
             echo
-            echo 'Both IPSWs passed pinned size and SHA-256 checks. The source and destination Git trees match, canonical manifest and README checks pass, both commits are unsigned, and the updated branch rediscovered as current.'
+            echo 'Both IPSWs passed pinned size and SHA-256 checks. The source and destination Git trees match, canonical manifest and README checks pass, both commits are unsigned, and the generated edge is no longer queued by discovery.'
             echo
             echo "Central catalog insertion remains a separate post-merge step because it must record this PR's final merge commit."
           } >> "$GITHUB_STEP_SUMMARY"
