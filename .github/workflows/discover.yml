@@ -6,7 +6,6 @@ on:
   pull_request:
     paths:
       - .github/workflows/discover.yml
-      - .github/workflows/generate.yml
       - docs/GENERATION-CLOSURE.md
       - diffs/**
       - manifests/**
@@ -23,41 +22,36 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@19ddd7c2131d6048eee396a41e5dc7fa9acebf2b
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@b2acda91fb3a16d1a9779d564b64ba8bac37b50d
     with:
       policy-path: track.json
       manifests-dir: manifests
 
-  dispatch-generation:
+  prepare-generation:
     needs: discover
     if: >-
-      github.event_name == 'schedule' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') &&
       needs.discover.outputs.status == 'candidate'
     runs-on: ubuntu-latest
     permissions:
-      actions: write
       contents: read
+    outputs:
+      build: ${{ steps.state.outputs.build }}
+      branch: ${{ steps.state.outputs.branch }}
+      state: ${{ steps.state.outputs.state }}
     steps:
       - name: Resolve bounded generation state
         id: state
         env:
           DECISION: ${{ needs.discover.outputs.result }}
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           build="$(jq --exit-status --raw-output '.edges[0].to.build' <<< "$DECISION")"
           [[ "$build" =~ ^[A-Za-z0-9]+$ ]]
           branch="generated/macos-27-$build"
-          active="$(gh run list \
-            --repo "$GITHUB_REPOSITORY" \
-            --workflow generate.yml \
-            --limit 20 \
-            --json status \
-            --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "waiting" or .status == "pending")] | length')"
           state=new
-          if [ "$active" -gt 0 ]; then
-            state=active
-          elif git ls-remote --exit-code --heads \
+          if git ls-remote --exit-code --heads \
             "https://github.com/$GITHUB_REPOSITORY.git" \
             "refs/heads/$branch" >/dev/null 2>&1; then
             state=existing
@@ -68,27 +62,32 @@ jobs:
             printf 'state=%s\n' "$state"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Dispatch one generation run
-        if: steps.state.outputs.state == 'new'
+      - name: Summarize generation decision
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run generate.yml --repo "$GITHUB_REPOSITORY" --ref main
-
-      - name: Summarize dispatch
-        env:
-          BUILD: ${{ steps.state.outputs.build }}
           BRANCH: ${{ steps.state.outputs.branch }}
+          BUILD: ${{ steps.state.outputs.build }}
           STATE: ${{ steps.state.outputs.state }}
         run: |
           {
-            echo '### macOS 27 generation dispatch'
+            echo '### macOS 27 generation decision'
             echo
             echo "- build: $BUILD"
             echo "- branch: $BRANCH"
             echo "- prior state: $STATE"
             if [ "$STATE" = new ]; then
-              echo '- result: dispatched one default-branch generation run'
+              echo '- result: start one reusable generation job'
             else
-              echo '- result: no-op; generation is already active or published for review'
+              echo '- result: no-op; this build is already published for review'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+
+  generate:
+    needs: prepare-generation
+    if: needs.prepare-generation.outputs.state == 'new'
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: ipsw-diff/catalog/.github/workflows/generate.yml@b2acda91fb3a16d1a9779d564b64ba8bac37b50d
+    with:
+      policy-path: track.json
+      manifests-dir: manifests
