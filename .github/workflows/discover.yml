@@ -22,7 +22,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@b2acda91fb3a16d1a9779d564b64ba8bac37b50d
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@7c796028220ff850bf08d253b6b9084f6ff60a96
     with:
       policy-path: track.json
       manifests-dir: manifests
@@ -87,7 +87,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: ipsw-diff/catalog/.github/workflows/generate.yml@b2acda91fb3a16d1a9779d564b64ba8bac37b50d
+    uses: ipsw-diff/catalog/.github/workflows/generate.yml@7c796028220ff850bf08d253b6b9084f6ff60a96
     with:
       policy-path: track.json
       manifests-dir: manifests
