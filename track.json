@@ -1,10 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "macos-27",
   "platform": "macOS",
+  "appledb_platform": "macOS",
   "device": "Mac17,6",
   "major_version": 27,
-  "baseline": {
+  "anchor": {
     "beta": true,
     "build": "26A5406e",
     "rc": false,
