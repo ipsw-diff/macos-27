@@ -27,3 +27,68 @@ jobs:
     with:
       policy-path: track.json
       manifests-dir: manifests
+
+  dispatch-generation:
+    needs: discover
+    if: >-
+      github.event_name == 'schedule' &&
+      needs.discover.outputs.status == 'candidate'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+    steps:
+      - name: Resolve bounded generation state
+        id: state
+        env:
+          DECISION: ${{ needs.discover.outputs.result }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          build="$(jq --exit-status --raw-output '.edges[0].to.build' <<< "$DECISION")"
+          [[ "$build" =~ ^[A-Za-z0-9]+$ ]]
+          branch="generated/macos-27-$build"
+          active="$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow generate.yml \
+            --limit 20 \
+            --json status \
+            --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "waiting" or .status == "pending")] | length')"
+          state=new
+          if [ "$active" -gt 0 ]; then
+            state=active
+          elif git ls-remote --exit-code --heads \
+            "https://github.com/$GITHUB_REPOSITORY.git" \
+            "refs/heads/$branch" >/dev/null 2>&1; then
+            state=existing
+          fi
+          {
+            printf 'build=%s\n' "$build"
+            printf 'branch=%s\n' "$branch"
+            printf 'state=%s\n' "$state"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Dispatch one generation run
+        if: steps.state.outputs.state == 'new'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run generate.yml --repo "$GITHUB_REPOSITORY" --ref main
+
+      - name: Summarize dispatch
+        env:
+          BUILD: ${{ steps.state.outputs.build }}
+          BRANCH: ${{ steps.state.outputs.branch }}
+          STATE: ${{ steps.state.outputs.state }}
+        run: |
+          {
+            echo '### macOS 27 generation dispatch'
+            echo
+            echo "- build: $BUILD"
+            echo "- branch: $BRANCH"
+            echo "- prior state: $STATE"
+            if [ "$STATE" = new ]; then
+              echo '- result: dispatched one default-branch generation run'
+            else
+              echo '- result: no-op; generation is already active or published for review'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

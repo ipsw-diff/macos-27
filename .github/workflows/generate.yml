@@ -15,6 +15,7 @@ jobs:
     timeout-minutes: 360
     permissions:
       contents: write
+      pull-requests: write
     env:
       CATALOG_COMMIT: 19ddd7c2131d6048eee396a41e5dc7fa9acebf2b
       IPSW_VERSION: 3.1.708
@@ -457,19 +458,53 @@ jobs:
           remote_tag="$(git ls-remote --tags origin "refs/tags/$SOURCE_TAG" | awk '{print $1}')"
           test "$remote_tag" = "$SOURCE_COMMIT"
 
-      - name: Publish review handoff
+      - name: Open ready review pull request
+        id: pull_request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           branch="generated/macos-27-$NEXT_BUILD"
-          compare_url="https://github.com/$GITHUB_REPOSITORY/compare/main...$branch?expand=1"
+          body="$RUNNER_TEMP/pull-request.md"
           {
-            echo '## Generated branch ready for review'
+            echo "Generates the exact reviewed edge from $PREVIOUS_LABEL ($PREVIOUS_BUILD) to $NEXT_LABEL ($NEXT_BUILD)."
+            echo
+            echo "- source tag: \`$SOURCE_TAG\`"
+            echo "- generator: ipsw $IPSW_VERSION"
+            echo "- workflow run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            echo "- catalog tooling: \`$CATALOG_COMMIT\`"
+            echo
+            echo 'Both IPSWs passed exact size and SHA-256 verification. The payload source and destination Git trees match, canonical manifest and README checks pass, both commits are unsigned, and discovery no longer queues this destination build.'
+            echo
+            echo 'Central catalog insertion remains a separate post-merge transition.'
+          } > "$body"
+          pr_url="$(gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head "$branch" \
+            --title "Add macOS $PREVIOUS_BUILD to $NEXT_BUILD diff" \
+            --body-file "$body")"
+          gh pr view "$pr_url" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json baseRefName,headRefName,isDraft,state | \
+            jq --exit-status --arg branch "$branch" \
+              'select(.baseRefName == "main" and .headRefName == $branch and .isDraft == false and .state == "OPEN")' \
+              >/dev/null
+          printf 'url=%s\n' "$pr_url" >> "$GITHUB_OUTPUT"
+
+      - name: Publish review handoff
+        env:
+          PR_URL: ${{ steps.pull_request.outputs.url }}
+        run: |
+          set -euo pipefail
+          {
+            echo '## Generated pull request ready for review'
             echo
             echo "- $PREVIOUS_LABEL ($PREVIOUS_BUILD) to $NEXT_LABEL ($NEXT_BUILD)"
             echo "- permanent payload source tag: \`$SOURCE_TAG\`"
             echo "- generator: ipsw $IPSW_VERSION"
             echo "- workflow run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
-            echo "- open pull request: $compare_url"
+            echo "- pull request: $PR_URL"
             echo
             echo 'Both IPSWs passed pinned size and SHA-256 checks. The source and destination Git trees match, canonical manifest and README checks pass, both commits are unsigned, and the generated edge is no longer queued by discovery.'
             echo
