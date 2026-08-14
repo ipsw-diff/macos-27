@@ -26,12 +26,12 @@ guessing source identity or writing directly to `main`?
 | Property | Authority |
 | --- | --- |
 | Track identity and activation anchor | Reviewed schema-v2 `track.json` plus merged anchor manifest |
-| Ordered release edges | Catalog detector at its immutable workflow pin |
+| Ordered release edges | Shared catalog detector at its immutable workflow pin |
 | Firmware metadata | Exact AppleDB Git commit plus the pinned `ipsw dl appledb` inventory |
 | Firmware bytes | Detector-selected Apple URLs plus verified sizes and SHA-256 values |
 | Diff transformation | Pinned `ipsw` release and exact command flags |
 | Payload identity | Git tree in the payload-only source commit and permanent source tag |
-| Manifest and README | Catalog tooling at its immutable commit |
+| Generation, manifest, and README | Shared catalog generator at its immutable workflow pin |
 | Publication state | Git branch/tag refs and GitHub pull-request API |
 
 ## Feature-closure matrix
@@ -41,7 +41,7 @@ guessing source identity or writing directly to `main`?
 | Selection and trigger | Scheduled candidate dispatch or default-branch recovery dispatch; no build inputs | Unresolved |
 | Inputs and resources | Detector builds, unambiguous `ipsw` URL records, and verified bytes | Unresolved |
 | Transformation and signing | Pinned `ipsw`; exact flags; unsigned Git commits | Unresolved |
-| Advertisement and options | Full workflow pins, no build overrides, and bounded `actions`, `contents`, and `pull-requests` permissions | Unresolved |
+| Advertisement and options | Shared workflow pin, no build overrides, and bounded `contents` and `pull-requests` permissions | Unresolved |
 | Dispatch and transport | Non-overwriting source-tag/branch push and exactly one ready review PR | Unresolved |
 | State transition | Payload-only source commit then metadata/publication commit | Unresolved |
 | Outcome oracle | Equal source/destination Git trees and generated edge absent from the remaining queue | Unresolved |
