@@ -1,0 +1,181 @@
+## SwiftUI
+
+> `/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_reflstr`
+
+```diff
+
+-8.0.84.1.401
+-  __TEXT.__text: 0x159ce90
+-  __TEXT.__objc_methlist: 0x8ae0
++8.0.84.1.406
++  __TEXT.__text: 0x159ef84
++  __TEXT.__objc_methlist: 0x8b08
+   __TEXT.__cstring: 0x13bba
+-  __TEXT.__const: 0xc6de4
+-  __TEXT.__constg_swiftt: 0x820e4
++  __TEXT.__const: 0xc6e64
++  __TEXT.__constg_swiftt: 0x82128
+   __TEXT.__gcc_except_tab: 0x40
+   __TEXT.__dlopen_cstrs: 0x12a
+-  __TEXT.__swift5_typeref: 0x454d2
++  __TEXT.__swift5_typeref: 0x454e2
+   __TEXT.__swift5_builtin: 0xd84
+   __TEXT.__swift5_reflstr: 0x2aad5
+-  __TEXT.__swift5_fieldmd: 0x41068
++  __TEXT.__swift5_fieldmd: 0x41084
+   __TEXT.__swift5_assocty: 0x1a318
+-  __TEXT.__swift5_proto: 0xa9a8
+-  __TEXT.__swift5_types: 0x620c
++  __TEXT.__swift5_proto: 0xa9b0
++  __TEXT.__swift5_types: 0x6210
+   __TEXT.__swift5_capture: 0xfc2c
+   __TEXT.__swift5_protos: 0x63c
+   __TEXT.__swift5_mpenum: 0x498
+
+   __TEXT.__swift_as_cont: 0x6dc
+   __TEXT.__oslogstring: 0x528f
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x3fda0
+-  __TEXT.__eh_frame: 0x1a5e0
++  __TEXT.__unwind_info: 0x3fdc0
++  __TEXT.__eh_frame: 0x1a620
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1d70
+-  __DATA_CONST.__objc_classlist: 0xb28
++  __DATA_CONST.__objc_classlist: 0xb30
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x608
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5908
++  __DATA_CONST.__objc_selrefs: 0x5910
+   __DATA_CONST.__objc_protorefs: 0x308
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x60
+-  __DATA_CONST.__got: 0x78f0
+-  __AUTH_CONST.__const: 0x961f0
++  __DATA_CONST.__got: 0x78e8
++  __AUTH_CONST.__const: 0x96208
+   __AUTH_CONST.__cfstring: 0x5e0
+-  __AUTH_CONST.__objc_const: 0x1d288
++  __AUTH_CONST.__objc_const: 0x1d340
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__auth_got: 0xe210
+   __AUTH.__objc_data: 0xb3f0
+-  __AUTH.__data: 0x34540
++  __AUTH.__data: 0x345e0
+   __DATA.__objc_ivar: 0x2c
+-  __DATA.__data: 0x49888
++  __DATA.__data: 0x498d8
+   __DATA.__objc_stublist: 0x38
+-  __DATA.__bss: 0xcf550
++  __DATA.__bss: 0xcf5d0
+   __DATA.__common: 0x10f8
+   __DATA_DIRTY.__objc_data: 0x49a0
+-  __DATA_DIRTY.__data: 0x28188
++  __DATA_DIRTY.__data: 0x281a8
+   __DATA_DIRTY.__bss: 0x41540
+   __DATA_DIRTY.__common: 0x1091
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 105421
+-  Symbols:   256855
++  Functions: 105442
++  Symbols:   256899
+   CStrings:  2022
+ 
+Symbols:
++ _$s12CoreGraphics6RegionV5rectsQrvg
++ _$s12CoreGraphics6RegionV5rectsQrvpQOMQ
++ _$s12CoreGraphics6RegionV5rectsQrvpQOy_Qo_8IteratorSTQxML
++ _$s12CoreGraphics6RegionV5rectsQrvpQOy_Qo_8IteratorSTQxMa
++ _$s12CoreGraphics6RegionV5rectsQrvpQOy_Qo_ML
++ _$s12CoreGraphics6RegionV5rectsQrvpQOy_Qo_Ma
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE33managedRegionForOpaqueDescendants11clippedRect7forMove0Q13UnderTitlebar5supers9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2bAnP_S2btXEtF
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE33managedRegionForOpaqueDescendants11clippedRect7forMove0Q13UnderTitlebar5supers9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2bAnP_S2btXEtF0U5ValueL_ANvgTf0snnnn_n
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE33managedRegionForOpaqueDescendants11clippedRect7forMove0Q13UnderTitlebar5supers9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2bAnP_S2btXEtF10emptyValueL_ANvgTf0s_n
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE33managedRegionForOpaqueDescendants11clippedRect7forMove0Q13UnderTitlebar5supers9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2bAnP_S2btXEtFAD013HostingScrollG0C22PlatformGroupContainerC_Tg503$s7h4UI17z6Scrollg35C22PlatformGroupContainerC27_regionlm36Descendants11clippedRect7forMove0O13s10Titlebars9v6VySo11w8RefaGSo6Y20V_S2btFAnP_S2btXEfU_ATTf1nnncn_n
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE39windowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLAD0mnO0_pvg
++ _$s6AppKit31NSPlatformHitTestingManagedViewP7SwiftUIE39windowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLAD0mnO0_pvgAD013HostingScrollG0C22PlatformGroupContainerC_Tg5
++ _$s7SwiftUI13NSHostingViewC27_regionForOpaqueDescendants11clippedRect7forMove0K13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAlN_S2btXEfU_
++ _$s7SwiftUI13NSHostingViewC27_regionForOpaqueDescendants11clippedRect7forMove0K13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAlN_S2btXEfU_TA
++ _$s7SwiftUI15HostingClipViewC27_regionForOpaqueDescendants11clippedRect7forMove0L13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFTo
++ _$s7SwiftUI16AppKitScrollViewC27updateResolvedContentInsetsyyF
++ _$s7SwiftUI16AppKitScrollViewC27updateResolvedContentInsetsyyFTq
++ _$s7SwiftUI17HostingScrollViewC22PlatformGroupContainerC27_regionForOpaqueDescendants11clippedRect7forMove0O13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAnP_S2btXEfU_
++ _$s7SwiftUI17HostingScrollViewC22PlatformGroupContainerC27_regionForOpaqueDescendants11clippedRect7forMove0O13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAnP_S2btXEfU_TA
++ _$s7SwiftUI17HostingScrollViewC22PlatformGroupContainerC27_regionForOpaqueDescendants11clippedRect7forMove0O13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFTo
++ _$s7SwiftUI17HostingScrollViewC27updateResolvedContentInsetsyyF
++ _$s7SwiftUI17HostingScrollViewC27updateResolvedContentInsetsyyFyyXEfU_
++ _$s7SwiftUI17HostingScrollViewC27updateResolvedContentInsetsyyFyyXEfU_TA
++ _$s7SwiftUI20FocusSectionIteratorVSgML
++ _$s7SwiftUI20FocusSectionIteratorVSgWOc
++ _$s7SwiftUI22AppKitPlatformViewHostC27_regionForOpaqueDescendants11clippedRect7forMove0N13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btF
++ _$s7SwiftUI22AppKitPlatformViewHostC27_regionForOpaqueDescendants11clippedRect7forMove0N13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAlN_S2btXEfU_
++ _$s7SwiftUI22AppKitPlatformViewHostC27_regionForOpaqueDescendants11clippedRect7forMove0N13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFAlN_S2btXEfU_TA
++ _$s7SwiftUI22AppKitPlatformViewHostC27_regionForOpaqueDescendants11clippedRect7forMove0N13UnderTitlebars9UnmanagedVySo11CGRegionRefaGSo6CGRectV_S2btFTo
++ _$s7SwiftUI25PlatformHitTestingOptionsV06allowsdE0Sbvg
++ _$s7SwiftUI25PlatformHitTestingOptionsV16isResponderBasedSbvg
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLC4viewSo6NSViewCSgvpWvd
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA07TrivialfgH0A2A0fgH0PWb
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA07TrivialfgH0A2aEP07contentG9DidChange3foryAA13ViewResponderC_tFTW
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA07TrivialfgH0AAMc
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA07TrivialfgH0AAMcMK
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA0fgH0A2aEP07contentG9DidChange3for7changes9transform8finishedyAA13ViewResponderC_AA0fG7ChangesVAA0W9TransformV3old_AQ3newtSbztFTW
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA0fgH0A2aEP19respondersDidChange3foryAA13ViewResponderC_tFTW
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA0fgH0AAMc
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA0fgH0AAWP
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAdA07TrivialfgH0AAWL
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAdA07TrivialfgH0AAWlTm
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMF
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMXX
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMa
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMf
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMm
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCMn
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCN
++ _$s7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCfD
++ _$s7SwiftUI42windowDragPreventionContentPathObserverKey33_15BA8189DA6ECFE244DED15E2256B9B3LLs5UInt8Vvp
++ _$s7SwiftUI4PathV16formTrivialUnionyyACF
++ _$s7SwiftUI4PathV7storageA2C7StorageO_tcfC
++ _$sSDyq_SgxcisSO_7SwiftUI20FocusSectionIteratorVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSO_7SwiftUI20FocusSectionIteratorVTg5
++ _CGRegionContainsRect
++ _CGRegionCreateIntersectionWithRect
++ __DATA__TtC7SwiftUIP33_15BA8189DA6ECFE244DED15E2256B9B339WindowDragPreventionContentPathObserver
++ __IVARS__TtC7SwiftUIP33_15BA8189DA6ECFE244DED15E2256B9B339WindowDragPreventionContentPathObserver
++ __METACLASS_DATA__TtC7SwiftUIP33_15BA8189DA6ECFE244DED15E2256B9B339WindowDragPreventionContentPathObserver
++ _associated conformance 7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLCAA07TrivialfgH0A2A0fgH0
++ _objc_msgSend$_insetVisibleRect
++ _symbolic _____ 7SwiftUI39WindowDragPreventionContentPathObserver33_15BA8189DA6ECFE244DED15E2256B9B3LLC
+- _$s12CoreGraphics6RegionV11contourPath7optionsSo9CGPathRefaAC14ContourOptionsV_tF
+- _$s12CoreGraphics6RegionV14ContourOptionsVAEs10SetAlgebraAAWL
+- _$s12CoreGraphics6RegionV14ContourOptionsVMa
+- _$s12CoreGraphics6RegionV14ContourOptionsVs10SetAlgebraAAMc
+- _$s12CoreGraphics6RegionV8containsySbSo6CGRectVF
+- _$s6AppKit27NSPlatformHitTestingContextVAC7SwiftUI08PlatformdeF0AAWl
+- _$s7SwiftUI13NSHostingViewC39WindowDragPreventionContentPathObserver33_32B6F54841135BB466A5C1362EB89D05LLC4hostAFyx_GSo6NSViewC_tcfCTf4gn_n
+- _$s7SwiftUI13NSHostingViewC39windowDragPreventionContentPathObserver33_32B6F54841135BB466A5C1362EB89D05LLAC06WindowfghiJ0AELLCyx_Gvg
+- _$s7SwiftUI16AppKitScrollViewC27updateResolvedContentInsets33_761559DF82E3E924E69E89D909EDF9FELLyyF
+- _$s7SwiftUI16ViewRendererHostPAAE15rootContentPath4kind8observerAA0H0VAA0G10ShapeKindsV_AA0gH8Observer_pSgtF
+- _$s7SwiftUI22ContentResponderHelperV03addC4Path2to4kind2in8observeryAA0G0Vz_AA0C10ShapeKindsVAA15CoordinateSpaceOAA0cG8Observer_pSgtF
+- _$s7SwiftUI24PlatformHitTestingResultVSgWOh
+- _$s7SwiftUI26HostingScrollViewResponderC14addContentPath2to4kind2in8observeryAA0I0Vz_AA0H10ShapeKindsVAA15CoordinateSpaceOAA0hI8Observer_pSgtF
+- _$s7SwiftUI4PathVyACSo9CGPathRefacfC
+- _$s7SwiftUI9FocusItemV04ViewD0V11isFocusableSbvg
+- _$sSay12CoreGraphics6RegionV14ContourOptionsVGML
+- _$sSay12CoreGraphics6RegionV14ContourOptionsVGSayxGSTsWL
+- _$sSay12CoreGraphics6RegionV14ContourOptionsVGSayxGSTsWl
+- _CGRegionCreateUnionWithRegion
+```

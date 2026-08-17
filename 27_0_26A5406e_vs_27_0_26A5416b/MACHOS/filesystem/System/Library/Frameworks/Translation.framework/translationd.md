@@ -1,0 +1,16 @@
+## translationd
+
+> `/System/Library/Frameworks/Translation.framework/translationd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-388.0.0.0.0
++389.0.0.0.0
+   __TEXT.__text: 0x4c
+   __TEXT.__auth_stubs: 0x40
+   __TEXT.__objc_stubs: 0x20
+```

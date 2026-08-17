@@ -1,0 +1,82 @@
+## libFontParser.dylib
+
+> `/System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib`
+
+```diff
+
+-460.0.0.0.0
+-  __TEXT.__text: 0x1d7a70
++459.0.0.0.0
++  __TEXT.__text: 0x1d79b0
+   __TEXT.__objc_methlist: 0x730
+   __TEXT.__const: 0x7ca90
+   __TEXT.__cstring: 0x173c3
+
+   __TEXT.__swift5_assocty: 0x1258
+   __TEXT.__swift5_protos: 0x64
+   __TEXT.__swift5_capture: 0x35c
+-  __TEXT.__gcc_except_tab: 0x82b0
++  __TEXT.__gcc_except_tab: 0x82a4
+   __TEXT.__oslogstring: 0xc4
+   __TEXT.__ustring: 0x20
+   __TEXT.__unwind_info: 0x7880
+
+   __AUTH_CONST.__const: 0x328c0
+   __AUTH_CONST.__cfstring: 0x2100
+   __AUTH_CONST.__objc_const: 0x948
+-  __AUTH_CONST.__weak_auth_got: 0x50
++  __AUTH_CONST.__weak_auth_got: 0x40
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__auth_got: 0x14e0
+   __AUTH.__objc_data: 0x8b8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8632
+-  Symbols:   6993
++  Functions: 8627
++  Symbols:   6986
+   CStrings:  5520
+ 
+Symbols:
++ __ZN22TInlineBufferAllocatorIdLm30EE8allocateEm
++ __ZN22TInlineBufferAllocatorIsLm30EE8allocateEm
++ __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm30EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm30EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm30EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm30EEEC2B9fqe220106EmRKd
++ __ZNSt3__16vectorIf22TInlineBufferAllocatorIfLm312EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIf22TInlineBufferAllocatorIfLm312EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIi22TInlineBufferAllocatorIiLm30EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIi22TInlineBufferAllocatorIiLm30EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm30EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm30EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm30EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm30EEE6resizeEm
++ __ZNSt3__16vectorIt22TInlineBufferAllocatorItLm104EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIt22TInlineBufferAllocatorItLm104EEE20__throw_length_errorB9fqe220106Ev
+- __ZN13TInlineVectorIdLm30EED1Ev
+- __ZN13TInlineVectorIsLm30EED1Ev
+- __ZN18TInlineBufferArenaILm120ELm4EE10deallocateEPSt4bytem
+- __ZN18TInlineBufferArenaILm1248ELm4EE10deallocateEPSt4bytem
+- __ZN18TInlineBufferArenaILm208ELm2EE10deallocateEPSt4bytem
+- __ZN18TInlineBufferArenaILm240ELm8EE10deallocateEPSt4bytem
+- __ZN18TInlineBufferArenaILm240ELm8EE8allocateILm8EEEPSt4bytem
+- __ZN18TInlineBufferArenaILm60ELm2EE10deallocateEPSt4bytem
+- __ZN18TInlineBufferArenaILm60ELm2EE8allocateILm2EEEPSt4bytem
+- __ZN36TType1FontType2CFF2CharStringHandlerD2Ev
+- __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm240ELm8EEE11__vallocateB9fqe220106Em
+- __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm240ELm8EEE16__destroy_vectorclB9fqe220106Ev
+- __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm240ELm8EEE20__throw_length_errorB9fqe220106Ev
+- __ZNSt3__16vectorId22TInlineBufferAllocatorIdLm240ELm8EEEC2B9fqe220106ILi0EEEmRKdRKS2_
+- __ZNSt3__16vectorIf22TInlineBufferAllocatorIfLm1248ELm4EEE20__throw_length_errorB9fqe220106Ev
+- __ZNSt3__16vectorIi22TInlineBufferAllocatorIiLm120ELm4EEE20__throw_length_errorB9fqe220106Ev
+- __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm60ELm2EEE11__vallocateB9fqe220106Em
+- __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm60ELm2EEE16__destroy_vectorclB9fqe220106Ev
+- __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm60ELm2EEE20__throw_length_errorB9fqe220106Ev
+- __ZNSt3__16vectorIs22TInlineBufferAllocatorIsLm60ELm2EEE6resizeEm
+- __ZNSt3__16vectorIt22TInlineBufferAllocatorItLm208ELm2EEE20__throw_length_errorB9fqe220106Ev
+- __ZdlPvSt11align_val_t
+- __ZnwmSt11align_val_t
+```
