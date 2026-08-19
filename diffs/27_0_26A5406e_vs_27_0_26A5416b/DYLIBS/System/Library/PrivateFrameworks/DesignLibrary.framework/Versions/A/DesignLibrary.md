@@ -1,0 +1,132 @@
+## DesignLibrary
+
+> `/System/Library/PrivateFrameworks/DesignLibrary.framework/Versions/A/DesignLibrary`
+
+```diff
+
+-8.0.84.1.401
+-  __TEXT.__text: 0x1f45b0
++8.0.84.1.403
++  __TEXT.__text: 0x1fc90c
+   __TEXT.__objc_methlist: 0x1260
+-  __TEXT.__const: 0x25564
+-  __TEXT.__cstring: 0x26f1
+-  __TEXT.__swift5_typeref: 0x12f6c
+-  __TEXT.__swift5_capture: 0xe04
+-  __TEXT.__constg_swiftt: 0xafd8
+-  __TEXT.__swift5_reflstr: 0x7e27
+-  __TEXT.__swift5_fieldmd: 0xa8f8
++  __TEXT.__const: 0x258c4
++  __TEXT.__cstring: 0x2941
++  __TEXT.__swift5_typeref: 0x13420
++  __TEXT.__swift5_capture: 0xe34
++  __TEXT.__constg_swiftt: 0xb034
++  __TEXT.__swift5_reflstr: 0x7ea7
++  __TEXT.__swift5_fieldmd: 0xa9d0
+   __TEXT.__swift5_builtin: 0x258
+   __TEXT.__swift5_assocty: 0x3f38
+   __TEXT.__swift5_protos: 0x58
+-  __TEXT.__swift5_proto: 0x19c8
+-  __TEXT.__swift5_types: 0xc9c
++  __TEXT.__swift5_proto: 0x19e4
++  __TEXT.__swift5_types: 0xca8
+   __TEXT.__swift5_mpenum: 0x9c
+   __TEXT.__oslogstring: 0x966
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift_as_cont: 0x44
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__unwind_info: 0x5f50
++  __TEXT.__unwind_info: 0x6000
+   __TEXT.__eh_frame: 0x1458
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xdb8
++  __DATA_CONST.__objc_selrefs: 0xdc0
+   __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x10c8
+-  __AUTH_CONST.__const: 0x160a8
++  __DATA_CONST.__got: 0x10d8
++  __AUTH_CONST.__const: 0x16270
+   __AUTH_CONST.__cfstring: 0x900
+   __AUTH_CONST.__objc_const: 0x3118
+-  __AUTH_CONST.__auth_got: 0x2660
++  __AUTH_CONST.__auth_got: 0x2670
+   __AUTH.__objc_data: 0x530
+   __AUTH.__data: 0x4d80
+   __AUTH.__thread_vars: 0x48
+   __AUTH.__thread_data: 0x1
+   __AUTH.__thread_bss: 0x8
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x6c40
+-  __DATA.__bss: 0x2ae70
+-  __DATA.__common: 0x518
++  __DATA.__data: 0x6da0
++  __DATA.__bss: 0x2b1f0
++  __DATA.__common: 0x668
+   __DATA_DIRTY.__objc_data: 0x1b0
+   __DATA_DIRTY.__data: 0x49a8
+   __DATA_DIRTY.__bss: 0x9110
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11051
+-  Symbols:   5004
+-  CStrings:  344
++  Functions: 11130
++  Symbols:   5031
++  CStrings:  359
+ 
+Symbols:
++ _associated conformance 13DesignLibrary19WindowControlColorsVSHAASQ
++ _associated conformance 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV12GradientFillV7SwiftUI01_e7_CustomnF0AASQ
++ _associated conformance 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV7SwiftUI0eF0AASH
++ _associated conformance 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLVSHAASQ
++ _kCAGradientLayerAxial
++ _objc_msgSend$setType:
++ _symbolic _____ 13DesignLibrary19WindowControlColorsV
++ _symbolic _____ 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV
++ _symbolic _____ 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV12GradientFillV
++ _symbolic _____Sg 21DeveloperToolsSupport13ImageResourceV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____ySbGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA010_AnimationK0V AA022_EnvironmentKeyWritingK0V AA8MaterialV
++ _symbolic _____yAAyAAy_____y_____y______Qo_AAy__________GG_____G_____yAAyAAyAAyAAyAE_____G_____yACGG_____ySbGG_____y_____SgGGGGAKyAAyAAy_____y__________y_____yACGGGARG_____GGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA5ImageV AA08_OpacityH0V AA12_FrameLayoutV AA16_OverlayModifierV AA012_AspectRatioQ0V AA016_ForegroundStyleS0V AA010_AnimationS0V AA022_EnvironmentKeyWritingS0V AK AA01_kF0V AA7CapsuleV AA01_okW0V AA010_BlendModekW0V AA017_AllowsHitTestingS0V
++ _symbolic _____yAAy_____y__________y_____y_____GGG_____ySbGG_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA7CapsuleV AA08_OpacityE5StyleV AA010_BlendModeeI0V AA5ColorV AA18_AnimationModifierV AA017_AllowsHitTestingN0V
++ _symbolic _____yAAy_____y_____y______Qo_AAy__________GG_____G_____yAAyAAyAAyAAyAE_____G_____yACGG_____ySbGG_____y_____SgGGGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA5ImageV AA08_OpacityH0V AA12_FrameLayoutV AA16_OverlayModifierV AA012_AspectRatioQ0V AA016_ForegroundStyleS0V AA010_AnimationS0V AA022_EnvironmentKeyWritingS0V AK
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA14_OpacityEffectV
++ _symbolic _____y__________y_____y_____GGG 7SwiftUI10_ShapeViewV AA7CapsuleV AA08_OpacityC5StyleV AA010_BlendModecG0V AA5ColorV
++ _symbolic _____y_____yAByAByABy__________G_____y_____GG_____ySbGG_____y_____SgGGG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA016_ForegroundStyleD0V AA5ColorV AA010_AnimationD0V AA022_EnvironmentKeyWritingD0V AA8MaterialV
++ _symbolic _____y_____yABy_____y__________y_____y_____GGG_____ySbGG_____GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA10_ShapeViewV AA7CapsuleV AA08_OpacityG5StyleV AA010_BlendModegK0V AA5ColorV AA010_AnimationD0V AA017_AllowsHitTestingD0V
++ _symbolic _____y_____y______Qo______y__________GG 7SwiftUI19_ConditionalContentV AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA08ModifiedD0V AA5ImageV AA08_OpacityG0V
++ _symbolic _____y_____y______Qo______y__________G_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA08ModifiedD0V AA5ImageV AA08_OpacityH0V
++ _symbolic _____y_____y__________y_____y_____GGG_____ySbGG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA7CapsuleV AA08_OpacityE5StyleV AA010_BlendModeeI0V AA5ColorV AA18_AnimationModifierV
++ _symbolic _____y_____y_____yAByAByAAy_____y______Qo_ABy__________GG_____G_____yAByAByAByAByAE_____G_____yACGG_____ySbGG_____y_____SgGGGGAKyAByABy_____y__________y_____yACGGGARG_____GGG_Qo______G 7SwiftUI19_ConditionalContentV AA4ViewPAAE15flexInteraction13configuration9viewFrame9isEnabled6actionQrAA04FlexG0O13ConfigurationV_So6CGRectVSgSbyAA013PlatformGlassG5StateVcSgtFQO AA08ModifiedD0V AeAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA5ImageV AA08_OpacityV0V AA01_J6LayoutV AA16_OverlayModifierV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA18_AnimationModifierV AA30_EnvironmentKeyWritingModifierV AZ AA01_yE0V AA7CapsuleV AA08_OpacityY5StyleV AA010_BlendModeY5StyleV AA25_AllowsHitTestingModifierV 13DesignLibrary26LegacyWindowControlElement33_AFB22D2A2396B7FB0B9201E7694C3DD1LLV
++ _symbolic _____y_____y_____yAByABy_____y_____y______Qo_ABy__________GG_____G_____yAByAByAByAByAF_____G_____yADGG_____ySbGG_____y_____SgGGGGALyAByABy_____y__________y_____yADGGGASG_____GGG_Qo_______G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE15flexInteraction13configuration9viewFrame9isEnabled6actionQrAA04FlexH0O13ConfigurationV_So6CGRectVSgSbyAA013PlatformGlassH5StateVcSgtFQO AA08ModifiedD0V AC AgAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA5ImageV AA08_OpacityW0V AA01_K6LayoutV AA16_OverlayModifierV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA18_AnimationModifierV AA30_EnvironmentKeyWritingModifierV A0_ AA01_zF0V AA7CapsuleV AA08_OpacityZ5StyleV AA010_BlendModeZ5StyleV AA25_AllowsHitTestingModifierV 13DesignLibrary26LegacyWindowControlElement33_AFB22D2A2396B7FB0B9201E7694C3DD1LLV
++ _symbolic _____y_____y_____y______Qo_AAy__________GG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA5ColorV AA5ImageV AA08_OpacityH0V AA12_FrameLayoutV
++ _type_layout_string 13DesignLibrary19WindowControlColorsV
++ _type_layout_string 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV
++ _type_layout_string 13DesignLibrary29WindowControlMaterialProvider33_02168E76630C8D096892E0616255A4EELLV12GradientFillV
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE15flexInteraction13configuration9viewFrame9isEnabled6actionQrAA04FlexG0O13ConfigurationV_So6CGRectVSgSbyAA013PlatformGlassG5StateVcSgtFQOyAA08ModifiedD0VyAVyAVyACyAeAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQOyAA5ColorV_Qo_AVyAA5ImageVAA08_OpacityV0VGGAA01_J6LayoutVGAA16_OverlayModifierVyAVyAVyAVyAVyA5_AA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyA2_GGAA18_AnimationModifierVySbGGAA30_EnvironmentKeyWritingModifierVyAZSgGGGGA14_yAVyAVyAA01_yE0VyAA7CapsuleVAA08_OpacityY5StyleVyAA010_BlendModeY5StyleVyA2_GGGA24_GAA25_AllowsHitTestingModifierVGGG_Qo_13DesignLibrary26LegacyWindowControlElement33_AFB22D2A2396B7FB0B9201E7694C3DD1LLVGAaDHPqd__AaDHD2_A50_HO_A54_AaDHPyHCHC
+- get_witness_table 13DesignLibrary26LegacyWindowControlElement33_AFB22D2A2396B7FB0B9201E7694C3DD1LLV7SwiftUI4ViewHPyHC
+CStrings:
++ "WindowControlBodies/Close"
++ "WindowControlBodies/CloseSmall"
++ "WindowControlBodies/Expand"
++ "WindowControlBodies/ExpandSmall"
++ "WindowControlBodies/GraphiteActive"
++ "WindowControlBodies/GraphiteActiveSmall"
++ "WindowControlBodies/GraphiteInactive"
++ "WindowControlBodies/GraphiteInactiveSmall"
++ "WindowControlBodies/Inactive"
++ "WindowControlBodies/InactiveSmall"
++ "WindowControlBodies/Minimize"
++ "WindowControlBodies/MinimizeSmall"
++ "WindowControlBodies/Sharing"
++ "WindowControlBodies/SharingSmall"
++ "_SystemAccentValue"
+```
