@@ -2,7 +2,7 @@ name: Discover macOS 27 firmware
 
 on:
   schedule:
-    - cron: "33 1-23/6 * * *"
+    - cron: "33 * * * *"
   pull_request:
     paths:
       - .github/workflows/discover.yml
