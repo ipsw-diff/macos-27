@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7b58a3f509c377de579482fd554a9e7aab6912d6",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+      "beta": false,
+      "build": "26A428",
+      "rc": false,
+      "released": "2026-09-14T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+        "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+        "size": 26626436228,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+      },
+      "version": "27.0"
+    },
+    "appledb": {
+      "commit": "93270d636aa8d767edca8ed5cc567ac340248ddb",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac18,5",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+          "beta": false,
+          "build": "26A428",
+          "rc": false,
+          "released": "2026-09-14T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+            "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+            "size": 26626436228,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+          },
+          "version": "27.0"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26A434.json",
+          "beta": false,
+          "build": "26A434",
+          "rc": false,
+          "released": "2026-09-28T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.0.1_26A434_Restore.ipsw",
+            "sha256": "2f016638293c3e641b8b25391a76fbc16563b3711915a5551cf8aa0f5598a5c1",
+            "size": 26637307067,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/59241290-5d51-4ca8-9df4-31624b9a4eac/UniversalMac_27.0.1_26A434_Restore.ipsw"
+          },
+          "version": "27.0.1"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A434.json",
+      "beta": false,
+      "build": "26A434",
+      "rc": false,
+      "released": "2026-09-28T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0.1_26A434_Restore.ipsw",
+        "sha256": "2f016638293c3e641b8b25391a76fbc16563b3711915a5551cf8aa0f5598a5c1",
+        "size": 26637307067,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/59241290-5d51-4ca8-9df4-31624b9a4eac/UniversalMac_27.0.1_26A434_Restore.ipsw"
+      },
+      "version": "27.0.1"
+    },
+    "major_version": 27,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 4,
+      "selected": 2
+    },
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.728, BuildCommit: 967a9ef622da4ad34306af7ec476458258a7fd83"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+      "size": 26626436228,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "2f016638293c3e641b8b25391a76fbc16563b3711915a5551cf8aa0f5598a5c1",
+      "size": 26637307067,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/59241290-5d51-4ca8-9df4-31624b9a4eac/UniversalMac_27.0.1_26A434_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "ec3ed985787cda55b721c53dad696874f983dbb9",
+  "source_tag": "payload/27_0_26A428_vs_27_0_1_26A434",
+  "workflow_commit": "81019f55926a1040346a22ad4c7abc18173c4a8d",
+  "workflow_run": "https://github.com/ipsw-diffs/macos-27/actions/runs/36459956406"
+}
