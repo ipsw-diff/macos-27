@@ -1,0 +1,87 @@
+## com.apple.driver.AppleSmartBatteryManager
+
+> `com.apple.driver.AppleSmartBatteryManager`
+
+```diff
+
+-2043.40.44.0.0
+-  __TEXT.__cstring: 0x8295
+-  __TEXT.__const: 0x2620
++2043.40.52.0.2
++  __TEXT.__cstring: 0x82ad
++  __TEXT.__const: 0x2640
+   __TEXT.__os_log: 0x2694
+-  __TEXT_EXEC.__text: 0x310c4
++  __TEXT_EXEC.__text: 0x311d4
+   __TEXT_EXEC.__auth_stubs: 0x790
+   __DATA.__data: 0x1f0
+   __DATA.__common: 0x4d8
+-  __DATA.__bss: 0x5588
++  __DATA.__bss: 0x5688
+   __DATA_CONST.__mod_init_func: 0xa0
+   __DATA_CONST.__mod_term_func: 0x78
+   __DATA_CONST.__const: 0x9a78
+
+   __DATA_CONST.__auth_got: 0x3c8
+   __DATA_CONST.__got: 0x100
+   Functions: 685
+-  Symbols:   2277
+-  CStrings:  1255
++  Symbols:   2279
++  CStrings:  1257
+ 
+Symbols:
++ __ZL15_kIsDevFusedSym
++ __ZL24_kBatteryAgingTlcTimeSym
++ __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_538
++ __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_541
++ __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_542
++ __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_543
++ __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_544
++ __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_305
++ __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_319
++ __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_361
++ __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_383
++ __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_411
++ __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1751
++ __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1752
++ __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1753
++ __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1754
++ __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1759
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_914
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_929
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_941
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_953
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_965
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_973
++ __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_984
+- __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_530
+- __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_533
+- __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_534
+- __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_535
+- __ZZN21AppleSmartBatteryBank4freeEvE20kalloc_type_view_536
+- __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_297
+- __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_311
+- __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_353
+- __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_375
+- __ZZN21AppleSmartBatteryBank5startEP9IOServiceE20kalloc_type_view_403
+- __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1745
+- __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1746
+- __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1747
+- __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1748
+- __ZZN21AppleSmartBatteryPack4freeEvE21kalloc_type_view_1755
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_910
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_925
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_937
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_949
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_961
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_969
+- __ZZN21AppleSmartBatteryPack5startEP9IOServiceE20kalloc_type_view_980
+Functions:
+~ _GLOBAL__sub_I_AppleSmartBatteryPack.cpp : 11180 -> 11288
+~ __ZN21AppleSmartBatteryBank5startEP9IOService : 2336 -> 2308
+~ _GLOBAL__sub_I_AppleSmartBatteryBank.cpp : 3088 -> 3280
+CStrings:
++ "AgingTlcTime"
++ "IsDevFused"
+```

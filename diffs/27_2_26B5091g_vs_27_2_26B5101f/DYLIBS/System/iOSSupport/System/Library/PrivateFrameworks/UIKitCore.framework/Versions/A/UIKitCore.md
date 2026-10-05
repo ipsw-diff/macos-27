@@ -1,0 +1,997 @@
+## UIKitCore
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/UIKitCore.framework/Versions/A/UIKitCore`
+
+```diff
+
+-9127.1.7.1.0
+-  __TEXT.__text: 0x19a9448
++9127.1.12.1.401
++  __TEXT.__text: 0x1993410
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x1a2ad8
+-  __TEXT.__const: 0x4cd68
++  __TEXT.__objc_methlist: 0x1a2f78
++  __TEXT.__const: 0x4ca58
+   __TEXT.__dlopen_cstrs: 0x2672
+-  __TEXT.__swift5_typeref: 0x1914e
+-  __TEXT.__swift5_capture: 0xabac
+-  __TEXT.__swift5_fieldmd: 0x173d8
+-  __TEXT.__constg_swiftt: 0x1d6f8
+-  __TEXT.__swift5_reflstr: 0x17a1f
++  __TEXT.__swift5_typeref: 0x191b8
++  __TEXT.__swift5_capture: 0xa29c
++  __TEXT.__swift5_fieldmd: 0x171ac
++  __TEXT.__constg_swiftt: 0x1d46c
++  __TEXT.__swift5_reflstr: 0x1793f
+   __TEXT.__swift5_builtin: 0x13b0
+-  __TEXT.__swift5_assocty: 0x4fa0
++  __TEXT.__swift5_assocty: 0x4fd0
+   __TEXT.__swift5_protos: 0x258
+-  __TEXT.__swift5_proto: 0x25e8
+-  __TEXT.__swift5_types: 0x1c2c
+-  __TEXT.__cstring: 0xe627d
+-  __TEXT.__oslogstring: 0x4a4dd
+-  __TEXT.__swift_as_entry: 0x298
+-  __TEXT.__swift_as_ret: 0x218
+-  __TEXT.__swift_as_cont: 0x4cc
++  __TEXT.__swift5_proto: 0x25d0
++  __TEXT.__swift5_types: 0x1bfc
++  __TEXT.__cstring: 0xe6630
++  __TEXT.__oslogstring: 0x4aea1
++  __TEXT.__swift_as_entry: 0x290
++  __TEXT.__swift_as_ret: 0x214
++  __TEXT.__swift_as_cont: 0x4bc
+   __TEXT.__swift5_mpenum: 0x248
+   __TEXT.__swift5_types2: 0x8
+-  __TEXT.__gcc_except_tab: 0x222b4
++  __TEXT.__gcc_except_tab: 0x22330
+   __TEXT.__ustring: 0x240c
+-  __TEXT.__unwind_info: 0x82ab0
+-  __TEXT.__eh_frame: 0xb748
++  __TEXT.__unwind_info: 0x828b8
++  __TEXT.__eh_frame: 0xb594
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x38c80
+-  __DATA_CONST.__objc_classlist: 0xa9b8
++  __DATA_CONST.__const: 0x38d30
++  __DATA_CONST.__objc_classlist: 0xa990
+   __DATA_CONST.__objc_catlist: 0x388
+-  __DATA_CONST.__objc_protolist: 0x3370
++  __DATA_CONST.__objc_protolist: 0x3378
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x97d88
++  __DATA_CONST.__objc_selrefs: 0x98010
+   __DATA_CONST.__objc_protorefs: 0xd40
+-  __DATA_CONST.__objc_superrefs: 0x6f00
+-  __DATA_CONST.__objc_arraydata: 0x3920
+-  __DATA_CONST.__got: 0x8ab8
+-  __AUTH_CONST.__const: 0x5c178
+-  __AUTH_CONST.__cfstring: 0xa81a0
+-  __AUTH_CONST.__objc_const: 0x261d80
++  __DATA_CONST.__objc_superrefs: 0x6f18
++  __DATA_CONST.__objc_arraydata: 0x3968
++  __DATA_CONST.__got: 0x8ae8
++  __AUTH_CONST.__const: 0x5ae60
++  __AUTH_CONST.__cfstring: 0xa8340
++  __AUTH_CONST.__objc_const: 0x262130
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__objc_arrayobj: 0x29b8
++  __AUTH_CONST.__objc_arrayobj: 0x29e8
+   __AUTH_CONST.__objc_doubleobj: 0xdf0
+-  __AUTH_CONST.__objc_intobj: 0x47a0
++  __AUTH_CONST.__objc_intobj: 0x47b8
+   __AUTH_CONST.__objc_dictobj: 0x5c8
+   __AUTH_CONST.__objc_floatobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x8710
+-  __AUTH.__objc_data: 0x4bfa8
+-  __AUTH.__data: 0xa4f0
+-  __DATA.__objc_ivar: 0x10794
+-  __DATA.__data: 0x30800
+-  __DATA.__uikit_ip: 0x770
++  __AUTH_CONST.__auth_got: 0x8640
++  __AUTH.__objc_data: 0x4bba0
++  __AUTH.__data: 0xa3e0
++  __DATA.__objc_ivar: 0x1080c
++  __DATA.__data: 0x307d0
++  __DATA.__uikit_ip: 0x778
+   __DATA.__objc_stublist: 0x20
+   __DATA.__uikit_ipl: 0x30
+-  __DATA.__common: 0x1da0
+-  __DATA.__bss: 0x39b40
+-  __DATA_DIRTY.__objc_ivar: 0x88bc
+-  __DATA_DIRTY.__objc_data: 0x32580
+-  __DATA_DIRTY.__uikit_ip: 0x1070
+-  __DATA_DIRTY.__data: 0xc498
+-  __DATA_DIRTY.__bss: 0x16720
+-  __DATA_DIRTY.__common: 0x628
++  __DATA.__common: 0x1db0
++  __DATA.__bss: 0x39988
++  __DATA_DIRTY.__objc_ivar: 0x88d8
++  __DATA_DIRTY.__objc_data: 0x325b8
++  __DATA_DIRTY.__uikit_ip: 0x1068
++  __DATA_DIRTY.__data: 0xc3e8
++  __DATA_DIRTY.__bss: 0x16750
++  __DATA_DIRTY.__common: 0x620
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 178189
+-  Symbols:   285548
+-  CStrings:  30679
++  Functions: 177953
++  Symbols:   285767
++  CStrings:  30725
+ 
+Symbols:
++ +[UIFont(UISystemStatusUISupport) _statusBarRoundedFontOfSize:weight:width:ignoringNumberingSystem:]
++ +[UIInputAnalyticsTranslator iaKeyboardLatencyInputTypeFor:]
++ +[UIListContentConfiguration _defaultConfigurationForGenericStyle:listStyle:state:traitCollection:]
++ +[_UISignalAnalytics getIATextInputActionsKeyboardTypeFloating]
++ +[_UISignalAnalytics getIATextInputActionsKeyboardTypeHardware]
++ +[_UISignalAnalytics getIATextInputActionsKeyboardTypeLandscape]
++ +[_UISignalAnalytics getIATextInputActionsKeyboardTypePortrait]
++ +[_UISignalAnalytics getIATextInputActionsKeyboardTypeSplit]
++ +[_UISmartReplyFeedbackManager showAIGeneratedUI]
++ -[UIAlertController _setShouldInvokeActionBeforeDismissal:]
++ -[UIAlertController _setWantsSharedScrolling:]
++ -[UIAlertController _shouldInvokeActionBeforeDismissal]
++ -[UIAlertController _wantsSharedScrolling]
++ -[UICellConfigurationState _edgesAbuttingAccessories]
++ -[UICellConfigurationState _setEdgesAbuttingAccessories:]
++ -[UICollectionViewListCell _updateEdgesAbuttingAccessories]
++ -[UIColorPickerViewController _setupColorQueueIfNecessary]
++ -[UIInterfaceActionGroupView _setWantsSharedScrolling:]
++ -[UIInterfaceActionGroupView _wantsSharedScrolling]
++ -[UIKBScreenTraits horizontalSizeClass]
++ -[UIKBScreenTraits verticalSizeClass]
++ -[UIKBTree accessibilityOverrideLabel]
++ -[UIKBTree setAccessibilityOverrideLabel:]
++ -[UIListContentConfiguration _removeHorizontalLayoutMarginsOnEdgesWithoutAccessoriesForState:]
++ -[UINavigationController _refreshTopViewControllerInsetDataForBottomBarNavigationTransition]
++ -[UINavigationController _viewSceneSafeAreaAlignedEdgesDidChangeFromPreviousEdges:]
++ -[UIPeripheralHost(UIKitInternal) assertionActivationStateChangedToState:forType:]
++ -[UIPeripheralHost(UIKitInternal) assertionActivationStateForType:]
++ -[UIPeripheralHost(UIKitInternal) vendKeyboardSuppressionAssertionForReason:]
++ -[UISceneConfiguration _attemptResolveAgainstInfoPlistWithName:sessionRole:]
++ -[UISceneConfiguration _isPendingInfoPlistResolution]
++ -[UISplitViewController _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[UISplitViewControllerClassicImpl _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[UISplitViewControllerPanelImpl _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[UITableView focusedViewType]
++ -[UITableViewCell _leadingEditingSpacingAccessoryWidthForEditing:hasLeadingEditControl:]
++ -[UITableViewCell _showsBadgeAccessory]
++ -[UITableViewCell _showsReorderControlAccessory]
++ -[UITableViewCell _updateEdgesAbuttingAccessories]
++ -[UITextField _tvSolariumContentCornerRadiusForBounds:]
++ -[UITextInputSessionActionAnalytics _performWithInputModeOverride:keyboardType:block:]
++ -[UITextInputSessionActionAnalytics _reportKeyboardLatencyIfKeyboardChanged]
++ -[UITextInputSessionActionAnalytics _textInputActionsAnalyticsForTesting]
++ -[UITextInputSessionActionAnalytics didMeasureKeystrokeLatency:ofInputType:]
++ -[UITextInputSessionActionAnalytics reportKeyboardLatencyAndClearSamples]
++ -[UITextSelectionDisplayInteraction _webkitCaretIsOnEmptyLineWithCompletionHandler:]
++ -[UITextSelectionDisplayInteraction campoLightweightControllerShouldPresentCampo:completionHandler:]
++ -[UIView _attributedApp]
++ -[UIView _rawContentMargins]
++ -[UIView _setAttributedApp:]
++ -[UIView(UIViewBoundingPathSupportInternal) _invalidateUsesMinimumSafeAreas]
++ -[UIViewController _defaultContentMarginsForContentOverlayInsets:]
++ -[UIViewController _defaultContentMarginsForContentOverlayInsets:view:]
++ -[UIViewController _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[UIViewController _viewSceneSafeAreaAlignedEdgesDidChangeFromPreviousEdges:]
++ -[_UIAlertControllerInterfaceActionGroupView _arrangeTopLevelViews]
++ -[_UIAlertControllerPhoneTVMacView _reapplyContentViewControllerLayoutGuideActionSequenceConstraintsIfNeeded]
++ -[_UIAlertControllerTextFieldViewCollectionCell setTextField:]
++ -[_UIAlertControllerView _reapplyContentViewControllerLayoutGuideActionSequenceConstraintsIfNeeded]
++ -[_UIAppAttribution .cxx_destruct]
++ -[_UIAppAttribution appendDescriptionToStream:]
++ -[_UIAppAttribution bundleIdentifier]
++ -[_UIAppAttribution copyWithZone:]
++ -[_UIAppAttribution debugDescription]
++ -[_UIAppAttribution description]
++ -[_UIAppAttribution hash]
++ -[_UIAppAttribution initWithBundleIdentifier:]
++ -[_UIAppAttribution isEqual:]
++ -[_UIBarCustomizationReservoirNavBar _rawContentMargins]
++ -[_UICampoLightweightController _affordanceRegion]
++ -[_UICampoLightweightController _canPresentCampo]
++ -[_UICampoLightweightController _launchCampo]
++ -[_UICampoLightweightController _pointIsInSelectionRects:]
++ -[_UICampoLightweightController _presentationRegion]
++ -[_UICampoLightweightController _visibleAffordanceRect]
++ -[_UICampoLightweightController isPointerInPresentationRegion]
++ -[_UICampoLightweightController isPointerOnExposedSelection]
++ -[_UICampoLightweightController presentationPermissionGeneration]
++ -[_UICampoLightweightController setIsPointerInPresentationRegion:]
++ -[_UICampoLightweightController setIsPointerOnExposedSelection:]
++ -[_UICampoLightweightController setPresentationPermissionGeneration:]
++ -[_UICampoLightweightDebugHighlighter lastAffordanceRegion]
++ -[_UICampoLightweightDebugHighlighter lastPresentationRegion]
++ -[_UICampoLightweightDebugHighlighter setLastAffordanceRegion:]
++ -[_UICampoLightweightDebugHighlighter setLastPresentationRegion:]
++ -[_UICampoLightweightDebugHighlighter updateWithPopoverPresentationController:configuration:state:presentationRegion:affordanceRegion:]
++ -[_UIContextMenuBackgroundDescriptor selectedContentBackgroundColor]
++ -[_UIContextMenuBackgroundDescriptor setSelectedContentBackgroundColor:]
++ -[_UIContextMenuCell _configureBackgroundView:withContentShape:selected:]
++ -[_UIContextMenuPlatformMetrics itemContentBackgroundCompositingFilterProvider]
++ -[_UIContextMenuPlatformMetrics maximumImageHeight]
++ -[_UIContextMenuPlatformMetrics setItemContentBackgroundCompositingFilterProvider:]
++ -[_UIContextMenuPlatformMetrics setMaximumImageHeight:]
++ -[_UIDragLiftGestureRecognizer _canBeCancelledByMovement]
++ -[_UIFocusIntelligenceProvider focusedItemOwner]
++ -[_UIFocusIntelligenceProvider lastFocusedView]
++ -[_UIFocusIntelligenceProvider recordFocusedItemOwner:forFocusedView:]
++ -[_UIFocusIntelligenceProvider recordNextFocusedView:focusedItem:]
++ -[_UIFocusIntelligenceProvider registeredOwnerFocusedView]
++ -[_UIFocusIntelligenceProvider registeredOwner]
++ -[_UIFocusIntelligenceProvider setLastFocusedView:]
++ -[_UIFocusIntelligenceProvider setRegisteredOwner:]
++ -[_UIFocusIntelligenceProvider setRegisteredOwnerFocusedView:]
++ -[_UIInterfaceActionGroupHeaderScrollView belowContentView]
++ -[_UIInterfaceActionGroupHeaderScrollView setBelowContentView:]
++ -[_UIKeyboardArbiterClient performRequiredSceneUpdateIfPermittedForChildSceneHostWindow:]
++ -[_UIKeyboardInputScenePairingClientComponent addObserver:]
++ -[_UIKeyboardInputScenePairingClientComponent clientSceneFrameInKeyboardReferenceSpace]
++ -[_UIKeyboardInputScenePairingClientComponent enumerateObserversWithBlock:]
++ -[_UIKeyboardInputScenePairingClientComponent removeObserver:]
++ -[_UIKeyboardInputScenePairingClientComponent scene:didUpdateSettings:]
++ -[_UIKeyboardStateManager _recordKeystrokeLatency]
++ -[_UIKeyboardStateManager smartReplyUsesChinaPolicy]
++ -[_UISceneHostingHierarchyInteraction dealloc]
++ -[_UISceneHostingHierarchyInteraction keyboardInputScenePairingClientDidUpdateGeometry:]
++ -[_UISceneHostingHierarchyInteraction sceneFrameInKeyboardReferenceSpaceForPortraitFrame:]
++ -[_UISheetPresentationControllerConfiguration _hostParentRecedingStackOffset]
++ -[_UISheetPresentationControllerConfiguration _setHostParentRecedingStackOffset:]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView .cxx_destruct]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView dividerView]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView feedbackIconButton]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView init]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView setDividerView:]
++ -[_UISmartReplyFeedbackInputDashboardAIGeneratedView setFeedbackIconButton:]
++ -[_UISplitViewControllerAdaptiveImpl _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[_UISplitViewControllerAdaptiveImpl gutterWidth]
++ -[_UISplitViewControllerAdaptiveImpl setGutterWidth:]
++ -[_UISplitViewControllerAdaptiveLayoutPreferences separatorThickness]
++ -[_UISplitViewControllerAdaptiveLayoutPreferences setSeparatorThickness:]
++ -[_UISplitViewControllerBaseImpl _marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:]
++ -[_UITabOutlineView _updateContentMargins]
++ -[_UITabSidebarNavigationBar _rawContentMargins]
++ -[_UITabSidebarNavigationBar _setRawContentMargins:]
++ -[_UITextChoiceAccelerationBubble dealloc]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst _didRecognizePanGesture:]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst _makeDraggingPanGestureRecognizer]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst directTouchPanGestureRecognizer]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst gestureRecognizer:shouldRequireFailureOfGestureRecognizer:]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst init]
++ -[_UIWindowSceneDragInteractionImpl_MacCatalyst setDirectTouchPanGestureRecognizer:]
++ GCC_except_table1055
++ GCC_except_table1061
++ GCC_except_table1070
++ GCC_except_table1085
++ GCC_except_table1093
++ GCC_except_table1127
++ GCC_except_table1194
++ GCC_except_table120
++ GCC_except_table1239
++ GCC_except_table1316
++ GCC_except_table1321
++ GCC_except_table1381
++ GCC_except_table1385
++ GCC_except_table1412
++ GCC_except_table1553
++ GCC_except_table1560
++ GCC_except_table1562
++ GCC_except_table159
++ GCC_except_table161
++ GCC_except_table165
++ GCC_except_table181
++ GCC_except_table199
++ GCC_except_table202
++ GCC_except_table222
++ GCC_except_table224
++ GCC_except_table232
++ GCC_except_table257
++ GCC_except_table266
++ GCC_except_table279
++ GCC_except_table287
++ GCC_except_table310
++ GCC_except_table340
++ GCC_except_table345
++ GCC_except_table366
++ GCC_except_table370
++ GCC_except_table377
++ GCC_except_table392
++ GCC_except_table398
++ GCC_except_table449
++ GCC_except_table454
++ GCC_except_table455
++ GCC_except_table522
++ GCC_except_table532
++ GCC_except_table533
++ GCC_except_table538
++ GCC_except_table547
++ GCC_except_table566
++ GCC_except_table571
++ GCC_except_table585
++ GCC_except_table645
++ GCC_except_table653
++ GCC_except_table667
++ GCC_except_table733
++ GCC_except_table751
++ GCC_except_table782
++ GCC_except_table816
++ GCC_except_table827
++ GCC_except_table829
++ GCC_except_table838
++ GCC_except_table842
++ GCC_except_table845
++ GCC_except_table847
++ GCC_except_table859
++ GCC_except_table861
++ GCC_except_table875
++ GCC_except_table881
++ GCC_except_table938
++ GCC_except_table944
++ GCC_except_table951
++ GCC_except_table957
++ GCC_except_table959
++ GCC_except_table987
++ OBJC_IVAR_$_UIAlertController.__shouldInvokeActionBeforeDismissal
++ OBJC_IVAR_$_UIAlertController._wantsSharedScrolling
++ OBJC_IVAR_$_UIPeripheralHost._keyboardSuppressionAssertionController
++ OBJC_IVAR_$_UIPeripheralHost._suppressingKeyboardForAssertion
++ OBJC_IVAR_$_UISceneConfiguration._isPendingInfoPlistResolution
++ OBJC_IVAR_$_UISceneConfiguration._requestedName
++ OBJC_IVAR_$_UITextInputSessionActionAnalytics._keystrokeInputModeString
++ OBJC_IVAR_$_UITextInputSessionActionAnalytics._keystrokeKeyboardTypeString
++ OBJC_IVAR_$_UITextInputSessionActionAnalytics._keystrokeLatenciesMsByInputType
++ OBJC_IVAR_$_UITextInputSessionActionAnalytics._keystrokeLatencySampleCount
++ OBJC_IVAR_$_UITextInputSessionActionAnalytics._overrideKeyboardTypeString
++ OBJC_IVAR_$__UIAppAttribution._bundleIdentifier
++ OBJC_IVAR_$__UICampoLightweightController._isPointerInPresentationRegion
++ OBJC_IVAR_$__UICampoLightweightController._isPointerOnExposedSelection
++ OBJC_IVAR_$__UICampoLightweightController._presentationPermissionGeneration
++ OBJC_IVAR_$__UICampoLightweightDebugHighlighter._lastAffordanceRegion
++ OBJC_IVAR_$__UICampoLightweightDebugHighlighter._lastPresentationRegion
++ OBJC_IVAR_$__UIContextMenuBackgroundDescriptor._selectedContentBackgroundColor
++ OBJC_IVAR_$__UIContextMenuPlatformMetrics._itemContentBackgroundCompositingFilterProvider
++ OBJC_IVAR_$__UIContextMenuPlatformMetrics._maximumImageHeight
++ OBJC_IVAR_$__UIFocusIntelligenceProvider._lastFocusedView
++ OBJC_IVAR_$__UIFocusIntelligenceProvider._registeredOwner
++ OBJC_IVAR_$__UIFocusIntelligenceProvider._registeredOwnerFocusedView
++ OBJC_IVAR_$__UIKeyboardStateManager.m_keystrokeInputType
++ OBJC_IVAR_$__UIKeyboardStateManager.m_keystrokeTouchUpTimestamp
++ OBJC_IVAR_$__UISceneHostingHierarchyInteraction._observedHostPairing
++ OBJC_IVAR_$__UISceneHostingHierarchyInteraction._reportedSceneFrameInKeyboardReferenceSpace
++ OBJC_IVAR_$__UISheetPresentationControllerConfiguration.__hostParentRecedingStackOffset
++ OBJC_IVAR_$__UISplitViewControllerAdaptiveLayoutPreferences._separatorThickness
++ OBJC_IVAR_$__UITabSidebarNavigationBar._rawContentMargins
++ OBJC_IVAR_$__UITextAssistantManager._isInitializingSession
++ OBJC_IVAR_$__UITextLinkInteractionSession._didBeginInteraction
++ OBJC_IVAR_$__UIWindowSceneDragInteractionImpl_MacCatalyst._directTouchPanGestureRecognizer
++ OBJC_IVAR_$__UIWindowSceneMacComponent._windowProxyDidAttachObserver
++ _OBJC_CLASS_$__TtC5UIKit29NavigationBarPlatterContainer
++ _OBJC_CLASS_$__UIAppAttribution
++ _OBJC_CLASS_$__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ _OBJC_CLASS_$__UITraitSystemVerticalBarHorizontalEdge
++ _OBJC_METACLASS_$__TtC5UIKit29NavigationBarPlatterContainer
++ _OBJC_METACLASS_$__UIAppAttribution
++ _OBJC_METACLASS_$__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ _OBJC_METACLASS_$__UITraitSystemVerticalBarHorizontalEdge
++ _PROTOCOLS__UITraitSystemVerticalBarHorizontalEdge
++ _UIFontDescriptorSystemDesignRounded
++ _UIFontWeightBlack
++ _UIFontWeightThin
++ _UIFontWeightUltraLight
++ _UIFontWidthCondensed
++ _UIInternalPreference_EnableDocumentLaunchDismissTransition_block_invoke.__s_category
++ _UIInternalPreference_EnableDocumentLaunchDismissTransition_block_invoke_2.__s_category
++ _UIKBTreePropertyAccessibilityOverrideLabel
++ _UINSWindowProxyDidAttachToWindow
++ _UITextInputKeyboardTypeString.__s_category
++ __CLASS_METHODS__UITraitSystemVerticalBarHorizontalEdge
++ __CLASS_PROPERTIES__UITraitSystemVerticalBarHorizontalEdge
++ __CampoLightweightStringFromDocumentContextText
++ __DATA__TtC5UIKit29NavigationBarPlatterContainer
++ __DATA__UITraitSystemVerticalBarHorizontalEdge
++ __DescriptionForPresses
++ __INSTANCE_METHODS__TtC5UIKit29NavigationBarPlatterContainer
++ __INSTANCE_METHODS__UITraitSystemVerticalBarHorizontalEdge
++ __IVARS__TtC5UIKit29NavigationBarPlatterContainer
++ __METACLASS_DATA__TtC5UIKit29NavigationBarPlatterContainer
++ __METACLASS_DATA__UITraitSystemVerticalBarHorizontalEdge
++ __OBJC_$_INSTANCE_METHODS__UIAppAttribution
++ __OBJC_$_INSTANCE_METHODS__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ __OBJC_$_INSTANCE_VARIABLES__UIAppAttribution
++ __OBJC_$_INSTANCE_VARIABLES__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ __OBJC_$_INSTANCE_VARIABLES__UITabSidebarNavigationBar
++ __OBJC_$_PROP_LIST__UIAppAttribution
++ __OBJC_$_PROP_LIST__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ __OBJC_$_PROP_LIST__UITabSidebarNavigationBar
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIKeyboardInputScenePairingClientObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES__UIKeyboardInputScenePairingClientObserver
++ __OBJC_$_PROTOCOL_REFS__UIKeyboardInputScenePairingClientObserver
++ __OBJC_CLASS_PROTOCOLS_$__UIAppAttribution
++ __OBJC_CLASS_RO_$__UIAppAttribution
++ __OBJC_CLASS_RO_$__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ __OBJC_LABEL_PROTOCOL_$__UIKeyboardInputScenePairingClientObserver
++ __OBJC_METACLASS_RO_$__UIAppAttribution
++ __OBJC_METACLASS_RO_$__UISmartReplyFeedbackInputDashboardAIGeneratedView
++ __OBJC_PROTOCOL_$__UIKeyboardInputScenePairingClientObserver
++ __PROPERTIES__TtC5UIKit29NavigationBarPlatterContainer
++ __PROTOCOLS__UITraitSystemVerticalBarHorizontalEdge
++ __UIFocusEnvironmentIsAncestorOfFocusedItem
++ __UIFocusEnvironmentPreferredFocusedView
++ __UIFocusNonViewItemsEnabled
++ __UIGetEnableDocumentLaunchDismissTransition
++ __UIIntelligenceRecordFocusedItemOwner
++ __UIInternalPreference_EnableDocumentLaunchDismissTransition
++ __UIListCellAccessoryPlacementForAccessory
++ __UITextInputKeyboardTypeString
++ __UIViewAttributedAppKey
++ ___100+[UIFont(UISystemStatusUISupport) _statusBarRoundedFontOfSize:weight:width:ignoringNumberingSystem:]_block_invoke
++ ___103-[UIAlertController _dismissAnimated:triggeringAction:triggeredByPopoverDimmingView:dismissCompletion:]_block_invoke_4
++ ___32-[UISceneConfiguration isEqual:]_block_invoke_9
++ ___47-[_UIAppAttribution appendDescriptionToStream:]_block_invoke
++ ___54-[_UICampoLightweightController presentCampoAnimated:]_block_invoke
++ ___57-[_UIWindowSceneMacComponent _setupNotificationObservers]_block_invoke_4
++ ___58-[_UISmartReplyFeedbackInputDashboardAIGeneratedView init]_block_invoke
++ ___71-[_UIKeyboardInputScenePairingClientComponent scene:didUpdateSettings:]_block_invoke
++ ___73-[UITextInputSessionActionAnalytics reportKeyboardLatencyAndClearSamples]_block_invoke
++ ___76-[UISceneConfiguration _attemptResolveAgainstInfoPlistWithName:sessionRole:]_block_invoke
++ ___84-[UITextSelectionDisplayInteraction _webkitCaretIsOnEmptyLineWithCompletionHandler:]_block_invoke
++ ___92-[UINavigationController _refreshTopViewControllerInsetDataForBottomBarNavigationTransition]_block_invoke
++ ___block_descriptor_112_e8_32w_e8_v12?0B8lw32l8
++ ___block_descriptor_40_e8_32s_e54_v16?0"<_UIKeyboardInputScenePairingClientObserver>"8ls32l8
++ ___block_descriptor_56_e8_32bs40w48w_e18_v16?0"UIAction"8lw40l8w48l8s32l8
++ ___block_descriptor_56_e8_32s40s48s_e26_v40?0{UIEdgeInsets=dddd}8ls32l8s40l8s48l8
++ ___block_descriptor_57_e8_32bs40bs48bs_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_67_e8_32s40s48bs56bs_e14_v16?0?<v?>8ls32l8s48l8s56l8s40l8
++ ___getIATextInputActionsKeyboardTypeFloatingSymbolLoc_block_invoke
++ ___getIATextInputActionsKeyboardTypeHardwareSymbolLoc_block_invoke
++ ___getIATextInputActionsKeyboardTypeLandscapeSymbolLoc_block_invoke
++ ___getIATextInputActionsKeyboardTypePortraitSymbolLoc_block_invoke
++ ___getIATextInputActionsKeyboardTypeSplitSymbolLoc_block_invoke
++ ___swift_memcpy501_8
++ ___swift_memcpy75_1
++ ___unnamed_179
++ __swift_closure_destructor.102Tm
++ __swift_closure_destructor.114Tm
++ __swift_closure_destructor.123Tm
++ __swift_closure_destructor.413Tm
++ __swift_closure_destructor.66Tm
++ _associated conformance 5UIKit21SheetLayoutAttributes33_A96866C2920FEF12151F6D0347E0D9CELLC19RecedingStackOffsetV14AttributeGraph4RuleAaG01_P4Body
++ _launchCampo.__s_category
++ _objc_msgSend$_affordanceRegion
++ _objc_msgSend$_attemptResolveAgainstInfoPlistWithName:sessionRole:
++ _objc_msgSend$_attributedApp
++ _objc_msgSend$_canBeCancelledByMovement
++ _objc_msgSend$_canPresentCampo
++ _objc_msgSend$_configureBackgroundView:withContentShape:selected:
++ _objc_msgSend$_defaultConfigurationForGenericStyle:listStyle:state:traitCollection:
++ _objc_msgSend$_defaultContentMarginsForContentOverlayInsets:
++ _objc_msgSend$_defaultContentMarginsForContentOverlayInsets:view:
++ _objc_msgSend$_edgesAbuttingAccessories
++ _objc_msgSend$_hostParentRecedingStackOffset
++ _objc_msgSend$_intelligenceProvider
++ _objc_msgSend$_invalidateUsesMinimumSafeAreas
++ _objc_msgSend$_isForPointer
++ _objc_msgSend$_isIntelligentAssistantVisible
++ _objc_msgSend$_isPendingInfoPlistResolution
++ _objc_msgSend$_launchCampo
++ _objc_msgSend$_leadingEditingSpacingAccessoryWidthForEditing:hasLeadingEditControl:
++ _objc_msgSend$_marginInfoForChild:contentOverlayInsets:leftMargin:rightMargin:
++ _objc_msgSend$_performWithInputModeOverride:keyboardType:block:
++ _objc_msgSend$_pointIsInSelectionRects:
++ _objc_msgSend$_presentationRegion
++ _objc_msgSend$_rawContentMargins
++ _objc_msgSend$_reapplyContentViewControllerLayoutGuideActionSequenceConstraintsIfNeeded
++ _objc_msgSend$_recedingStackOffset
++ _objc_msgSend$_recordKeystrokeLatency
++ _objc_msgSend$_refreshTopViewControllerInsetDataForBottomBarNavigationTransition
++ _objc_msgSend$_removeHorizontalLayoutMarginsOnEdgesWithoutAccessoriesForState:
++ _objc_msgSend$_reportKeyboardLatencyIfKeyboardChanged
++ _objc_msgSend$_setEdgesAbuttingAccessories:
++ _objc_msgSend$_setHostParentRecedingStackOffset:
++ _objc_msgSend$_setLatestUserChosenDetentValue:
++ _objc_msgSend$_setRawContentMargins:
++ _objc_msgSend$_setWantsSharedScrolling:
++ _objc_msgSend$_setupColorQueueIfNecessary
++ _objc_msgSend$_shouldInvokeActionBeforeDismissal
++ _objc_msgSend$_showsBadgeAccessory
++ _objc_msgSend$_showsReorderControlAccessory
++ _objc_msgSend$_statusBarRoundedFontOfSize:weight:width:ignoringNumberingSystem:
++ _objc_msgSend$_systemVerticalBarHorizontalEdge
++ _objc_msgSend$_updateEdgesAbuttingAccessories
++ _objc_msgSend$_viewSceneSafeAreaAlignedEdgesDidChangeFromPreviousEdges:
++ _objc_msgSend$_visibleAffordanceRect
++ _objc_msgSend$_wantsSharedScrolling
++ _objc_msgSend$_webkitCaretIsOnEmptyLineWithCompletionHandler:
++ _objc_msgSend$belowContentView
++ _objc_msgSend$campoLightweightControllerShouldPresentCampo:completionHandler:
++ _objc_msgSend$canPerformRequestedToolOnCurrentSession
++ _objc_msgSend$clientSceneFrameInKeyboardReferenceSpace
++ _objc_msgSend$defaultAccessibilityTraits
++ _objc_msgSend$didMeasureKeyboardLatency:
++ _objc_msgSend$didMeasureKeystrokeLatency:ofInputType:
++ _objc_msgSend$dividerView
++ _objc_msgSend$feedbackIconButton
++ _objc_msgSend$focusedItemOwner
++ _objc_msgSend$focusedViewType
++ _objc_msgSend$getIATextInputActionsKeyboardTypeFloating
++ _objc_msgSend$getIATextInputActionsKeyboardTypeHardware
++ _objc_msgSend$getIATextInputActionsKeyboardTypeLandscape
++ _objc_msgSend$getIATextInputActionsKeyboardTypePortrait
++ _objc_msgSend$getIATextInputActionsKeyboardTypeSplit
++ _objc_msgSend$iaKeyboardLatencyInputTypeFor:
++ _objc_msgSend$isPointerInPresentationRegion
++ _objc_msgSend$isPointerOnExposedSelection
++ _objc_msgSend$keyboardInputScenePairingClientDidUpdateGeometry:
++ _objc_msgSend$lastAffordanceRegion
++ _objc_msgSend$lastFocusedItem
++ _objc_msgSend$lastFocusedView
++ _objc_msgSend$lastPresentationRegion
++ _objc_msgSend$maximumImageHeight
++ _objc_msgSend$presentationPermissionGeneration
++ _objc_msgSend$recordFocusedItemOwner:forFocusedView:
++ _objc_msgSend$recordNextFocusedView:focusedItem:
++ _objc_msgSend$registeredOwner
++ _objc_msgSend$registeredOwnerFocusedView
++ _objc_msgSend$reportKeyboardLatencyAndClearSamples
++ _objc_msgSend$sceneFrameInKeyboardReferenceSpaceForPortraitFrame:
++ _objc_msgSend$selectedContentBackgroundColor
++ _objc_msgSend$setAccessibilityOverrideLabel:
++ _objc_msgSend$setBelowContentView:
++ _objc_msgSend$setDividerView:
++ _objc_msgSend$setFeedbackIconButton:
++ _objc_msgSend$setIsPointerInPresentationRegion:
++ _objc_msgSend$setIsPointerOnExposedSelection:
++ _objc_msgSend$setLastAffordanceRegion:
++ _objc_msgSend$setLastFocusedView:
++ _objc_msgSend$setLastPresentationRegion:
++ _objc_msgSend$setMaximumImageHeight:
++ _objc_msgSend$setPresentationPermissionGeneration:
++ _objc_msgSend$setRegisteredOwner:
++ _objc_msgSend$setRegisteredOwnerFocusedView:
++ _objc_msgSend$setSelectedContentBackgroundColor:
++ _objc_msgSend$setSeparatorThickness:
++ _objc_msgSend$setTextField:
++ _objc_msgSend$showAIGeneratedUI
++ _objc_msgSend$smartReplyUsesChinaPolicy
++ _objc_msgSend$updateWithPopoverPresentationController:configuration:state:presentationRegion:affordanceRegion:
++ _statusBarRoundedFontOfSize:weight:width:ignoringNumberingSystem:.onceToken
++ _swift_getExtendedExistentialTypeMetadata
++ _symbolic $s5UIKit40NavigationBarExternalRepresentationOwnerP
++ _symbolic SaySNy_____GG 12CoreGraphics7CGFloatV
++ _symbolic Say_____G 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV17CompressableSpaceV
++ _symbolic Si__________y_____yACyACy__________G_____y_____y_____GGG_____y_____SgGGACyACyACyACyACy_____y______y_____GACy_____yARy_ASy_____G_____y_____y_____y_____y_____y_____y_____yACyARy_ASy_____GACy_____y_____yACy_____AGy_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAKGAPGAGy_____GG_____GGIegynr_ 5UIKit12ToolbarModelC10PlacedItemV 7SwiftUI19_ConditionalContentV AF08ModifiedI0V AF6SpacerV AF16_FlexFrameLayoutV AF21_TraitWritingModifierV AF01_nO0V AA03BarN10ElementKeyV AF012_EnvironmenttpQ0V AF4AxisO AF13_VariadicViewO4TreeV AF01_N4RootV AA0be17PaddingAdjustmentN033_CB802663395CF7995045D228EF1335E6LLV AF0X0PAFE19_glassEffectOverlay9alignment9isEnabled_QrAF9AlignmentV_Sbqd__yXEtAFA6_Rd__lFQO AA012OverlayChildN0A4_LLV A7_AFE12visualEffectyQrqd__AF17EmptyVisualEffectV_AF13GeometryProxyVtYbcAF12VisualEffectRd__lFQO A7_AFE22_glassEffectTransition_A10_QrAF22_GlassEffectTransitionV_SbtFQO A7_AFE20glassDebugIdentifieryQrSSFQO A7_AFE18_glassEffectZIndexyQrSdFQO A7_AFE16glassEffectUnion2id9namespaceQrqd__Sg_AF9NamespaceV2IDVtSHRd__lFQO A7_AFE13glassEffectID_2inQrA29__A33_tSHRd__s8SendableRd__lFQO A7_AFE12_glassEffect_A35_QrAF6_GlassV_qd__tAF5ShapeRd__lFQO AA0be10MinMaxSizeN033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AF6HStackV AF6IDViewV AC0eX0V AF010TransitionoT0V AF01_ut9TransformQ0V AF11ColorSchemeO AF8StaticIfV AA02IsB19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AA0B11DebugBorderA59_LLV AF05EmptyQ0V AF8AnyShapeV So011UIBarButtonE0CAAE16UniqueSemanticIDV AC0D7GroupIDV AFA20_PAFE6offsetyQrSo6CGSizeVFQO A17_ AA0b5BadgeX033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AA08Floatingrm10PreferenceQ033_035608AF71C09E391F08A32076C66BC1LLV AF011_PreferencepQ0V AA0B30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AF06ZIndexoT0V AA0b6PocketuQ0A4_LLV
++ _symbolic So20_UISheetActiveDetentC06activeC0_Si14indexInDetentst
++ _symbolic _____ 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV
++ _symbolic _____ 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV17CompressableSpaceV
++ _symbolic _____ 5UIKit21SheetLayoutAttributes33_A96866C2920FEF12151F6D0347E0D9CELLC19RecedingStackOffsetV
++ _symbolic _____ 5UIKit29NavigationBarPlatterContainerC
++ _symbolic _____ 5UIKit39_UITraitSystemVerticalBarHorizontalEdgeV
++ _symbolic _____Sg 21UIIntelligenceSupport26IntelligenceAppAttributionV
++ _symbolic _____SgXw 5UIKit29NavigationBarPlatterContainerC
++ _symbolic _____Sg_ABt 10Foundation9IndexPathV
++ _symbolic ______pSgXw 5UIKit40NavigationBarExternalRepresentationOwnerP
++ _symbolic _____yAAyAAyAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGGAMy_____GG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO AA14ZIndexTraitKeyV AJ0K25PocketEnvironmentModifierALLLV
++ _symbolic _____yAAyAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGGAMy_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO AA14ZIndexTraitKeyV
++ _symbolic _____yAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO
++ _symbolic _____yAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV
++ _symbolic _____ySo20_UISheetActiveDetentC06activeC0_Si14indexInDetentstG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 7SwiftUI32_EnvironmentKeyTransformModifierV AA11ColorSchemeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV17CompressableSpaceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So33UIBarButtonItemVisibilityPrioritya
++ _symbolic _____y______y_____G_____y_____yAAy_ABy_____G_____y_____y_____y_____y_____y_____y_____yAEyAAy_ABy_____GAEy_____y_____yAEy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentF033_CB802663395CF7995045D228EF1335E6LLV AA15ModifiedContentV AA0D0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AH0v5ChildF0AJLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AH0ij10MinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH0I5ModelC0jD0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AH02Isi5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AH0I11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonJ0CAHE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AH0i5BadgeD033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AH34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV
++ _symbolic _____y______y_____G_____y_____y_____yAEy__________y_____GGSOGG_____y_____GGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA15ModifiedContentV AA6HStackV AA6IDViewV AH0I5ModelC0jD0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO
++ _symbolic _____y______y_____G_____y_____y_____y_____y_____y_____y_____y_____yAAy_ABy_____GAEy_____y_____yAEy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit012OverlayChildF033_CB802663395CF7995045D228EF1335E6LLV AA0D0PAAE12visualEffectyQrqd__AA011EmptyVisualQ0V_AA13GeometryProxyVtYbcAA0sQ0Rd__lFQO AmAE06_glassQ10Transition_9isEnabledQrAA06_GlassqW0V_SbtFQO AmAE0V15DebugIdentifieryQrSSFQO AmAE01_vQ6ZIndexyQrSdFQO AmAE0vQ5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AmAE0vQ2ID_2inQrA1__A5_tSHRd__s8SendableRd__lFQO AmAE01_vQ0_A7_QrAA01_Z0V_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AH021ToolbarItemMinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH12ToolbarModelC04ItemD0V AA21_TraitWritingModifierV AA0W8TraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AH014IsToolbarDebugiY033_015D270E8678C18A5BE55ECF17695743LLV AH18ToolbarDebugBorderA37_LLV AA0R8ModifierV AA8AnyShapeV So15UIBarButtonItemCAHE16UniqueSemanticIDV A23_13PlacedGroupIDV AaSPAAE6offsetyQrSo6CGSizeVFQO AP
++ _symbolic _____y_____yAByABy__________G_____y_____y_____GGG_____y_____SgGGAByAByAByAByABy_____y______y_____GABy_____yAQy_ARy_____G_____y_____y_____y_____y_____y_____y_____yAByAQy_ARy_____GABy_____y_____yABy_____AFy_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAJGAOGAFy_____GG_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_iJ0V 5UIKit03BarI10ElementKeyV AA012_EnvironmentpkL0V AA4AxisO AA13_VariadicViewO4TreeV AA01_I4RootV AN028ToolbarItemPaddingAdjustmentI033_CB802663395CF7995045D228EF1335E6LLV AA0T0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA2_Rd__lFQO AN012OverlayChildI0A0_LLV A3_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A3_AAE22_glassEffectTransition_A6_QrAA22_GlassEffectTransitionV_SbtFQO A3_AAE20glassDebugIdentifieryQrSSFQO A3_AAE18_glassEffectZIndexyQrSdFQO A3_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO A3_AAE13glassEffectID_2inQrA25__A29_tSHRd__s8SendableRd__lFQO A3_AAE12_glassEffect_A31_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AN0wx10MinMaxSizeI033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AN0W5ModelC0xT0V AA010TransitionjP0V AA01_qp9TransformL0V AA11ColorSchemeO AA8StaticIfV AN02IsW19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AN0W11DebugBorderA57_LLV AA05EmptyL0V AA8AnyShapeV So011UIBarButtonX0CANE16UniqueSemanticIDV A45_13PlacedGroupIDV AAA16_PAAE6offsetyQrSo6CGSizeVFQO A13_ AN0w5BadgeT033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AN08Floatingnh10PreferenceL033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencekL0V AN0W30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexjP0V AN0w6PocketqL0A0_LLV
++ _symbolic _____y_____yAByABy__________G_____y_____y_____GGG_____y_____SgGGAByAByAByAByABy_____y______y_____GABy_____yAQy_ARy_____G_____y_____y_____y_____y_____y_____y_____yAByAQy_ARy_____GABy_____y_____yABy_____AFy_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAJGAOGAFy_____GG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_jK0V 5UIKit03BarJ10ElementKeyV AA012_EnvironmentqlM0V AA4AxisO AA13_VariadicViewO4TreeV AA01_J4RootV AP028ToolbarItemPaddingAdjustmentJ033_CB802663395CF7995045D228EF1335E6LLV AA0U0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA4_Rd__lFQO AP012OverlayChildJ0A2_LLV A5_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A5_AAE22_glassEffectTransition_A8_QrAA22_GlassEffectTransitionV_SbtFQO A5_AAE20glassDebugIdentifieryQrSSFQO A5_AAE18_glassEffectZIndexyQrSdFQO A5_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO A5_AAE13glassEffectID_2inQrA27__A31_tSHRd__s8SendableRd__lFQO A5_AAE12_glassEffect_A33_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AP0xy10MinMaxSizeJ033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AP0X5ModelC0yU0V AA010TransitionkQ0V AA01_rq9TransformM0V AA11ColorSchemeO AA8StaticIfV AP02IsX19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AP0X11DebugBorderA59_LLV AA05EmptyM0V AA8AnyShapeV So011UIBarButtonY0CAPE16UniqueSemanticIDV A47_13PlacedGroupIDV AAA18_PAAE6offsetyQrSo6CGSizeVFQO A15_ AP0x5BadgeU033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AP08Floatingoi10PreferenceM033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencelM0V AP0X30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexkQ0V AP0x6PocketrM0A2_LLV
++ _symbolic _____y_____ySay_____GG__________y_____yAHyAHy__________G_____y_____y_____GGG_____y_____SgGGAHyAHyAHyAHyAHy_____y______y_____GAHy_____yAWy_AXy_____G_____y_____y_____y_____y_____y_____y_____yAHyAWy_AXy_____GAHy_____y_____yAHy_____ALy_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAPGAUGALy_____GG_____GGG 7SwiftUI7ForEachV s18EnumeratedSequenceV 5UIKit12ToolbarModelC10PlacedItemV AJ17UniquePlacementIDV AA19_ConditionalContentV AA08ModifiedP0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_uV0V AF03BarU10ElementKeyV AA015_EnvironmentKeywX0V AA4AxisO AA13_VariadicViewO4TreeV AA01_U4RootV AF0hk17PaddingAdjustmentU033_CB802663395CF7995045D228EF1335E6LLV AA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA12_Rd__lFQO AF012OverlayChildU0A10_LLV A13_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A13_AAE22_glassEffectTransition_A16_QrAA22_GlassEffectTransitionV_SbtFQO A13_AAE20glassDebugIdentifieryQrSSFQO A13_AAE18_glassEffectZIndexyQrSdFQO A13_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV0N0VtSHRd__lFQO A13_AAE011glassEffectN0_2inQrA35__A39_tSHRd__s8SendableRd__lFQO A13_AAE12_glassEffect_A41_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AF0hk10MinMaxSizeU033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH0K4ViewV AA010TransitionV3KeyV AA024_EnvironmentKeyTransformX0V AA11ColorSchemeO AA8StaticIfV AF02IsH19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AF0H11DebugBorderA65_LLV AA05EmptyX0V AA8AnyShapeV So011UIBarButtonK0CAFE0l8SemanticN0V AH0j5GroupN0V AAA26_PAAE6offsetyQrSo6CGSizeVFQO A23_ AF0H9BadgeView33_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AF08Floatingyt10PreferenceX033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencewX0V AF0H30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexV3KeyV AF0h17PocketEnvironmentX0A10_LLV
++ _symbolic _____y_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA43_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV
++ _symbolic _____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AJ02IsK19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA5_LLV AA13EmptyModifierV
++ _symbolic _____y_____y_____yAAy__________y_____GGSOGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA6IDViewV 5UIKit12ToolbarModelC8ItemViewV AA21_TraitWritingModifierV AA010TransitionL3KeyV AA012_Environmentp9TransformN0V AA11ColorSchemeO
++ _symbolic _____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_ 7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeM033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AQ0P5ModelC0qC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AQ02IsP19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AQ0P11DebugBorderA12_LLV AA13EmptyModifierV AA03AnyH0V
++ _symbolic _____y_____y_____y______y_____G_____ySay_____G__________GGG_____y_____GG 7SwiftUI15ModifiedContentV AA21_GlassEffectContainerV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit020NavigationBarPlatterK033_D21F6862B6368C9E67877AE45A908036LLV AA7ForEachV AL0P11ItemWrapperANLLV AS2IDO AL0nopI0ANLLV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO
++ _symbolic _____y_____y_____y______y_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaDRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 5UIKit0h5ChildO033_CB802663395CF7995045D228EF1335E6LLV AeAE06visualG0yQrqd__AA011EmptyVisualG0V_AA13GeometryProxyVtYbcAA0zG0Rd__lFQO AeAE01_fG10Transition_AHQrAA06_GlassG10TransitionV_SbtFQO AeAE0F15DebugIdentifieryQrSSFQO AeAE01_fG6ZIndexyQrSdFQO AeAE0fG5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AeAE0fG2ID_2inQrA7__A11_tSHRd__s8SendableRd__lFQO AeAE01_fG0_A13_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AQ021ToolbarItemMinMaxSizeO033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AQ12ToolbarModelC04ItemE0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AQ014IsToolbarDebughK033_015D270E8678C18A5BE55ECF17695743LLV AQ18ToolbarDebugBorderA41_LLV AA0Y8ModifierV AA8AnyShapeV So15UIBarButtonItemCAQE16UniqueSemanticIDV A27_13PlacedGroupIDV AaZPAAE6offsetyQrSo6CGSizeVFQO AW AQ012ToolbarBadgeE033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AQ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV
++ _symbolic _____y_____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_ 7SwiftUI4ViewPAAE13glassEffectID_2inQrqd__Sg_AA9NamespaceV0F0VtSHRd__s8SendableRd__lFQO AcAE01_dE0_AEQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeP033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AX0S5ModelC0tC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV AX02IsS19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AX0S11DebugBorderA19_LLV AA13EmptyModifierV AA03AnyK0V So011UIBarButtonT0CAXE014UniqueSemanticF0V
++ _symbolic _____y_____y_____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo_ 7SwiftUI4ViewPAAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deJ0_2inQrAG_AKtSHRd__s8SendableRd__lFQO AcAE01_dE0_AMQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeS033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A_0V5ModelC0wC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV A_02IsV19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A_0V11DebugBorderA22_LLV AA13EmptyModifierV AA03AnyN0V So011UIBarButtonW0CA_E014UniqueSemanticJ0V A8_011PlacedGroupJ0V
++ _symbolic _____y_____y_____y_____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE18_glassEffectZIndexyQrSdFQO AcAE0dE5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deK0_2inQrAH_ALtSHRd__s8SendableRd__lFQO AcAE01_dE0_ANQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeT033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A0_0W5ModelC0xC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV A0_02IsW19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A0_0W11DebugBorderA23_LLV AA13EmptyModifierV AA03AnyO0V So011UIBarButtonX0CA0_E014UniqueSemanticK0V A9_011PlacedGroupK0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo_ 7SwiftUI4ViewPAAE20glassDebugIdentifieryQrSSFQO AcAE01_D12EffectZIndexyQrSdFQO AcAE0dG5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0dgM0_2inQrAI_AMtSHRd__s8SendableRd__lFQO AcAE01_dG0_AOQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeV033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A1_0Y5ModelC0zC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV A1_02IsyE14OverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A1_0yE6BorderA24_LLV AA13EmptyModifierV AA03AnyQ0V So011UIBarButtonZ0CA1_E014UniqueSemanticM0V A10_011PlacedGroupM0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y______y_____GAAy_____y_____yAAy__________y_____GGSOGG_____y_____GGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE22_glassEffectTransition_9isEnabledQrAA06_GlasseF0V_SbtFQO AcAE0D15DebugIdentifieryQrSSFQO AcAE01_dE6ZIndexyQrSdFQO AcAE0dE5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deQ0_2inQrAM_AQtSHRd__s8SendableRd__lFQO AcAE01_dE0_ASQrAA01_I0V_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeY033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A5_12ToolbarModelC04ItemC0V AA21_TraitWritingModifierV AA0F8TraitKeyV AA32_EnvironmentKeyTransformModifierV AA11ColorSchemeO AA8StaticIfV A5_09IsToolbarj7OverlayH033_015D270E8678C18A5BE55ECF17695743LLV A5_07ToolbarJ6BorderA28_LLV AA13EmptyModifierV AA03AnyT0V So15UIBarButtonItemCA5_E014UniqueSemanticQ0V A14_011PlacedGroupQ0V
++ _symbolic ytSgIgr_
++ _symbolic ytSgSg
++ _type_layout_string 5UIKit18PlatterItemWrapper33_D21F6862B6368C9E67877AE45A908036LLV7OptionsV
++ _type_layout_string 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV
++ _type_layout_string 5UIKit19ToolbarOriginPlacer33_383FA1CCCE82D0EA68EF46B3028ED31BLLV17CompressableSpaceV
++ getIATextInputActionsKeyboardTypeFloatingSymbolLoc.ptr
++ getIATextInputActionsKeyboardTypeHardwareSymbolLoc.ptr
++ getIATextInputActionsKeyboardTypeLandscapeSymbolLoc.ptr
++ getIATextInputActionsKeyboardTypePortraitSymbolLoc.ptr
++ getIATextInputActionsKeyboardTypeSplitSymbolLoc.ptr
++ get_witness_table 7SwiftUI15ModifiedContentVyAA21_GlassEffectContainerVyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVy5UIKit020NavigationBarPlatterK033_D21F6862B6368C9E67877AE45A908036LLVGAA7ForEachVySayAL0P11ItemWrapperANLLVGAT2IDOAL0nopI0ANLLVGGGAA32_EnvironmentKeyTransformModifierVyAA11ColorSchemeOGGAA0I0HPA0_AAA7_HPyHC_A5_AA0I8ModifierHPyHCHC
++ get_witness_table 7SwiftUI7ForEachVys18EnumeratedSequenceVySay5UIKit12ToolbarModelC10PlacedItemVGGAJ17UniquePlacementIDVAA19_ConditionalContentVyAA08ModifiedP0VyARyARyAA6SpacerVAA16_FlexFrameLayoutVGAA21_TraitWritingModifierVyAA01_uV0VyAF03BarU10ElementKeyVGGGAA015_EnvironmentKeywX0VyAA4AxisOSgGGARyARyARyARyARyAA13_VariadicViewO4TreeVy_AA01_U4RootVyAF0hk17PaddingAdjustmentU033_CB802663395CF7995045D228EF1335E6LLVGARyAA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA22_Rd__lFQOyA15_y_A17_yAF012OverlayChildU0A19_LLVGA23_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQOyA23_AAE22_glassEffectTransition_A26_QrAA22_GlassEffectTransitionV_SbtFQOyA23_AAE20glassDebugIdentifieryQrSSFQOyA23_AAE18_glassEffectZIndexyQrSdFQOyA23_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV0N0VtSHRd__lFQOyA23_AAE011glassEffectN0_2inQrA46__A50_tSHRd__s8SendableRd__lFQOyA23_AAE12_glassEffect_A52_QrAA6_GlassV_qd__tAA5ShapeRd__lFQOyARyA15_y_A17_yAF0hk10MinMaxSizeU033_0EB3D317F8C8F07D3E5251F6B1C8223BLLVGARyAA6HStackVyAA6IDViewVyARyAH0K4ViewVAYyAA010TransitionV3KeyVGGSOGGAA024_EnvironmentKeyTransformX0VyAA11ColorSchemeOGGGAA8StaticIfVyAF02IsH19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLVAF0H11DebugBorderA84_LLVAA05EmptyX0VGG_AA8AnyShapeVQo__So011UIBarButtonK0CAFE0l8SemanticN0VQo__AH0j5GroupN0VQo__Qo__Qo__Qo__AAA37_PAAE6offsetyQrSo6CGSizeVFQOyA34__Qo_Qo_G_AF0H9BadgeView33_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLVSgQo_AF08Floatingyt10PreferenceX033_035608AF71C09E391F08A32076C66BC1LLVGGAA011_PreferencewX0VyAF0H30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLVGGA3_GA10_GAYyAA06ZIndexV3KeyVGGAF0h17PocketEnvironmentX0A19_LLVGGGAAA22_HPA139_AAA22_HPA11_AAA22_HPA4_AAA22_HPAwAA22_HPAtAA22_HPyHC_AvA04ViewX0HPyHCHC_A3_AAA141_HPyHCHC_A10_AAA141_HPyHCHC_A138_AAA22_HPA135_AAA22_HPA131_AAA22_HPA130_AAA22_HPA129_AAA22_HPA122_AAA22_HPA21_AA22_VariadicView_ViewRootHPyHC_A121_AAA22_HPqd0__AAA22_HD3_A117_HO_A120_AAA141_HPyHCHCHC_A128_AAA141_HPyHCHC_A3_AAA141_HPyHCHC_A10_AAA141_HPyHCHC_A134_AAA141_HPyHCHC_A137_AAA141_HPyHCHCHC_HC
++ setGutterWidth:.__s_category
+- -[UIAlertControllerVisualStyleAlert textFieldContentInset]
+- -[UIColorPickerViewController _setupColorQueue]
+- -[UISplitViewController _marginInfoForChild:leftMargin:rightMargin:]
+- -[UISplitViewControllerClassicImpl _contentMarginsForChildViewController:]
+- -[UISplitViewControllerClassicImpl _marginInfoForChild:leftMargin:rightMargin:]
+- -[UISplitViewControllerPanelImpl _contentMarginsForChildViewController:]
+- -[UISplitViewControllerPanelImpl _marginInfoForChild:leftMargin:rightMargin:]
+- -[UITextSelectionDisplayInteraction campoLightweightControllerShouldPresentCampo:]
+- -[UIViewController _defaultContentMarginForEdge:]
+- -[_UIAlertControllerTextFieldViewCollectionCell setTextField:horizontalMargin:]
+- -[_UIBarCustomizationReservoirNavBar _contentMargins]
+- -[_UICampoLightweightController _affordanceHoverTrackingRect]
+- -[_UICampoLightweightController _pointInSelection:]
+- -[_UICampoLightweightController _sourceHoverTrackingRect]
+- -[_UICampoLightweightController isPointerInSelection]
+- -[_UICampoLightweightController isPointerInSourceRegion]
+- -[_UICampoLightweightController setIsPointerInSelection:]
+- -[_UICampoLightweightController setIsPointerInSourceRegion:]
+- -[_UICampoLightweightDebugHighlighter lastAffordanceTrackingRect]
+- -[_UICampoLightweightDebugHighlighter lastSourceTrackingRect]
+- -[_UICampoLightweightDebugHighlighter setLastAffordanceTrackingRect:]
+- -[_UICampoLightweightDebugHighlighter setLastSourceTrackingRect:]
+- -[_UICampoLightweightDebugHighlighter updateWithPopoverPresentationController:configuration:state:sourceTrackingRect:affordanceTrackingRect:]
+- -[_UIContextMenuCell _configureBackgroundView:withContentShape:]
+- -[_UIFocusIntelligenceProvider recordFocusedItem:]
+- -[_UISplitViewControllerAdaptiveImpl _marginInfoForChild:leftMargin:rightMargin:]
+- -[_UISplitViewControllerBaseImpl _marginInfoForChild:leftMargin:rightMargin:]
+- -[_UITabSidebarCollectionView _contentMargins]
+- -[_UITabSidebarNavigationBar _contentMargins]
+- GCC_except_table1052
+- GCC_except_table1058
+- GCC_except_table1069
+- GCC_except_table1079
+- GCC_except_table1090
+- GCC_except_table1104
+- GCC_except_table1120
+- GCC_except_table1125
+- GCC_except_table1192
+- GCC_except_table122
+- GCC_except_table1236
+- GCC_except_table1313
+- GCC_except_table1319
+- GCC_except_table137
+- GCC_except_table1378
+- GCC_except_table1382
+- GCC_except_table1410
+- GCC_except_table1550
+- GCC_except_table1557
+- GCC_except_table1559
+- GCC_except_table220
+- GCC_except_table223
+- GCC_except_table277
+- GCC_except_table278
+- GCC_except_table311
+- GCC_except_table343
+- GCC_except_table344
+- GCC_except_table368
+- GCC_except_table376
+- GCC_except_table390
+- GCC_except_table391
+- GCC_except_table399
+- GCC_except_table450
+- GCC_except_table453
+- GCC_except_table478
+- GCC_except_table530
+- GCC_except_table531
+- GCC_except_table537
+- GCC_except_table544
+- GCC_except_table570
+- GCC_except_table583
+- GCC_except_table642
+- GCC_except_table650
+- GCC_except_table664
+- GCC_except_table731
+- GCC_except_table781
+- GCC_except_table814
+- GCC_except_table824
+- GCC_except_table826
+- GCC_except_table833
+- GCC_except_table839
+- GCC_except_table843
+- GCC_except_table844
+- GCC_except_table857
+- GCC_except_table858
+- GCC_except_table873
+- GCC_except_table879
+- GCC_except_table935
+- GCC_except_table943
+- GCC_except_table945
+- GCC_except_table954
+- GCC_except_table956
+- GCC_except_table984
+- OBJC_IVAR_$__UICampoLightweightController._isPointerInSelection
+- OBJC_IVAR_$__UICampoLightweightController._isPointerInSourceRegion
+- OBJC_IVAR_$__UICampoLightweightDebugHighlighter._lastAffordanceTrackingRect
+- OBJC_IVAR_$__UICampoLightweightDebugHighlighter._lastSourceTrackingRect
+- _OBJC_CLASS_$__TtC5UIKit32NavigationBarPlatterContainer_v1
+- _OBJC_CLASS_$__TtC5UIKit32NavigationBarPlatterContainer_v2
+- _OBJC_CLASS_$__UINavigationBarPlatterView
+- _OBJC_METACLASS_$__TtC5UIKit32NavigationBarPlatterContainer_v1
+- _OBJC_METACLASS_$__TtC5UIKit32NavigationBarPlatterContainer_v2
+- _OBJC_METACLASS_$__UINavigationBarPlatterAnimationView
+- _OBJC_METACLASS_$__UINavigationBarPlatterContentView
+- _OBJC_METACLASS_$__UINavigationBarPlatterGlassView
+- _OBJC_METACLASS_$__UINavigationBarPlatterItemView
+- _OBJC_METACLASS_$__UINavigationBarPlatterSubviewContainerView
+- _OBJC_METACLASS_$__UINavigationBarPlatterView
+- __DATA__TtC5UIKit32NavigationBarPlatterContainer_v1
+- __DATA__TtC5UIKit32NavigationBarPlatterContainer_v2
+- __DATA__TtCC5UIKit32NavigationBarPlatterContainer_v118AnimationScheduler
+- __DATA__UINavigationBarPlatterAnimationView
+- __DATA__UINavigationBarPlatterContentView
+- __DATA__UINavigationBarPlatterGlassView
+- __DATA__UINavigationBarPlatterItemView
+- __DATA__UINavigationBarPlatterSubviewContainerView
+- __DATA__UINavigationBarPlatterView
+- __INSTANCE_METHODS__TtC5UIKit32NavigationBarPlatterContainer_v1
+- __INSTANCE_METHODS__TtC5UIKit32NavigationBarPlatterContainer_v2
+- __INSTANCE_METHODS__UINavigationBarPlatterAnimationView
+- __INSTANCE_METHODS__UINavigationBarPlatterContentView
+- __INSTANCE_METHODS__UINavigationBarPlatterGlassView
+- __INSTANCE_METHODS__UINavigationBarPlatterItemView
+- __INSTANCE_METHODS__UINavigationBarPlatterSubviewContainerView
+- __IVARS__TtC5UIKit32NavigationBarPlatterContainer_v1
+- __IVARS__TtC5UIKit32NavigationBarPlatterContainer_v2
+- __IVARS__TtCC5UIKit32NavigationBarPlatterContainer_v118AnimationScheduler
+- __IVARS__UINavigationBarPlatterAnimationView
+- __IVARS__UINavigationBarPlatterContentView
+- __IVARS__UINavigationBarPlatterItemView
+- __IVARS__UINavigationBarPlatterSubviewContainerView
+- __IVARS__UINavigationBarPlatterView
+- __METACLASS_DATA__TtC5UIKit32NavigationBarPlatterContainer_v1
+- __METACLASS_DATA__TtC5UIKit32NavigationBarPlatterContainer_v2
+- __METACLASS_DATA__TtCC5UIKit32NavigationBarPlatterContainer_v118AnimationScheduler
+- __METACLASS_DATA__UINavigationBarPlatterAnimationView
+- __METACLASS_DATA__UINavigationBarPlatterContentView
+- __METACLASS_DATA__UINavigationBarPlatterGlassView
+- __METACLASS_DATA__UINavigationBarPlatterItemView
+- __METACLASS_DATA__UINavigationBarPlatterSubviewContainerView
+- __METACLASS_DATA__UINavigationBarPlatterView
+- __OBJC_$_INSTANCE_METHODS__UINavigationBarPlatterView(UIKitCore)
+- __OBJC_CLASS_PROTOCOLS_$__UINavigationBarPlatterView(UIKitCore)
+- __PROPERTIES__TtC5UIKit32NavigationBarPlatterContainer_v2
+- __PROPERTIES__UINavigationBarPlatterAnimationView
+- __PROPERTIES__UINavigationBarPlatterSubviewContainerView
+- __PROPERTIES__UINavigationBarPlatterView
+- __UIInternalPreference_SwiftUINavigationBarContentViewEnabled
+- __UISwiftUINavBarContentEnabled
+- ___49-[UISceneConfiguration initWithName:sessionRole:]_block_invoke
+- ___52-[_UIClickPresentationInteraction initWithDelegate:]_block_invoke
+- ___76+[UIFont(UISystemStatusUISupport) _statusBarRoundedFontOfSize:weight:width:]_block_invoke
+- ___block_descriptor_48_e8_32s40s_e26_v40?0{UIEdgeInsets=dddd}8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e18_v16?0"UIAction"8lw48l8s32l8s40l8
+- ___block_descriptor_58_e8_32s40s48bs_e14_v16?0?<v?>8ls32l8s48l8s40l8
+- ___swift_memcpy502_8
+- ___swift_memcpy74_1
+- ___unnamed_177
+- ___unnamed_26
+- __swift_closure_destructor.111Tm
+- __swift_closure_destructor.120Tm
+- __swift_closure_destructor.248Tm
+- __swift_closure_destructor.269Tm
+- __swift_closure_destructor.38Tm
+- __swift_closure_destructor.410Tm
+- __swift_closure_destructor.62Tm
+- __swift_closure_destructor.79Tm
+- _associated conformance 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC15TransitionPhaseOSHAASQ
+- _associated conformance 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC4Mode33_9CA56689A405795ECF42D1731A87823BLLOSHAASQ
+- _associated conformance 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC09ScheduledG2IDVSHAASQ
+- _initWithSession:role:configuration:.__s_category
+- _objc_msgSend$_affordanceHoverTrackingRect
+- _objc_msgSend$_configureBackgroundView:withContentShape:
+- _objc_msgSend$_contentMarginsForChildViewController:
+- _objc_msgSend$_defaultContentMarginForEdge:
+- _objc_msgSend$_pointInSelection:
+- _objc_msgSend$_setLatestUserChosenOffset:
+- _objc_msgSend$_setupColorQueue
+- _objc_msgSend$_sourceHoverTrackingRect
+- _objc_msgSend$campoLightweightControllerShouldPresentCampo:
+- _objc_msgSend$isPointerInSelection
+- _objc_msgSend$isPointerInSourceRegion
+- _objc_msgSend$lastAffordanceTrackingRect
+- _objc_msgSend$lastSourceTrackingRect
+- _objc_msgSend$setIsPointerInSelection:
+- _objc_msgSend$setIsPointerInSourceRegion:
+- _objc_msgSend$setLastAffordanceTrackingRect:
+- _objc_msgSend$setLastSourceTrackingRect:
+- _objc_msgSend$setTextField:horizontalMargin:
+- _objc_msgSend$updateWithPopoverPresentationController:configuration:state:sourceTrackingRect:affordanceTrackingRect:
+- _statusBarRoundedFontOfSize:weight:width:.onceToken
+- _symbolic $s5UIKit33NavigationBarPlatterContainerHostP
+- _symbolic SDySOSo15_UIBarBadgeViewCG
+- _symbolic SDy_____ScTyyt______pGG 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC09ScheduledG2IDV s5ErrorP
+- _symbolic SDy__________G 5UIKit24NavigationBarContentViewC07VisibleD0V7PlatterV2IDV AA0bcG12Container_v1C6update2to8animator08minimizeD11TransitionsySayAGG_AA0bc10TransitionI0C8AnimatorCSgSbtF11MitosisInfoL_V0gS0V
+- _symbolic SDy__________G 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC AA0bc7ContentG0C07VisibleH0V0D0V2IDV
+- _symbolic Say_____G 5UIKit15PlatterItemView33_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic Say_____G 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC
+- _symbolic Si__________y_____yACyACy__________G_____y_____y_____GGG_____y_____SgGGACyACyACyACyACy_____y______y_____GACy_____yARy_ASy_____G_____y_____y_____y_____y_____y_____y_____yACyARy_ASy_____G_____y_____yACy_____AGy_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAKGAPGAGy_____GG_____GGIegynr_ 5UIKit12ToolbarModelC10PlacedItemV 7SwiftUI19_ConditionalContentV AF08ModifiedI0V AF6SpacerV AF16_FlexFrameLayoutV AF21_TraitWritingModifierV AF01_nO0V AA03BarN10ElementKeyV AF012_EnvironmenttpQ0V AF4AxisO AF13_VariadicViewO4TreeV AF01_N4RootV AA0be17PaddingAdjustmentN033_CB802663395CF7995045D228EF1335E6LLV AF0X0PAFE19_glassEffectOverlay9alignment9isEnabled_QrAF9AlignmentV_Sbqd__yXEtAFA6_Rd__lFQO AA012OverlayChildN0A4_LLV A7_AFE12visualEffectyQrqd__AF17EmptyVisualEffectV_AF13GeometryProxyVtYbcAF12VisualEffectRd__lFQO A7_AFE22_glassEffectTransition_A10_QrAF22_GlassEffectTransitionV_SbtFQO A7_AFE20glassDebugIdentifieryQrSSFQO A7_AFE18_glassEffectZIndexyQrSdFQO A7_AFE16glassEffectUnion2id9namespaceQrqd__Sg_AF9NamespaceV2IDVtSHRd__lFQO A7_AFE13glassEffectID_2inQrA29__A33_tSHRd__s8SendableRd__lFQO A7_AFE12_glassEffect_A35_QrAF6_GlassV_qd__tAF5ShapeRd__lFQO AA0be10MinMaxSizeN033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AF6HStackV AF6IDViewV AC0eX0V AF010TransitionoT0V AF8StaticIfV AA02IsB19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AA0B11DebugBorderA55_LLV AF05EmptyQ0V AF8AnyShapeV So011UIBarButtonE0CAAE16UniqueSemanticIDV AC0D7GroupIDV AFA20_PAFE6offsetyQrSo6CGSizeVFQO A17_ AA0b5BadgeX033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AA08Floatingrm10PreferenceQ033_035608AF71C09E391F08A32076C66BC1LLV AF011_PreferencepQ0V AA0B30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AF06ZIndexoT0V AA0b6PocketuQ0A4_LLV
+- _symbolic So15_UIBarBadgeViewC
+- _symbolic So30_UIPointerInteractionAssistantCSg
+- _symbolic _____ 5UIKit15PlatterItemView33_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____ 5UIKit19NavigationButtonBarC6LayoutV12MeasuredItem33_39AE0E16D4CAEA716CCE5DC2FDB9F6E9LLV
+- _symbolic _____ 5UIKit24NavigationBarContentViewC15PlatterMaterialV
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC07SubvieweG033_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC09AnimationG033_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC0d5GlassG033_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC0d7ContentG033_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC14ScaleComponent33_9CA56689A405795ECF42D1731A87823BLLV
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC15TransitionPhaseO
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC4Mode33_9CA56689A405795ECF42D1731A87823BLLO
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC09ScheduledG2IDV
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C6update2to8animator26minimizeContentTransitionsySayAA0bcK4ViewC07VisibleK0V0D0VG_AA0bc10TransitionE0C8AnimatorCSgSbtF11MitosisInfoL_V
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C6update2to8animator26minimizeContentTransitionsySayAA0bcK4ViewC07VisibleK0V0D0VG_AA0bc10TransitionE0C8AnimatorCSgSbtF11MitosisInfoL_V0dR0V
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v1C8SettingsV
+- _symbolic _____ 5UIKit32NavigationBarPlatterContainer_v2C
+- _symbolic _____ 7SwiftUI14GlassContainerO18AppearanceSettingsV
+- _symbolic _____ 7SwiftUI14GlassContainerO18ScalePulseSettingsV
+- _symbolic _____ 7SwiftUI14GlassContainerO18TransitionSettingsV
+- _symbolic _____ 7SwiftUI14GlassContainerO23TranslationKickSettingsV
+- _symbolic _____Sg 5UIKit24NavigationBarContentViewC07VisibleD0V7PlatterV20BackgroundPropertiesV
+- _symbolic _____Sg 5UIKit24NavigationBarContentViewC07VisibleD0V7PlatterV2IDV
+- _symbolic _____Sg 5UIKit32NavigationBarPlatterContainer_v1C0D4ViewC
+- _symbolic _____SgXw 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC
+- _symbolic _____SgXw 5UIKit32NavigationBarPlatterContainer_v2C
+- _symbolic _____SgXwz_Xx 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC
+- _symbolic ______So6UIViewCXc 5UIKit33NavigationBarPlatterContainerHostP
+- _symbolic ___________tSg 5UIKit15PlatterItemView33_9CA56689A405795ECF42D1731A87823BLLC AA020NavigationBarContentD0C07VisibleL0V0B0V0C0V
+- _symbolic _____yAAyAAyAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGGAMy_____GG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO AA14ZIndexTraitKeyV AJ0K25PocketEnvironmentModifierALLLV
+- _symbolic _____yAAyAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGGAMy_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO AA14ZIndexTraitKeyV
+- _symbolic _____yAAyAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV AA30_EnvironmentKeyWritingModifierV AA4AxisO
+- _symbolic _____yAAy_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAMy_____y_____GGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA01_H5TraitV AJ03BarH10ElementKeyV
+- _symbolic _____ySOSo15_UIBarBadgeViewCG s18_DictionaryStorageC
+- _symbolic _____ySO_____G s18_DictionaryStorageC 5UIKit15PlatterItemView33_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____y_____G s11_SetStorageC 5UIKit15PlatterItemView33_9CA56689A405795ECF42D1731A87823BLLC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5UIKit19NavigationButtonBarC6LayoutV12MeasuredItem33_39AE0E16D4CAEA716CCE5DC2FDB9F6E9LLV
+- _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC09ScheduledI2IDV s5ErrorP
+- _symbolic _____y_____SgG s11_SetStorageC So15UIBarButtonItemC5UIKitE10SemanticIDO
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC So15UIBarButtonItemC5UIKitE10SemanticIDO
+- _symbolic _____y__________G s18_DictionaryStorageC 5UIKit24NavigationBarContentViewC07VisibleF0V7PlatterV2IDV AC0deI12Container_v1C0iG0C
+- _symbolic _____y__________G s18_DictionaryStorageC 5UIKit24NavigationBarContentViewC07VisibleF0V7PlatterV2IDV AC0deI12Container_v1C6update2to8animator08minimizeF11TransitionsySayAIG_AC0de10TransitionK0C8AnimatorCSgSbtF11MitosisInfoL_V0iU0V
+- _symbolic _____y__________G s18_DictionaryStorageC 5UIKit32NavigationBarPlatterContainer_v1C0F4ViewC AC0de7ContentI0C07VisibleJ0V0F0V2IDV
+- _symbolic _____y______y_____G_____y_____yAAy_ABy_____G_____y_____y_____y_____y_____y_____y_____yAEyAAy_ABy_____G_____y_____yAEy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentF033_CB802663395CF7995045D228EF1335E6LLV AA15ModifiedContentV AA0D0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AH0v5ChildF0AJLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AH0ij10MinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH0I5ModelC0jD0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AH02Isi5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AH0I11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonJ0CAHE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AH0i5BadgeD033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AH34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV
+- _symbolic _____y______y_____G_____y_____y_____y__________y_____GGSOGGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AA15ModifiedContentV AH0I5ModelC0jD0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV
+- _symbolic _____y______y_____G_____y_____y_____y_____y_____y_____y_____y_____yAAy_ABy_____G_____y_____yAEy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit012OverlayChildF033_CB802663395CF7995045D228EF1335E6LLV AA0D0PAAE12visualEffectyQrqd__AA011EmptyVisualQ0V_AA13GeometryProxyVtYbcAA0sQ0Rd__lFQO AmAE06_glassQ10Transition_9isEnabledQrAA06_GlassqW0V_SbtFQO AmAE0V15DebugIdentifieryQrSSFQO AmAE01_vQ6ZIndexyQrSdFQO AmAE0vQ5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AmAE0vQ2ID_2inQrA1__A5_tSHRd__s8SendableRd__lFQO AmAE01_vQ0_A7_QrAA01_Z0V_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AH021ToolbarItemMinMaxSizeF033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH12ToolbarModelC04ItemD0V AA21_TraitWritingModifierV AA0W8TraitKeyV AA8StaticIfV AH014IsToolbarDebugiY033_015D270E8678C18A5BE55ECF17695743LLV AH18ToolbarDebugBorderA33_LLV AA0R8ModifierV AA8AnyShapeV So15UIBarButtonItemCAHE16UniqueSemanticIDV A23_13PlacedGroupIDV AaSPAAE6offsetyQrSo6CGSizeVFQO AP
+- _symbolic _____y_____yAByABy__________G_____y_____y_____GGG_____y_____SgGGAByAByAByAByABy_____y______y_____GABy_____yAQy_ARy_____G_____y_____y_____y_____y_____y_____y_____yAByAQy_ARy_____G_____y_____yABy_____AFy_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAJGAOGAFy_____GG_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_iJ0V 5UIKit03BarI10ElementKeyV AA012_EnvironmentpkL0V AA4AxisO AA13_VariadicViewO4TreeV AA01_I4RootV AN028ToolbarItemPaddingAdjustmentI033_CB802663395CF7995045D228EF1335E6LLV AA0T0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA2_Rd__lFQO AN012OverlayChildI0A0_LLV A3_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A3_AAE22_glassEffectTransition_A6_QrAA22_GlassEffectTransitionV_SbtFQO A3_AAE20glassDebugIdentifieryQrSSFQO A3_AAE18_glassEffectZIndexyQrSdFQO A3_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO A3_AAE13glassEffectID_2inQrA25__A29_tSHRd__s8SendableRd__lFQO A3_AAE12_glassEffect_A31_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AN0wx10MinMaxSizeI033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AN0W5ModelC0xT0V AA010TransitionjP0V AA8StaticIfV AN02IsW19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AN0W11DebugBorderA53_LLV AA05EmptyL0V AA8AnyShapeV So011UIBarButtonX0CANE16UniqueSemanticIDV A45_13PlacedGroupIDV AAA16_PAAE6offsetyQrSo6CGSizeVFQO A13_ AN0w5BadgeT033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AN08Floatingnh10PreferenceL033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencekL0V AN0W30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexjP0V AN0w6PocketqL0A0_LLV
+- _symbolic _____y_____yAByABy__________G_____y_____y_____GGG_____y_____SgGGAByAByAByAByABy_____y______y_____GABy_____yAQy_ARy_____G_____y_____y_____y_____y_____y_____y_____yAByAQy_ARy_____G_____y_____yABy_____AFy_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAJGAOGAFy_____GG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_jK0V 5UIKit03BarJ10ElementKeyV AA012_EnvironmentqlM0V AA4AxisO AA13_VariadicViewO4TreeV AA01_J4RootV AP028ToolbarItemPaddingAdjustmentJ033_CB802663395CF7995045D228EF1335E6LLV AA0U0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA4_Rd__lFQO AP012OverlayChildJ0A2_LLV A5_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A5_AAE22_glassEffectTransition_A8_QrAA22_GlassEffectTransitionV_SbtFQO A5_AAE20glassDebugIdentifieryQrSSFQO A5_AAE18_glassEffectZIndexyQrSdFQO A5_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO A5_AAE13glassEffectID_2inQrA27__A31_tSHRd__s8SendableRd__lFQO A5_AAE12_glassEffect_A33_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AP0xy10MinMaxSizeJ033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AP0X5ModelC0yU0V AA010TransitionkQ0V AA8StaticIfV AP02IsX19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AP0X11DebugBorderA55_LLV AA05EmptyM0V AA8AnyShapeV So011UIBarButtonY0CAPE16UniqueSemanticIDV A47_13PlacedGroupIDV AAA18_PAAE6offsetyQrSo6CGSizeVFQO A15_ AP0x5BadgeU033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AP08Floatingoi10PreferenceM033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencelM0V AP0X30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexkQ0V AP0x6PocketrM0A2_LLV
+- _symbolic _____y_____ySay_____GG__________y_____yAHyAHy__________G_____y_____y_____GGG_____y_____SgGGAHyAHyAHyAHyAHy_____y______y_____GAHy_____yAWy_AXy_____G_____y_____y_____y_____y_____y_____y_____yAHyAWy_AXy_____G_____y_____yAHy_____ALy_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GGAPGAUGALy_____GG_____GGG 7SwiftUI7ForEachV s18EnumeratedSequenceV 5UIKit12ToolbarModelC10PlacedItemV AJ17UniquePlacementIDV AA19_ConditionalContentV AA08ModifiedP0V AA6SpacerV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA01_uV0V AF03BarU10ElementKeyV AA015_EnvironmentKeywX0V AA4AxisO AA13_VariadicViewO4TreeV AA01_U4RootV AF0hk17PaddingAdjustmentU033_CB802663395CF7995045D228EF1335E6LLV AA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA12_Rd__lFQO AF012OverlayChildU0A10_LLV A13_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQO A13_AAE22_glassEffectTransition_A16_QrAA22_GlassEffectTransitionV_SbtFQO A13_AAE20glassDebugIdentifieryQrSSFQO A13_AAE18_glassEffectZIndexyQrSdFQO A13_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV0N0VtSHRd__lFQO A13_AAE011glassEffectN0_2inQrA35__A39_tSHRd__s8SendableRd__lFQO A13_AAE12_glassEffect_A41_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AF0hk10MinMaxSizeU033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AH0K4ViewV AA010TransitionV3KeyV AA8StaticIfV AF02IsH19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AF0H11DebugBorderA61_LLV AA05EmptyX0V AA8AnyShapeV So011UIBarButtonK0CAFE0l8SemanticN0V AH0j5GroupN0V AAA26_PAAE6offsetyQrSo6CGSizeVFQO A23_ AF0H9BadgeView33_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AF08Floatingyt10PreferenceX033_035608AF71C09E391F08A32076C66BC1LLV AA011_PreferencewX0V AF0H30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV AA06ZIndexV3KeyV AF0h17PocketEnvironmentX0A10_LLV
+- _symbolic _____y_____y______y_____GAAy_____yABy_ACy_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______GG_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit028ToolbarItemPaddingAdjustmentH033_CB802663395CF7995045D228EF1335E6LLV AA0F0PAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaNRd__lFQO AJ0v5ChildH0ALLLV AoAE06visualU0yQrqd__AA011EmptyVisualU0V_AA13GeometryProxyVtYbcAA06VisualU0Rd__lFQO AoAE01_tU10Transition_ARQrAA06_GlassU10TransitionV_SbtFQO AoAE0T15DebugIdentifieryQrSSFQO AoAE01_tU6ZIndexyQrSdFQO AoAE0tU5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AoAE0tU2ID_2inQrA9__A13_tSHRd__s8SendableRd__lFQO AoAE01_tU0_A15_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AJ0kl10MinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02Isk5DebugvY033_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA39_LLV AA13EmptyModifierV AA8AnyShapeV So011UIBarButtonL0CAJE16UniqueSemanticIDV A29_13PlacedGroupIDV AAA0_PAAE6offsetyQrSo6CGSizeVFQO AY AJ0k5BadgeF033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AJ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV AA26_PreferenceWritingModifierV AJ0K30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLV
+- _symbolic _____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeH033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AJ0K5ModelC0lF0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AJ02IsK19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AJ0K11DebugBorderA1_LLV AA13EmptyModifierV
+- _symbolic _____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_ 7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeM033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AQ0P5ModelC0qC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AQ02IsP19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AQ0P11DebugBorderA8_LLV AA13EmptyModifierV AA03AnyH0V
+- _symbolic _____y_____y_____y______y_____G_____y_____y_____y_____y_____y_____y_____yAAyABy_ACy_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_______y______Qo_Qo_G______SgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAaDRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 5UIKit0h5ChildO033_CB802663395CF7995045D228EF1335E6LLV AeAE06visualG0yQrqd__AA011EmptyVisualG0V_AA13GeometryProxyVtYbcAA0zG0Rd__lFQO AeAE01_fG10Transition_AHQrAA06_GlassG10TransitionV_SbtFQO AeAE0F15DebugIdentifieryQrSSFQO AeAE01_fG6ZIndexyQrSdFQO AeAE0fG5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AeAE0fG2ID_2inQrA7__A11_tSHRd__s8SendableRd__lFQO AeAE01_fG0_A13_QrAA6_GlassV_qd__tAA5ShapeRd__lFQO AQ021ToolbarItemMinMaxSizeO033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AQ12ToolbarModelC04ItemE0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AQ014IsToolbarDebughK033_015D270E8678C18A5BE55ECF17695743LLV AQ18ToolbarDebugBorderA37_LLV AA0Y8ModifierV AA8AnyShapeV So15UIBarButtonItemCAQE16UniqueSemanticIDV A27_13PlacedGroupIDV AaZPAAE6offsetyQrSo6CGSizeVFQO AW AQ012ToolbarBadgeE033_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLV AQ34FloatingBarFramePreferenceModifier33_035608AF71C09E391F08A32076C66BC1LLV
+- _symbolic _____y_____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_ 7SwiftUI4ViewPAAE13glassEffectID_2inQrqd__Sg_AA9NamespaceV0F0VtSHRd__s8SendableRd__lFQO AcAE01_dE0_AEQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeP033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV AX0S5ModelC0tC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV AX02IsS19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV AX0S11DebugBorderA15_LLV AA13EmptyModifierV AA03AnyK0V So011UIBarButtonT0CAXE014UniqueSemanticF0V
+- _symbolic _____y_____y_____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo_ 7SwiftUI4ViewPAAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deJ0_2inQrAG_AKtSHRd__s8SendableRd__lFQO AcAE01_dE0_AMQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeS033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A_0V5ModelC0wC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV A_02IsV19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A_0V11DebugBorderA18_LLV AA13EmptyModifierV AA03AnyN0V So011UIBarButtonW0CA_E014UniqueSemanticJ0V A8_011PlacedGroupJ0V
+- _symbolic _____y_____y_____y_____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE18_glassEffectZIndexyQrSdFQO AcAE0dE5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deK0_2inQrAH_ALtSHRd__s8SendableRd__lFQO AcAE01_dE0_ANQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeT033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A0_0W5ModelC0xC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV A0_02IsW19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A0_0W11DebugBorderA19_LLV AA13EmptyModifierV AA03AnyO0V So011UIBarButtonX0CA0_E014UniqueSemanticK0V A9_011PlacedGroupK0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo_ 7SwiftUI4ViewPAAE20glassDebugIdentifieryQrSSFQO AcAE01_D12EffectZIndexyQrSdFQO AcAE0dG5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0dgM0_2inQrAI_AMtSHRd__s8SendableRd__lFQO AcAE01_dG0_AOQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeV033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A1_0Y5ModelC0zC0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA8StaticIfV A1_02IsyE14OverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLV A1_0yE6BorderA20_LLV AA13EmptyModifierV AA03AnyQ0V So011UIBarButtonZ0CA1_E014UniqueSemanticM0V A10_011PlacedGroupM0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y______y_____G_____y_____yAAy__________y_____GGSOGGG_____y_______________GG______Qo_______Qo_______Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE22_glassEffectTransition_9isEnabledQrAA06_GlasseF0V_SbtFQO AcAE0D15DebugIdentifieryQrSSFQO AcAE01_dE6ZIndexyQrSdFQO AcAE0dE5Union2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lFQO AcAE0deQ0_2inQrAM_AQtSHRd__s8SendableRd__lFQO AcAE01_dE0_ASQrAA01_I0V_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 5UIKit021ToolbarItemMinMaxSizeY033_0EB3D317F8C8F07D3E5251F6B1C8223BLLV AA6HStackV AA6IDViewV A5_12ToolbarModelC04ItemC0V AA21_TraitWritingModifierV AA0F8TraitKeyV AA8StaticIfV A5_09IsToolbarj7OverlayH033_015D270E8678C18A5BE55ECF17695743LLV A5_07ToolbarJ6BorderA24_LLV AA13EmptyModifierV AA03AnyT0V So15UIBarButtonItemCA5_E014UniqueSemanticQ0V A14_011PlacedGroupQ0V
+- _symbolic _____yy_____cG s23_ContiguousArrayStorageC 5UIKit32NavigationBarPlatterContainer_v1C6update2to8animator26minimizeContentTransitionsySayAC0efN4ViewC07VisibleN0V0G0VG_AC0ef10TransitionH0C8AnimatorCSgSbtF11MitosisInfoL_V
+- _symbolic _____z_Xx So7CGPointV
+- _symbolic ytIgr_
+- _type_layout_string 5UIKit24NavigationBarContentViewC15PlatterMaterialV
+- _type_layout_string 5UIKit32NavigationBarPlatterContainer_v1C18AnimationSchedulerC09ScheduledG2IDV
+- _type_layout_string 5UIKit32NavigationBarPlatterContainer_v1C6update2to8animator26minimizeContentTransitionsySayAA0bcK4ViewC07VisibleK0V0D0VG_AA0bc10TransitionE0C8AnimatorCSgSbtF11MitosisInfoL_V
+- _type_layout_string 5UIKit47DataSourceBackedViewIntelligenceCollectionStateC0H0V
+- campoLightweightControllerShouldPresentCampo:.__s_category
+- get_witness_table 7SwiftUI21_GlassEffectContainerVyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVy5UIKit020NavigationBarPlatterI033_D21F6862B6368C9E67877AE45A908036LLVGAA7ForEachVySayAJ0N11ItemWrapperALLLVGAR2IDOAJ0lmnG0ALLLVGGGAA0G0HPyHC
+- get_witness_table 7SwiftUI7ForEachVys18EnumeratedSequenceVySay5UIKit12ToolbarModelC10PlacedItemVGGAJ17UniquePlacementIDVAA19_ConditionalContentVyAA08ModifiedP0VyARyARyAA6SpacerVAA16_FlexFrameLayoutVGAA21_TraitWritingModifierVyAA01_uV0VyAF03BarU10ElementKeyVGGGAA015_EnvironmentKeywX0VyAA4AxisOSgGGARyARyARyARyARyAA13_VariadicViewO4TreeVy_AA01_U4RootVyAF0hk17PaddingAdjustmentU033_CB802663395CF7995045D228EF1335E6LLVGARyAA4ViewPAAE19_glassEffectOverlay9alignment9isEnabled_QrAA9AlignmentV_Sbqd__yXEtAAA22_Rd__lFQOyA15_y_A17_yAF012OverlayChildU0A19_LLVGA23_AAE12visualEffectyQrqd__AA17EmptyVisualEffectV_AA13GeometryProxyVtYbcAA12VisualEffectRd__lFQOyA23_AAE22_glassEffectTransition_A26_QrAA22_GlassEffectTransitionV_SbtFQOyA23_AAE20glassDebugIdentifieryQrSSFQOyA23_AAE18_glassEffectZIndexyQrSdFQOyA23_AAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV0N0VtSHRd__lFQOyA23_AAE011glassEffectN0_2inQrA46__A50_tSHRd__s8SendableRd__lFQOyA23_AAE12_glassEffect_A52_QrAA6_GlassV_qd__tAA5ShapeRd__lFQOyARyA15_y_A17_yAF0hk10MinMaxSizeU033_0EB3D317F8C8F07D3E5251F6B1C8223BLLVGAA6HStackVyAA6IDViewVyARyAH0K4ViewVAYyAA010TransitionV3KeyVGGSOGGGAA8StaticIfVyAF02IsH19DebugOverlayEnabled33_015D270E8678C18A5BE55ECF17695743LLVAF0H11DebugBorderA78_LLVAA05EmptyX0VGG_AA8AnyShapeVQo__So011UIBarButtonK0CAFE0l8SemanticN0VQo__AH0j5GroupN0VQo__Qo__Qo__Qo__AAA37_PAAE6offsetyQrSo6CGSizeVFQOyA34__Qo_Qo_G_AF0H9BadgeView33_84BEBFF3C7C9B9D9FB2FA771D72A0ED1LLVSgQo_AF08Floatingyt10PreferenceX033_035608AF71C09E391F08A32076C66BC1LLVGGAA011_PreferencewX0VyAF0H30AccessibilityHUDItemPreference33_0065DB4BAA36163F154DE6E1AB537F5ELLVGGA3_GA10_GAYyAA06ZIndexV3KeyVGGAF0h17PocketEnvironmentX0A19_LLVGGGAAA22_HPA133_AAA22_HPA11_AAA22_HPA4_AAA22_HPAwAA22_HPAtAA22_HPyHC_AvA04ViewX0HPyHCHC_A3_AAA135_HPyHCHC_A10_AAA135_HPyHCHC_A132_AAA22_HPA129_AAA22_HPA125_AAA22_HPA124_AAA22_HPA123_AAA22_HPA116_AAA22_HPA21_AA22_VariadicView_ViewRootHPyHC_A115_AAA22_HPqd0__AAA22_HD3_A111_HO_A114_AAA135_HPyHCHCHC_A122_AAA135_HPyHCHC_A3_AAA135_HPyHCHC_A10_AAA135_HPyHCHC_A128_AAA135_HPyHCHC_A131_AAA135_HPyHCHCHC_HC
+- initWithDelegate:.onceToken
+CStrings:
++ "%s attempting to set hardwareKeyboardAttached = YES"
++ "%s svc = %p; gutterWidth = %f"
++ "+[UIListContentConfiguration _defaultConfigurationForGenericStyle:listStyle:state:traitCollection:]"
++ "-[_UISplitViewControllerAdaptiveImpl setGutterWidth:]"
++ "BOOL _UIListContentConfigurationStyleRequiresContainerMargins(_UIListContentConfigurationStyle)"
++ "BUG IN CLIENT OF UIKIT: Requesting a scene session with a UISceneConfiguration that has no session role. Create the configuration with an explicit session role when it is used for an activation request."
++ "Decoding session configuration of \"UISceneSessionRoleNone\", this is always an error."
++ "EnableDocumentLaunchDismissTransition"
++ "Found untracked presses that are not in the began phase. Recognizer: %@, state: %d, tracking %d press(es), untracked: %@"
++ "Found untracked presses that are not in the began phase. Recognizer: %@, state: %d, tracking %d press(es), untracked: %@This may leave views in an invalid state and user interaction might be impacted. This will become an assert in a future version."
++ "H:|-leftInset-[belowContentView]-rightInset-|"
++ "IATextInputActionsKeyboardTypeFloating"
++ "IATextInputActionsKeyboardTypeHardware"
++ "IATextInputActionsKeyboardTypeLandscape"
++ "IATextInputActionsKeyboardTypePortrait"
++ "IATextInputActionsKeyboardTypeSplit"
++ "Info.plist defined no configurations for %@ (looking for configuration named \"%@\")"
++ "KBaccessibilityOverrideLabel"
++ "Keyboard type requested off the main thread; reporting no keyboard type"
++ "Label in the candidate bar stating that the Smart Reply inserted into the text field was generated by AI"
++ "Lightweight UI caret: declining, WebKit returned no document context"
++ "Lightweight UI caret: declining, could not resolve the caret's line range"
++ "Lightweight UI caret: declining, selection is missing or ranged (hasRange=%{public}d)"
++ "Lightweight UI caret: declining, text input has no tokenizer (%{public}@)"
++ "Lightweight UI caret: isOnEmptyLine=%{public}d via WebKit document context (nothingBefore=%{public}d, nothingAfter=%{public}d, beforeLength=%lu, afterLength=%lu)"
++ "Lightweight UI caret: isOnEmptyLine=%{public}d via tokenizer (line length=%lu)"
++ "Lightweight UI disabled: _isIntelligentAssistantVisible trait is off for %{public}@"
++ "Lightweight UI disabled: unavailable (feature flag, Campo availability, or idiom)"
++ "Lightweight UI disabled: writingToolsBehavior is None"
++ "Lightweight UI launching Campo: state=%ld, isTrackingHover=%{public}d, sourceRect=%{public}@, presenterSource=%ld"
++ "Lightweight UI not presenting: already presented"
++ "Lightweight UI not presenting: awaiting pointer exit after a caret move"
++ "Lightweight UI not presenting: delegate declined"
++ "Lightweight UI not presenting: geometry moved while awaiting permission (sourceRect %{public}@ -> %{public}@, anchorRect %{public}@ -> %{public}@)"
++ "Lightweight UI not presenting: no configuration, hover tracking has stopped"
++ "Lightweight UI not presenting: no presenting view controller"
++ "Lightweight UI not presenting: permission answer superseded (asked as generation %lu, now %lu)"
++ "Lightweight UI not presenting: pointer left the presentation region while awaiting permission"
++ "Lightweight UI selection: declining, selection is below the minimum word count (length=%lu)"
++ "NSString *getIATextInputActionsKeyboardTypeFloating(void)"
++ "NSString *getIATextInputActionsKeyboardTypeHardware(void)"
++ "NSString *getIATextInputActionsKeyboardTypeLandscape(void)"
++ "NSString *getIATextInputActionsKeyboardTypePortrait(void)"
++ "NSString *getIATextInputActionsKeyboardTypeSplit(void)"
++ "Reply is AI Generated"
++ "SystemVerticalBarHorizontalEdge"
++ "T1"
++ "UIKBTreePropertyAccessibilityOverrideLabel"
++ "UINSWindowDragGateOpened"
++ "UISplitViewController internal inconsistency: unexpected attempt to complete transition which has already completed"
++ "V:|[contentView][belowContentView]|"
++ "WT Montara: reuse=%d (existingVC=%d canDeliverIntoExistingSession=%d)"
++ "[UITextInputSessionActionAnalytics] InputAnalytics predates SPI 35; dropping keyboard latency samples"
++ "[UITextInputSessionActionAnalytics] keyboard changed to '%{private}@' (%{private}@); reporting the latency samples collected so far"
++ "_UISmartReplyFeedbackInputDashboardView.replyIsAIGenerated"
++ "_hostParentRecedingStackOffset"
++ "_latestUserChosenDetentValue"
++ "_recedingStackOffset"
++ "belowContentView"
++ "campoLightweightControllerShouldPresentCampo:completionHandler: called with unexpected controller %{public}@"
++ "dragInitiation"
++ "edgesAbuttingAccessories"
++ "hover: presents"
++ "isPendingInfoPlistResolution"
++ "latestUserChosenDetentValue"
++ "latn"
++ "recedingStackOffset"
++ "requestedName"
++ "setHardwareKeyboardAttached: refused attached = YES; exclusivity identifiers do not match"
++ "userInterfaceStyle: "
++ "v16@?0@\"<_UIKeyboardInputScenePairingClientObserver>\"8"
++ "{type:%d source:%d}"
++ "\xf0\x93"
++ "\xf0\xf0\xf0\xf0q\xf0\x91\xc1\xf0!"
+- "%s hardwareKeyboardAttached = YES"
+- "(PlatterItemView in _9CA56689A405795ECF42D1731A87823B)"
+- "+[UIListContentConfiguration _defaultConfigurationForStyle:state:]"
+- "<PlatterAnimationView \""
+- "<SubviewContainerView \""
+- "Attempting to update a section using a mismatched model"
+- "Found untracked presses that are not in the began phase."
+- "Found untracked presses that are not in the began phase.This may leave views in an invalid state and user interaction might be impacted. This will become an assert in a future version."
+- "NavigationBarTransitionContainer.SectionView-"
+- "PlatterMaterial(smoothness: "
+- "S1"
+- "SwiftUINavigationBarContentViewEnabled"
+- "UIKit internal inconsistency: expected left or right edge for default content margin resolution"
+- "UIKitCore.AnimationView"
+- "UIKitCore.NavigationBarPlatterContainer_v1"
+- "UIKitCore.PlatterItemView"
+- "UIKitCore.SubviewContainerView"
+- "UIKitCore/NavigationBarPlatterContainer+PlatterView.swift"
+- "_latestUserChosenOffset"
+- "adjusting startOffset by %f for content size change from %f to %f"
+- "campoLightweightControllerShouldPresentCampo: called with unexpected controller %{public}@"
+- "dragInitiation (%@)"
+- "hover: source region"
+- "latestUserChosenOffset"
+- "pointer - early"
+- "\x92"
+- "\xf0R"
+- "\xf0\xf0\xf0\xf0q\xf0q\xc1\xf0!"
+```

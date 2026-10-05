@@ -1,0 +1,83 @@
+## CopresenceCore
+
+> `/System/Library/PrivateFrameworks/CopresenceCore.framework/Versions/A/CopresenceCore`
+
+```diff
+
+-309.200.41.0.0
+-  __TEXT.__text: 0x2d6fec
+-  __TEXT.__objc_methlist: 0x3294
++309.200.51.0.0
++  __TEXT.__text: 0x2d7128
++  __TEXT.__objc_methlist: 0x329c
+   __TEXT.__const: 0x167e4
+   __TEXT.__oslogstring: 0x10005
+   __TEXT.__cstring: 0x5f93
+
+   __TEXT.__swift_as_ret: 0x2a8
+   __TEXT.__swift_as_cont: 0x6a8
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0xc868
+-  __TEXT.__eh_frame: 0xd8c8
++  __TEXT.__unwind_info: 0xc878
++  __TEXT.__eh_frame: 0xd920
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x2c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1d38
++  __DATA_CONST.__objc_selrefs: 0x1d40
+   __DATA_CONST.__objc_protorefs: 0x1a8
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__got: 0xe10
++  __DATA_CONST.__got: 0xe08
+   __AUTH_CONST.__const: 0x11790
+   __AUTH_CONST.__cfstring: 0x800
+-  __AUTH_CONST.__objc_const: 0xaa68
+-  __AUTH_CONST.__auth_got: 0x1d38
++  __AUTH_CONST.__objc_const: 0xaa70
++  __AUTH_CONST.__auth_got: 0x1d40
+   __AUTH.__objc_data: 0xa08
+   __AUTH.__data: 0x3258
+   __DATA.__objc_ivar: 0x54
+-  __DATA.__data: 0x5f00
++  __DATA.__data: 0x5ef0
+   __DATA.__objc_stublist: 0x50
+   __DATA.__bss: 0x1add0
+   __DATA.__common: 0xc68
+   __DATA_DIRTY.__objc_data: 0x3ba8
+-  __DATA_DIRTY.__data: 0x6940
++  __DATA_DIRTY.__data: 0x6930
+   __DATA_DIRTY.__common: 0x4a8
+   __DATA_DIRTY.__bss: 0x880
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 16374
+-  Symbols:   33122
++  Functions: 16376
++  Symbols:   33123
+   CStrings:  1748
+ 
+Symbols:
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySS3key_yyKc5valuetG_Tg5157$s14CopresenceCore47_SharableObjectIdentifierKeyedEncodingContainer33_E889BDE102B72D706F1FB007A2508477LLC8finalizeyyKFSbSS3key_yyKc5valuet_SSAF_yyKcAGttXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVys6UInt64VG_Tg5
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s10_NativeSetVy14CopresenceCore15ActivitySessionCG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxv12_YKXEfU_s10_kl4Vy14m6Core15op5CG_s5Q4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAqOIsgyrzr_Tf1nc_n06$ss10_kl29V6filteryAByxGSbxqd__YKXEqd__xi12Rd__lFADs13_ab14Vqd__YKXEfU_14m6Core15op4C_s5Q4OTG5AOxSbq_Ri_zRi0_zRi__Ri0__r0_lyAnQIsgndzr_Tf1nc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySS10Foundation4DateVG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt12_YKXEfU_s17_kl17VySS10Foundation4n5VG_s5O4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAqOIsgyrzr_Tf1nc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySS10Foundation4DateVG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt12_YKXEfU_s17_kl17VySS10Foundation4n5VG_s5O4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAqOIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__vi12Rd__lFADs13_ab5Vqd__y18U_SS_10Foundation4n3Vs5O4OTG5AOxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSAnQIsgnndzr_Tf1nc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVys6UInt64VSayAMGG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxs12_YKXEfU_s17_kl4Vys6m11VSayAJGG_s5N4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAqOIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__ui12Rd__lFADs13_ab5Vqd__x4U_s6m10V_SayAKGs5N4OTG5AOxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmnQIsgnndzr_Tf1nc_n
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_10Foundation4DateVs5NeverOTG5TA
+- _$s10Foundation4DateVACSLAAWL
+- _$s10Foundation4DateVSLAAMc
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS3key_yyKc5valuet_Tg50144$s14CopresenceCore47_SharableObjectIdentifierKeyedEncodingContainer33_E889BDE102B72D706F1FB007A2508477LLC8finalizeyyKFSbSS3key_yyKc5valuet_SSAF_Z11KcAGttXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFs6UInt64V_Tg5
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s10_NativeSetVy14CopresenceCore15ActivitySessionCG_s5NeverOTg506$ss10_kl33V6filteryAByxGSbxqd__YKXEqd__YKs5i12Rd__lFADs13_ab14Vqd__YKXEfU_14m6Core15op4C_s5Q4OTG5AOxSbq_Ri_zRi0_zRi__Ri0__r0_lyAnQIsgndzr_Tf1nc_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySS10Foundation4DateVG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab28Vqd__YKXEfU_SS_10Foundation4n3Vs5O4OTG5AOxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSAnQIsgnndzr_Tf1nc_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVys6UInt64VSayAMGG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab14Vqd__YKXEfU_s6m10V_SayAKGs5N4OTG5AOxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmnQIsgnndzr_Tf1nc_n
+```

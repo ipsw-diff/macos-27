@@ -1,0 +1,309 @@
+## SILManager
+
+> `/System/Library/PrivateFrameworks/SILManager.framework/Versions/A/SILManager`
+
+```diff
+
+-68.6.0.0.0
+-  __TEXT.__text: 0x63340
++68.8.1.0.0
++  __TEXT.__text: 0x69244
+   __TEXT.__objc_methlist: 0x740
+-  __TEXT.__const: 0x4c5c
+-  __TEXT.__cstring: 0x2757
+-  __TEXT.__oslogstring: 0x277b
+-  __TEXT.__gcc_except_tab: 0x7a4
+-  __TEXT.__swift5_typeref: 0xbc6
++  __TEXT.__const: 0x4e4c
++  __TEXT.__cstring: 0x2917
++  __TEXT.__oslogstring: 0x2a42
++  __TEXT.__gcc_except_tab: 0x7cc
++  __TEXT.__swift5_typeref: 0xc6c
+   __TEXT.__swift5_capture: 0x140
+-  __TEXT.__swift5_reflstr: 0x11d7
++  __TEXT.__swift5_reflstr: 0x13dc
+   __TEXT.__swift5_assocty: 0x1b8
+-  __TEXT.__constg_swiftt: 0x1628
+-  __TEXT.__swift5_fieldmd: 0x1664
++  __TEXT.__constg_swiftt: 0x16f8
++  __TEXT.__swift5_fieldmd: 0x1884
+   __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift5_proto: 0x184
+-  __TEXT.__swift5_types: 0x154
++  __TEXT.__swift5_proto: 0x194
++  __TEXT.__swift5_types: 0x164
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x1878
+-  __TEXT.__eh_frame: 0x1570
++  __TEXT.__unwind_info: 0x1980
++  __TEXT.__eh_frame: 0x1720
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+   __DATA_CONST.__objc_selrefs: 0x480
+-  __DATA_CONST.__got: 0x230
+-  __AUTH_CONST.__const: 0x2838
++  __DATA_CONST.__got: 0x238
++  __AUTH_CONST.__const: 0x2ae0
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x2198
++  __AUTH_CONST.__objc_const: 0x21d8
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__auth_got: 0xb40
+-  __DATA.__data: 0x578
+-  __DATA.__bss: 0x24c0
+-  __DATA.__common: 0x30
++  __AUTH_CONST.__auth_got: 0xb60
++  __DATA.__data: 0x5a8
++  __DATA.__bss: 0x26d0
++  __DATA.__common: 0x34
+   __DATA_DIRTY.__objc_data: 0xd58
+-  __DATA_DIRTY.__data: 0x1378
++  __DATA_DIRTY.__data: 0x13e0
+   __DATA_DIRTY.__bss: 0xcb0
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1718
+-  Symbols:   4281
+-  CStrings:  497
++  Functions: 1789
++  Symbols:   4430
++  CStrings:  514
+ 
+Symbols:
++ $s10SILManager0A15CommittedSwapTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0K7MessageVnAJYKXEfU_TA
++ $s10SILManager0A15SwapEndResultTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_TA
++ $s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvM.resume
++ $s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvM.resume
++ $s10SILManager15g_bakedFillLock33_218A6A42BD54406E011163ED9EC808F6LL2os017OSAllocatedUnfairD0VySDySOs5UInt8VG5alpha_SDySOs6UInt32VG5colortGvp
++ GCC_except_table118
++ GCC_except_table128
++ GCC_except_table13
++ GCC_except_table141
++ GCC_except_table144
++ GCC_except_table152
++ GCC_except_table154
++ GCC_except_table160
++ GCC_except_table173
++ GCC_except_table44
++ GCC_except_table49
++ GCC_except_table52
++ GCC_except_table70
++ GCC_except_table72
++ GCC_except_table74
++ GCC_except_table77
++ GCC_except_table83
++ GCC_except_table96
++ GCC_except_table99
++ SILManagerSwapEndGetCommitted
++ _$s10SILManager0A15CommittedSwapTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0K7MessageVnAJYKXEfU_
++ _$s10SILManager0A15CommittedSwapTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0K7MessageVnAJYKXEfU_TA
++ _$s10SILManager0A15CommittedSwapTBV15unsafeUnmarshal4fromACSrys5UInt8VG_tSo10tb_error_taYKFZAC9Tightbeam0K7MessageVnAJYKXEfU_
++ _$s10SILManager0A15CommittedSwapTBV6region14indicator_type8center_x0H2_y8bounds_w0I2_h7opacity10z_rotation4blur11glyph_scale18soft_boundary_size0o1_p1_J014surface_extent5dst_x0T2_y10fill_colorACs5UInt8V_s6UInt32VS10fAWs5Int32VAyWtcfC
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E11MarshalableAAMc
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E11MarshalableAAMcMK
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E11MarshalableAadEP13marshaledSize2ofSix_tFZTW
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E11MarshalableAadEP13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFTW
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E13UnmarshalableAAMc
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E13UnmarshalableAAMcMK
++ _$s10SILManager0A15CommittedSwapTBV9Tightbeam0E13UnmarshalableAadEP15unsafeUnmarshal4fromxSrys5UInt8VG_tSo10tb_error_taYKFZTW
++ _$s10SILManager0A15CommittedSwapTBVMF
++ _$s10SILManager0A15CommittedSwapTBVMa
++ _$s10SILManager0A15CommittedSwapTBVMf
++ _$s10SILManager0A15CommittedSwapTBVMn
++ _$s10SILManager0A15CommittedSwapTBVN
++ _$s10SILManager0A15CommittedSwapTBVWV
++ _$s10SILManager0A15CommittedSwapTBVwet
++ _$s10SILManager0A15CommittedSwapTBVwst
++ _$s10SILManager0A15SwapEndResultTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s10SILManager0A15SwapEndResultTBV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_TA
++ _$s10SILManager0A15SwapEndResultTBV15unsafeUnmarshal4fromACSrys5UInt8VG_tSo10tb_error_taYKFZAC9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F11MarshalableAAMc
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F11MarshalableAAMcMK
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F11MarshalableAadEP13marshaledSize2ofSix_tFZTW
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F11MarshalableAadEP13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFTW
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F13UnmarshalableAAMc
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F13UnmarshalableAAMcMK
++ _$s10SILManager0A15SwapEndResultTBV9Tightbeam0F13UnmarshalableAadEP15unsafeUnmarshal4fromxSrys5UInt8VG_tSo10tb_error_taYKFZTW
++ _$s10SILManager0A15SwapEndResultTBVMF
++ _$s10SILManager0A15SwapEndResultTBVMa
++ _$s10SILManager0A15SwapEndResultTBVMf
++ _$s10SILManager0A15SwapEndResultTBVMn
++ _$s10SILManager0A15SwapEndResultTBVN
++ _$s10SILManager0A15SwapEndResultTBVWV
++ _$s10SILManager0A15SwapEndResultTBVwet
++ _$s10SILManager0A15SwapEndResultTBVwst
++ _$s10SILManager11SILRendererC11dumpSwapEnd33_218A6A42BD54406E011163ED9EC808F6LLyyF
++ _$s10SILManager11SILRendererC12SwapGeometryVMF
++ _$s10SILManager11SILRendererC12SwapGeometryVMa
++ _$s10SILManager11SILRendererC12SwapGeometryVMf
++ _$s10SILManager11SILRendererC12SwapGeometryVMn
++ _$s10SILManager11SILRendererC12SwapGeometryVN
++ _$s10SILManager11SILRendererC12SwapGeometryVWV
++ _$s10SILManager11SILRendererC12SwapGeometryVwet
++ _$s10SILManager11SILRendererC12SwapGeometryVwst
++ _$s10SILManager11SILRendererC14bakedFillColor33_218A6A42BD54406E011163ED9EC808F6LL2ofs6UInt32VSgAA16SILIndicatorDescC_tF
++ _$s10SILManager11SILRendererC14committedSwapss6UInt32V4mask_SayAA0A15CommittedSwapTBVG5swapstyF
++ _$s10SILManager11SILRendererC14committedSwapss6UInt32V4mask_SayAA0A15CommittedSwapTBVG5swapstyFTq
++ _$s10SILManager11SILRendererC15deriveFillColor33_218A6A42BD54406E011163ED9EC808F6LL2ofs5Int64VAA16SILIndicatorDescC_tF
++ _$s10SILManager11SILRendererC19CONTRAST_RING_ALPHASfvpZ
++ _$s10SILManager11SILRendererC19CONTRAST_RING_ALPHA_WZ
++ _$s10SILManager11SILRendererC19CONTRAST_RING_ALPHA_Wz
++ _$s10SILManager11SILRendererC19computeSwapGeometry9indicator12softBoundary6center13displayExtent03minD4SizeAC0dE0VAA16SILIndicatorDescC_AMSgSo7CGPointVSo6CGSizeVSitFZTf4nnnnnd_n
++ _$s10SILManager11SILRendererC25resolvedSoftBoundaryFrame09indicatorF4Size0G004softE0So12SILFrameDescVSf_AA012SILIndicatorK0CAKtFZTf4ndnd_n
++ _$s10SILManager11SILRendererC26bakedFillSoftBoundaryAlpha33_218A6A42BD54406E011163ED9EC808F6LL2ofs5UInt8VSgAA16SILIndicatorDescC_tF
++ _$s10SILManager11SILRendererC27deriveSoftBoundaryFillAlpha33_218A6A42BD54406E011163ED9EC808F6LL2ofs5Int64VAA16SILIndicatorDescC_tF
++ _$s10SILManager12SILValidatorC14CommittedStateV13indicatorType6center4size7opacity9zRotation4blur10glyphScale16softBoundarySize0nO7Opacity13surfaceExtent4dstX0T1Y9fillColorAEs6UInt32V_So7CGPointVS7fATs5Int32VAxTtcfC
++ _$s10SILManager12SILValidatorC14CommittedStateVMF
++ _$s10SILManager12SILValidatorC14CommittedStateVMa
++ _$s10SILManager12SILValidatorC14CommittedStateVMf
++ _$s10SILManager12SILValidatorC14CommittedStateVMn
++ _$s10SILManager12SILValidatorC14CommittedStateVN
++ _$s10SILManager12SILValidatorC14CommittedStateVSgMR
++ _$s10SILManager12SILValidatorC14CommittedStateVSgMd
++ _$s10SILManager12SILValidatorC14CommittedStateVWV
++ _$s10SILManager12SILValidatorC14CommittedStateVwet
++ _$s10SILManager12SILValidatorC14CommittedStateVwst
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvM
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvMTq
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvg
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvgTq
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvpWvd
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvs
++ _$s10SILManager12SILValidatorC23committedStatePerRegionSayAC09CommittedD0VSgGvsTq
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvM
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvMTq
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvg
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvgTq
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvpWvd
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvs
++ _$s10SILManager12SILValidatorC26firstSwapOpacityForcedZeroSbvsTq
++ _$s10SILManager15g_bakedFillLock33_218A6A42BD54406E011163ED9EC808F6LL_WZ
++ _$s10SILManager15g_bakedFillLock33_218A6A42BD54406E011163ED9EC808F6LL_Wz
++ _$s10SILManager8RotationOwetTm
++ _$s10SILManager8RotationOwstTm
++ _$s10SILManagerAAC25SwapEndGetCommittedResult33_59085B0D8BFEE465D173AFC15EE612ACLLOWOe
++ _$s9Tightbeam0A15DecoderProtocolP10SILManagerRi_zrlE6decode33_59085B0D8BFEE465D173AFC15EE612ACLL2asAD0D15SwapEndResultTBVAIm_tSo10tb_error_taYKFAA0aB0V_Ttg5
++ _$s9Tightbeam0A15DecoderProtocolP6decode2ass5UInt8VAGm_tFTj
++ _$s9Tightbeam0A15EncoderProtocolP10SILManagerRi_zrlE6encode33_59085B0D8BFEE465D173AFC15EE612ACLLyyAD0D15SwapEndResultTBVSo10tb_error_taYKFAA0aB0V_Tg5
++ _$s9Tightbeam0A7MessageV10SILManagerE4size33_59085B0D8BFEE465D173AFC15EE612ACLLySiAD0C15SwapEndResultTBVSo10tb_error_taYKFZTf4nd_nTf4x_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_Say10SILManager16SILIndicatorDescCG_Tg50124$s10SILManager11SILManifestC18manifestFromPlists6plists12enableCursor10deviceTypeACSgSayAA13SILFileHandle_pG_SbSSSgtFZSbAA16eF11C_AMtXEfU3_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_Say10SILManager26SILFlipBookTransitionPointCG_Tg5016$s10SILManager26efgH70C05parseD6PointsySayACGSayAA9FrameDescCG_SDySSSaySiGGtKFZSbAC_ACtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySS3key_10SILManager13SILCursorDescC5valuetG_Tg5069$s10SILManager11SILManifestC10indicators7cursorsACSayAA16SILIndicatori10CG_SayAA09H58F0CGtcfcAKSDySSAJGXEfU1_SbSS3key_AJ5valuet_SSAM_AjNttXEfU_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySSG_Tg5
++ _$sSON
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager0O15CommittedSwapTBV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager11SILRendererC6RegionC11PageContentV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC14CommittedStateVSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF10SILManager12SILValidatorC14CommittedStateVSg_Tg5
++ _$ss13ManagedBufferCySDySOs5UInt8VG5alpha_SDySOs6UInt32VG5colortSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySDySOs5UInt8VG5alpha_SDySOs6UInt32VG5colortSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10SILManager0N15CommittedSwapTBV_Tg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSO_s5UInt8VTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSO_s6UInt32VTg5
++ _$ss17_NativeDictionaryV4copyyyFSO_s5UInt8VTg5
++ _$ss17_NativeDictionaryV4copyyyFSO_s6UInt32VTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_s5UInt8VTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_s6UInt32VTg5
++ _$ss18_DictionaryStorageCySOs5UInt8VGMR
++ _$ss18_DictionaryStorageCySOs5UInt8VGMd
++ _$ss18_DictionaryStorageCySOs6UInt32VGMR
++ _$ss18_DictionaryStorageCySOs6UInt32VGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager0P15CommittedSwapTBV_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSi_Tg5Tm
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSO_Tg5
++ _$ss23_ContiguousArrayStorageCy10SILManager0D15CommittedSwapTBVGMR
++ _$ss23_ContiguousArrayStorageCy10SILManager0D15CommittedSwapTBVGMd
++ _$ss23_ContiguousArrayStorageCy10SILManager12SILValidatorC14CommittedStateVSgGMR
++ _$ss23_ContiguousArrayStorageCy10SILManager12SILValidatorC14CommittedStateVSgGMd
++ _SILManagerSwapEndGetCommitted
++ _Z29SILServer_swapEndGetCommittedhybP23SILManagerCommittedSwapPj
++ __Z29SILServer_swapEndGetCommittedhybP23SILManagerCommittedSwapPj
++ ____ZL17do_tightbeam_callI38silmanager_silmanagerswapendresulttb_s51silmanager_silmanager_swapendgetcommitted__result_sPF10tb_error_tPK23silmanager_silmanager_shybU13block_pointerFvS1_EEPFPS0_PS1_EPFP21silmanager_silerror_sSB_EJPS3_RhRyRbEENSt3__14pairI15SILManagerErrorT_EEPKcT1_T2_T3_DpOT4__block_invoke
++ ___block_descriptor_56_e8_32r_e171_v276?0{silmanager_silmanager_swapendgetcommitted__result_s=C(?=I{silmanager_silmanagerswapendresulttb_s=II[4{silmanager_silmanagercommittedswaptb_s=CIffffffffffIiiI}]})}8l
++ ___swift_memcpy56_8
++ ___swift_memcpy64_4
++ ___swift_memcpy68_8
++ ___swift_memcpy98_8
++ _silmanager_silmanager_swapendgetcommitted
++ _silmanager_silmanager_swapendgetcommitted__result_get_failure
++ _silmanager_silmanager_swapendgetcommitted__result_get_success
++ _silmanager_silmanagerswapendresulttb__decode
++ _symbolic Say_____G 10SILManager0A15CommittedSwapTBV
++ _symbolic Say_____SgG 10SILManager12SILValidatorC14CommittedStateV
++ _symbolic _____ 10SILManager0A15CommittedSwapTBV
++ _symbolic _____ 10SILManager0A15SwapEndResultTBV
++ _symbolic _____ 10SILManager11SILRendererC12SwapGeometryV
++ _symbolic _____ 10SILManager12SILValidatorC14CommittedStateV
++ _symbolic _____Sg 10SILManager12SILValidatorC14CommittedStateV
++ _symbolic _____ySDySO_____G5alpha_SDySO_____G5colort_____G s13ManagedBufferCsRi__rlE s5UInt8V s6UInt32V So16os_unfair_lock_sV
++ _symbolic _____ySO_____G s18_DictionaryStorageC s5UInt8V
++ _symbolic _____ySO_____G s18_DictionaryStorageC s6UInt32V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10SILManager0D15CommittedSwapTBV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10SILManager12SILValidatorC14CommittedStateV
++ _tb_message_raw_decode_f32
++ _tb_message_raw_decode_s32
++ _tb_message_raw_decode_u8
++ _type_layout_string 10SILManager0A15CommittedSwapTBV
++ _type_layout_string 10SILManager0A15SwapEndResultTBV
++ _type_layout_string 10SILManager11SILRendererC12SwapGeometryV
++ _type_layout_string 10SILManager12SILValidatorC14CommittedStateV
++ silmanager_silmanager_swapendgetcommitted
+- GCC_except_table117
+- GCC_except_table127
+- GCC_except_table140
+- GCC_except_table143
+- GCC_except_table151
+- GCC_except_table153
+- GCC_except_table159
+- GCC_except_table172
+- GCC_except_table43
+- GCC_except_table48
+- GCC_except_table50
+- GCC_except_table69
+- GCC_except_table7
+- GCC_except_table71
+- GCC_except_table73
+- GCC_except_table76
+- GCC_except_table82
+- GCC_except_table94
+- GCC_except_table98
+- _$s10SILManager11SILRendererC11dumpSwapEnd33_218A6A42BD54406E011163ED9EC808F6LLyys6UInt64V_SbtFTf4ddn_n
+- _$s10SILManager12SwapWaitTypeOwetTm
+- _$s10SILManager12SwapWaitTypeOwstTm
+- _$s10SILManager8RotationO8rawValueACSgs5UInt8V_tcfCTf4nd_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10SILManager16SILIndicatorDescC_Tg50124$s10SILManager11SILManifestC18manifestFromPlists6plists12enableCursor10deviceTypeACSgSayAA13SILFileHandle_pG_SbSSSgtFZSbAA16fG11C_AMtXEfU3_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10SILManager26SILFlipBookTransitionPointC_Tg5016$s10SILManager26fghI70C05parseD6PointsySayACGSayAA9FrameDescCG_SDySSSaySiGGtKFZSbAC_ACtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS3key_10SILManager13SILCursorDescC5valuet_Tg5069$s10SILManager11SILManifestC10indicators7cursorsACSayAA16SILIndicatorh10CG_SayAA09G58F0CGtcfcAKSDySSAJGXEfU1_SbSS3key_AJ5valuet_SSAM_AjNttXEfU_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager11SILRendererC6RegionC11PageContentV_Tg5
+- ___swift_memcpy97_8
+CStrings:
++ ": incorrect fixed-sized array length, expected 4, got "
++ "MGRID%hhu: %s centre pixel is transparent"
++ "MGRID%hhu: %s fill alpha decode failed"
++ "MGRID%hhu: %s fill alpha read failed, will retry"
++ "MGRID%hhu: %s fill colour decode failed"
++ "MGRID%hhu: %s fill colour read failed, will retry"
++ "MGRID%hhu: %s frame %f centre pixel is transparent"
++ "MGRID%hhu: %s has no frame large enough to derive from"
++ "MGRID%hhu: %s is alphaOnly with no opaqueFillColor"
++ "MGRID%hhu: First swap for indicator %ld in region %ld is at opacity %f (M)"
++ "MGRID%hhu: bakedFillSoftBoundaryAlpha should not be called for %s"
++ "MGRID%hhu: stall from system load during ramp up: holding region %ld steady (frame %hu->%hu, opacity %s->%s)"
++ "MGRID%u: committed layout mismatch: Caller %zu regions x %zu bytes vs SILMgr %u x %zu"
++ "SILServer_swapEndGetCommitted"
++ "TB_FATAL: invalid result returned from swapEndGetCommitted"
++ "TB_FATAL: invalid result returned from swapEndGetCommitted (%s:%d)\n"
++ "swapEndGetCommitted threw an unexpected error type"
++ "v276@?0{silmanager_silmanager_swapendgetcommitted__result_s=C(?=I{silmanager_silmanagerswapendresulttb_s=II[4{silmanager_silmanagercommittedswaptb_s=CIffffffffffIiiI}]})}8"
+- "MGRID%hhu: stall from system load during Unsteady: holding region %ld steady (frame %hu->%hu, opacity %s->%s)"
+```
