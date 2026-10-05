@@ -1,0 +1,28 @@
+## agx_a020
+
+> `Firmware/agx/armfw_g17x.im4p/agx_a020`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__DATA.__const`
+- `__DATA.__mod_init_func`
+
+```diff
+
+-  __TEXT.__text: 0x3d754
+-  __TEXT.__gxf_code: 0x4f40
++  __TEXT.__text: 0x3d7e8
++  __TEXT.__gxf_code: 0x4f50
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x560
+   __TEXT.__const: 0x11d5
+Functions:
+~ sub_fffffc00000393b4 : 432 -> 468
+~ sub_fffffc0000039564 -> sub_fffffc0000039588 : 428 -> 540
+~ sub_fffffc000003d610 -> sub_fffffc000003d6a4 : 324 -> 332
+CStrings:
++ "Sep 29 2026 21:34:25"
+- "Sep 13 2026 19:16:17"
+```

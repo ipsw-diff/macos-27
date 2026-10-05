@@ -1,0 +1,139 @@
+## WorkflowEditor
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowEditor.framework/Versions/A/WorkflowEditor`
+
+```diff
+
+-5111.0.1.0.0
+-  __TEXT.__text: 0x1f35b0
+-  __TEXT.__objc_methlist: 0x97a4
+-  __TEXT.__const: 0x180e0
++5113.0.1.1.2
++  __TEXT.__text: 0x1f5014
++  __TEXT.__objc_methlist: 0x97bc
++  __TEXT.__const: 0x18140
+   __TEXT.__dlopen_cstrs: 0x52
+-  __TEXT.__swift5_typeref: 0x197f8
+-  __TEXT.__swift5_capture: 0x4788
+-  __TEXT.__cstring: 0x6906
+-  __TEXT.__constg_swiftt: 0xa3fc
+-  __TEXT.__swift5_reflstr: 0x58fc
+-  __TEXT.__swift5_fieldmd: 0x5990
++  __TEXT.__swift5_typeref: 0x197a8
++  __TEXT.__swift5_capture: 0x47c8
++  __TEXT.__cstring: 0x6996
++  __TEXT.__constg_swiftt: 0xa458
++  __TEXT.__swift5_reflstr: 0x592c
++  __TEXT.__swift5_fieldmd: 0x59b8
+   __TEXT.__swift5_builtin: 0x30c
+   __TEXT.__swift5_assocty: 0x1880
+-  __TEXT.__swift5_proto: 0x804
+-  __TEXT.__swift5_types: 0x678
+-  __TEXT.__oslogstring: 0x1572
++  __TEXT.__swift5_proto: 0x810
++  __TEXT.__swift5_types: 0x67c
++  __TEXT.__oslogstring: 0x15a2
+   __TEXT.__swift_as_entry: 0x188
+   __TEXT.__swift_as_cont: 0x210
+   __TEXT.__swift5_protos: 0x54
+
+   __TEXT.__swift5_mpenum: 0x50
+   __TEXT.__gcc_except_tab: 0x44c
+   __TEXT.__ustring: 0x15e
+-  __TEXT.__unwind_info: 0xa708
+-  __TEXT.__eh_frame: 0x4694
++  __TEXT.__unwind_info: 0xa7b0
++  __TEXT.__eh_frame: 0x471c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x1a0
+   __DATA_CONST.__objc_protolist: 0x4f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6390
++  __DATA_CONST.__objc_selrefs: 0x6398
+   __DATA_CONST.__objc_protorefs: 0x208
+   __DATA_CONST.__objc_superrefs: 0x180
+   __DATA_CONST.__objc_arraydata: 0x98
+-  __DATA_CONST.__got: 0x2210
+-  __AUTH_CONST.__const: 0x11bc8
++  __DATA_CONST.__got: 0x2258
++  __AUTH_CONST.__const: 0x11cb0
+   __AUTH_CONST.__cfstring: 0x16c0
+-  __AUTH_CONST.__objc_const: 0x123e0
++  __AUTH_CONST.__objc_const: 0x12400
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH_CONST.__auth_got: 0x3450
+-  __AUTH.__objc_data: 0x85a0
+-  __AUTH.__data: 0x5a30
++  __AUTH_CONST.__auth_got: 0x3458
++  __AUTH.__objc_data: 0x85b8
++  __AUTH.__data: 0x5a70
+   __DATA.__objc_ivar: 0x544
+-  __DATA.__data: 0xb6d8
++  __DATA.__data: 0xb6c8
+   __DATA.__objc_stublist: 0x10
+-  __DATA.__bss: 0xf870
++  __DATA.__bss: 0xf9e0
+   __DATA.__common: 0x210
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__bss: 0x10
+
+   - /System/Library/PrivateFrameworks/ContentKit.framework/Versions/A/ContentKit
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji
+   - /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/CoreRecents
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/Versions/A/LinkServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15345
+-  Symbols:   10879
+-  CStrings:  868
++  Functions: 15390
++  Symbols:   10883
++  CStrings:  873
+ 
+Symbols:
++ __swift_closure_destructor.33Tm
++ __swift_closure_destructor.4Tm
++ __swift_closure_destructor.506Tm
++ __swift_closure_destructor.92Tm
++ _associated conformance 14WorkflowEditor18PhotosFeatureFlags33_1BB0B710A502F6D385CE44360909B4CFLLOSHAASQ
++ _objc_msgSend$customOutputName
++ _symbolic _____ 14WorkflowEditor18PhotosFeatureFlags33_1BB0B710A502F6D385CE44360909B4CFLLO
++ _symbolic _____yAAyAAy__________yACyACy__________y_____SgGGAEy_____SgGG_____GGAAyAB_____yAAyAAyACyACyACyAD_____GANG_____yAJGGACyAT_____yA2JGGGAAyACyAT_____yA3JGGATGGGGGAAyAbCy_____y_____AJGANGGG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioR0V AA016_ForegroundStyleN0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeH0V AA16RoundedRectangleV
++ _symbolic _____yAAy__________yACyACy__________y_____SgGGAEy_____SgGG_____GGAAyAB_____yAAyAAyACyACyACyAD_____GANG_____yAJGGACyAT_____yA2JGGGAAyACyAT_____yA3JGGATGGGGG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioR0V AA016_ForegroundStyleN0V AA01_vW9Modifier2V AA01_vW9Modifier3V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents26_IntentPhotoItemCollectionV10PickerModeO
++ _symbolic _____y__________yAAyAAy_____yADyADy__________G_____G_____y_____GGADyAI_____yA2KGGGAAyADyAI_____yA3KGGAIGGGG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA5GroupV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameN0V AA24_ForegroundStyleModifierV AA5ColorV AA01_pQ9Modifier2V AA01_pQ9Modifier3V
++ _symbolic _____y__________y_____yADy_____yAEyAEy__________G_____G_____y_____GGAEyAJ_____yA2LGGGADyAEyAJ_____yA3LGGAJGGG_G 7SwiftUI19_ConditionalContentV7StorageO 18WorkflowUIServices8IconViewV AA5GroupV AC AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameO0V AA24_ForegroundStyleModifierV AA5ColorV AA01_qR9Modifier2V AA01_qR9Modifier3V
++ _symbolic _____y_____yAByABy__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByAcAyAByAByADyADyADyAE_____GAOG_____yAKGGADyAT_____yA2KGGGAByADyAT_____yA3KGGATGGGGGAByAcDy_____y_____AKGAOGGGG 7SwiftUI5GroupV AA19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeI0V AA16RoundedRectangleV
++ _symbolic _____y_____yABy__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByAC_____yAByAByADyADyADyAE_____GAOG_____yAKGGADyAU_____yA2KGGGAByADyAU_____yA3KGGAUGGGGGAByAcDy_____y_____AKGAOGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_wX9Modifier2V AA01_wX9Modifier3V AA06_ShapeI0V AA16RoundedRectangleV
++ _symbolic _____y_____y__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByAC_____yAByAByADyADyADyAE_____GAOG_____yAKGGADyAU_____yA2KGGGAByADyAU_____yA3KGGAUGGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_wX9Modifier2V AA01_wX9Modifier3V
++ _symbolic _____y_____y_____yACyACy_____AAyAAyAAy__________y_____SgGGAFy_____SgGG_____GGACyAdByACyACyAAyAAyAAyAE_____GAOG_____yAKGGAAyAT_____yA2KGGGACyAAyAT_____yA3KGGATGGGGGACyAdAy_____y_____AKGAOGGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 18WorkflowUIServices8IconViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeJ0V AA16RoundedRectangleV AA16_GrayscaleEffectV
+- __swift_closure_destructor.30Tm
+- __swift_closure_destructor.505Tm
+- __swift_closure_destructor.89Tm
+- _symbolic _____yAAyAAy__________yACyACy__________y_____SgGGAEy_____SgGG_____GGAAyACyAbEySbGG_____yAAyAAyACyACyACyAD_____GANG_____yAJGGACyAV_____yA2JGGGAAyACyAV_____yA3JGGAVGGGGGAAyAbCy_____y_____AJGANGGG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioR0V AA016_ForegroundStyleN0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeH0V AA16RoundedRectangleV
+- _symbolic _____yAAy__________yACyACy__________y_____SgGGAEy_____SgGG_____GGAAyACyAbEySbGG_____yAAyAAyACyACyACyAD_____GANG_____yAJGGACyAV_____yA2JGGGAAyACyAV_____yA3JGGAVGGGGG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioR0V AA016_ForegroundStyleN0V AA01_vW9Modifier2V AA01_vW9Modifier3V
+- _symbolic _____y__________ySbGG 7SwiftUI15ModifiedContentV 18WorkflowUIServices8IconViewV AA30_EnvironmentKeyWritingModifierV
+- _symbolic _____y_____yAByABy__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByADyAcFySbGGAAyAByAByADyADyADyAE_____GAOG_____yAKGGADyAV_____yA2KGGGAByADyAV_____yA3KGGAVGGGGGAByAcDy_____y_____AKGAOGGGG 7SwiftUI5GroupV AA19_ConditionalContentV 18WorkflowUIServices8IconViewV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeI0V AA16RoundedRectangleV
+- _symbolic _____y_____yABy__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByADyAcFySbGG_____yAByAByADyADyADyAE_____GAOG_____yAKGGADyAW_____yA2KGGGAByADyAW_____yA3KGGAWGGGGGAByAcDy_____y_____AKGAOGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_wX9Modifier2V AA01_wX9Modifier3V AA06_ShapeI0V AA16RoundedRectangleV
+- _symbolic _____y_____y__________yADyADy__________y_____SgGGAFy_____SgGG_____GGAByADyAcFySbGG_____yAByAByADyADyADyAE_____GAOG_____yAKGGADyAW_____yA2KGGGAByADyAW_____yA3KGGAWGGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 18WorkflowUIServices8IconViewV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA5GroupV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_wX9Modifier2V AA01_wX9Modifier3V
+- _symbolic _____y_____y__________ySbGG_____yAAyAAyAByAByABy__________G_____G_____y_____GGAByAL_____yA2NGGGAAyAByAL_____yA3NGGALGGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 18WorkflowUIServices8IconViewV AA30_EnvironmentKeyWritingModifierV AA5GroupV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA016_ForegroundStyleM0V AA5ColorV AA01_tU9Modifier2V AA01_tU9Modifier3V
+- _symbolic _____y_____y__________ySbGG_____y_____yAHyAByAByABy__________G_____G_____y_____GGAByAM_____yA2OGGGAHyAByAM_____yA3OGGAMGGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 18WorkflowUIServices8IconViewV AA30_EnvironmentKeyWritingModifierV AA5GroupV AC AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA016_ForegroundStyleN0V AA5ColorV AA01_uV9Modifier2V AA01_uV9Modifier3V
+- _symbolic _____y_____y_____yACyACy_____AAyAAyAAy__________y_____SgGGAFy_____SgGG_____GGACyAAyAdFySbGGAByACyACyAAyAAyAAyAE_____GAOG_____yAKGGAAyAV_____yA2KGGGACyAAyAV_____yA3KGGAVGGGGGACyAdAy_____y_____AKGAOGGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 18WorkflowUIServices8IconViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeJ0V AA16RoundedRectangleV AA16_GrayscaleEffectV
+CStrings:
++ "Photos"
++ "Rename “%@”"
++ "SharedCollectionsWidget"
++ "Undo message when renaming the output variable of an action. %@ = action name"
++ "Undoing output rename for action:%s"
+```

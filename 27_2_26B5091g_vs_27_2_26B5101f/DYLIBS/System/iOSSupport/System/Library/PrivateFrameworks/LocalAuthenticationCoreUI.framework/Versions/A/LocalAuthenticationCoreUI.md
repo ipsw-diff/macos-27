@@ -1,0 +1,20 @@
+## LocalAuthenticationCoreUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/LocalAuthenticationCoreUI.framework/Versions/A/LocalAuthenticationCoreUI`
+
+```diff
+
+-2319.40.35.0.1
+-  __TEXT.__text: 0x54c70
++2319.40.43.0.0
++  __TEXT.__text: 0x54c80
+   __TEXT.__objc_methlist: 0x2b24
+   __TEXT.__const: 0x3454
+   __TEXT.__cstring: 0x268b
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy25LocalAuthenticationCoreUI44LACUIAuthenticationDialogButtonConfigurationV4RoleO3key_AJ5valuetG_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF25LocalAuthenticationCoreUI44LACUIAuthenticationDialogButtonConfigurationV4RoleO3key_AE5valuet_Tg5
+Functions:
+~ _$s25LocalAuthenticationCoreUI29LACUIAuthenticationDialogViewV07buttonsG033_D9C0C709DC170022DAD7DE5858203583LL10isVerticalQrSb_tF : 788 -> 792
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF25LocalAuthenticationCoreUI44LACUIAuthenticationDialogButtonConfigurationV4RoleO3key_AE5valuet_Tg5 -> _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy25LocalAuthenticationCoreUI44LACUIAuthenticationDialogButtonConfigurationV4RoleO3key_AJ5valuetG_Tg5 : 276 -> 288
+```

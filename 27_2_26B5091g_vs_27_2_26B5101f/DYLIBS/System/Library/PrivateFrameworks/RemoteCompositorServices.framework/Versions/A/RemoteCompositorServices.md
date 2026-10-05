@@ -1,0 +1,12 @@
+## RemoteCompositorServices
+
+> `/System/Library/PrivateFrameworks/RemoteCompositorServices.framework/Versions/A/RemoteCompositorServices`
+
+```diff
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVys8DurationVG_Tg5032$sSl24RemoteCompositorServicess8f2V7C34RtzrlE6sortedSayACGvgSbAC_ACtXEfU_Tf1nnc_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFs8DurationV_Tg5032$sSl24RemoteCompositorServicess8E43V7ElementRtzrlE6sortedSayACGvgSbAC_ACtXEfU_Tf1cn_n
+Functions:
+~ _$s24RemoteCompositorServices24MemoryCopyChannelMessagePAAE4read4fromxSW_tKFZSo27WBHMDChannelPresentFrameMsgV_Tg5 : 136 -> 132
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVys8DurationVG_Tg5032$sSl24RemoteCompositorServicess8f2V7C34RtzrlE6sortedSayACGvgSbAC_ACtXEfU_Tf1cn_n : 108 -> 112
+```

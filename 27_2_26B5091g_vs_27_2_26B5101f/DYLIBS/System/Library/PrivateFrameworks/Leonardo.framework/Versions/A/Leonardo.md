@@ -1,0 +1,50 @@
+## Leonardo
+
+> `/System/Library/PrivateFrameworks/Leonardo.framework/Versions/A/Leonardo`
+
+```diff
+
+ 50.40.1.0.0
+-  __TEXT.__text: 0xe96d4
++  __TEXT.__text: 0xe9768
+   __TEXT.__init_offsets: 0x30
+   __TEXT.__objc_methlist: 0xaf4
+   __TEXT.__const: 0x8100
+
+   __TEXT.__cstring: 0x843c
+   __TEXT.__swift5_proto: 0x230
+   __TEXT.__swift5_types: 0x1c0
+-  __TEXT.__gcc_except_tab: 0x9220
++  __TEXT.__gcc_except_tab: 0x921c
+   __TEXT.__swift_as_entry: 0xe0
+   __TEXT.__swift_as_ret: 0x114
+   __TEXT.__swift_as_cont: 0x244
+
+   __TEXT.__swift5_capture: 0x314
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x5000
+-  __TEXT.__eh_frame: 0x8610
++  __TEXT.__unwind_info: 0x5010
++  __TEXT.__eh_frame: 0x8638
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  Functions: 4289
+-  Symbols:   8644
++  Functions: 4291
++  Symbols:   8646
+   CStrings:  781
+ 
+Symbols:
++ _$sSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV9CxxStdlibEyAFSScfcAFSPys5UInt8VGXEfU_
++ _$sSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV9CxxStdlibEyAFSScfcAFSPys5UInt8VGXEfU_TA
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV_s5NeverOTgq5086$sSS11withCString9encodedAs_xq_m_xSPy8CodeUnitQy_Gq0_YKXEtq0_YKs16_UnicodeEncodingR_s5g14R0_r1_lFxSPys4f131VGq0_YKXEfU_So3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV_s0G0O4UTF8Os5I5OTGq5SPyxGq0_q_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lys5UInt8VAoMIsgyrzr_Tf1ncn_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVy8Leonardo16ConfusionPairKey33_D726C4E38F716B07918B41EEE8FB4F9CLLVAL0nO4InfoANLLVG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i24R_r0_lFZxABq_YKXEfU_s17_kl13Vy8Leonardo16no6Key33_qrstuvwxy10CLLVAI0kL4Z18AKLLVG_s5NeverOTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAtRIsgyrzr_Tf1nc_n06$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab23Vqd__YKXEfU_8Leonardo16no6Key33_qrstuvwxy11CLLV_AJ0jK4Z16ALLLVs5NeverOTG5ARxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAoqTIsgnndzr_Tf1nc_n
+- _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV_s5NeverOTgq5052$sSo3stdO3__1O0088basic_stringCCharstd__1char_traitsO85__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV9CxxStdlibEyAFSScfcAFSPys5UInt8VGXEfU_SSTf1ncn_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVy8Leonardo16ConfusionPairKey33_D726C4E38F716B07918B41EEE8FB4F9CLLVAL0nO4InfoANLLVG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab23Vqd__YKXEfU_8Leonardo16no6Key33_qrstuvwxy11CLLV_AJ0jK4Z16ALLLVs5NeverOTG5ARxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAoqTIsgnndzr_Tf1nc_n
+```

@@ -1,0 +1,1376 @@
+## HomeKit
+
+> `/System/Library/PrivateFrameworks/HomeKit.framework/Versions/A/HomeKit`
+
+```diff
+
+-1516.0.0.0.0
+-  __TEXT.__text: 0x3f6340
+-  __TEXT.__objc_methlist: 0x287a4
+-  __TEXT.__const: 0x7598
++1520.2.3.0.2
++  __TEXT.__text: 0x4049f8
++  __TEXT.__objc_methlist: 0x288cc
++  __TEXT.__const: 0x8578
+   __TEXT.__dlopen_cstrs: 0x3bb
+-  __TEXT.__swift5_typeref: 0x231a
+-  __TEXT.__cstring: 0x2fb6c
+-  __TEXT.__constg_swiftt: 0x1fcc
+-  __TEXT.__swift5_reflstr: 0x1555
+-  __TEXT.__swift5_fieldmd: 0x18f0
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_assocty: 0x3a8
+-  __TEXT.__swift5_capture: 0x970
++  __TEXT.__swift5_typeref: 0x26d1
++  __TEXT.__cstring: 0x2fe30
++  __TEXT.__constg_swiftt: 0x2308
++  __TEXT.__swift5_reflstr: 0x172f
++  __TEXT.__swift5_fieldmd: 0x1c44
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__swift5_assocty: 0x420
++  __TEXT.__swift5_capture: 0x988
+   __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_proto: 0x57c
+-  __TEXT.__swift5_types: 0x214
+-  __TEXT.__swift_as_entry: 0x1fc
+-  __TEXT.__swift_as_ret: 0x240
+-  __TEXT.__swift_as_cont: 0x444
+-  __TEXT.__oslogstring: 0x564d7
++  __TEXT.__swift5_proto: 0x690
++  __TEXT.__swift5_types: 0x278
++  __TEXT.__swift_as_entry: 0x20c
++  __TEXT.__swift_as_ret: 0x250
++  __TEXT.__swift_as_cont: 0x474
++  __TEXT.__oslogstring: 0x56b5c
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__gcc_except_tab: 0x67a4
+   __TEXT.__ustring: 0x50
+-  __TEXT.__unwind_info: 0xf5d0
+-  __TEXT.__eh_frame: 0x80b0
++  __TEXT.__unwind_info: 0xfae0
++  __TEXT.__eh_frame: 0x8930
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x5ac8
+-  __DATA_CONST.__objc_classlist: 0x1338
++  __DATA_CONST.__const: 0x5b30
++  __DATA_CONST.__objc_classlist: 0x1340
+   __DATA_CONST.__objc_catlist: 0x108
+-  __DATA_CONST.__objc_protolist: 0x558
++  __DATA_CONST.__objc_protolist: 0x560
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe2c8
++  __DATA_CONST.__objc_selrefs: 0xe348
+   __DATA_CONST.__objc_protorefs: 0x110
+-  __DATA_CONST.__objc_superrefs: 0xf90
++  __DATA_CONST.__objc_superrefs: 0xf98
+   __DATA_CONST.__objc_arraydata: 0x13f0
+   __DATA_CONST.__got: 0x1e30
+-  __AUTH_CONST.__const: 0xa498
+-  __AUTH_CONST.__cfstring: 0x2bd80
+-  __AUTH_CONST.__objc_const: 0x48b58
++  __AUTH_CONST.__const: 0xafb0
++  __AUTH_CONST.__cfstring: 0x2bf00
++  __AUTH_CONST.__objc_const: 0x48da8
+   __AUTH_CONST.__objc_intobj: 0x9a8
+   __AUTH_CONST.__objc_dictobj: 0x848
+   __AUTH_CONST.__objc_arrayobj: 0x5d0
+   __AUTH_CONST.__objc_doubleobj: 0x70
+-  __AUTH_CONST.__auth_got: 0x18d8
+-  __AUTH.__objc_data: 0x8db0
+-  __AUTH.__data: 0x1a98
+-  __DATA.__objc_ivar: 0x2818
+-  __DATA.__data: 0x5470
+-  __DATA.__bss: 0xa8e0
++  __AUTH_CONST.__auth_got: 0x1908
++  __AUTH.__objc_data: 0x8e00
++  __AUTH.__data: 0x1dc8
++  __DATA.__objc_ivar: 0x282c
++  __DATA.__data: 0x57e8
++  __DATA.__bss: 0xc670
+   __DATA.__common: 0x90
+   __DATA_DIRTY.__objc_data: 0x3748
+-  __DATA_DIRTY.__data: 0x1a0
+-  __DATA_DIRTY.__bss: 0x230
++  __DATA_DIRTY.__data: 0x180
++  __DATA_DIRTY.__bss: 0x220
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 17859
+-  Symbols:   32695
+-  CStrings:  12348
++  Functions: 18223
++  Symbols:   32853
++  CStrings:  12400
+ 
+Symbols:
++ +[HMMediaGroupUpdateRequest shortDescription]
++ -[HMAccessorySetupManager handleNFCTapWithSetupURLStrings:completionHandler:]
++ -[HMDemoModeStatus intercomNotifications]
++ -[HMDemoModeStatus recognizeMyVoice]
++ -[HMDemoModeStatus setIntercomNotifications:]
++ -[HMDemoModeStatus setRecognizeMyVoice:]
++ -[HMDemoModeStatus setSetupPresets:]
++ -[HMDemoModeStatus setupPresets]
++ -[HMHomeManager(DemoMode) setDemoModeIntercomNotifications:]
++ -[HMHomeManager(DemoMode) setDemoModeRecognizeMyVoice:]
++ -[HMHomeManager(DemoMode) setDemoModeSetupPresets:]
++ -[HMMediaDestinationController configureWithContext:dataSource:internalDelegate:]
++ -[HMMediaDestinationController internalDelegate]
++ -[HMMediaDestinationController setInternalDelegate:]
++ -[HMMediaGroupUpdateRequest hmf_appendAttributeDescriptionsToString:options:]
++ -[HMMediaGroupUpdateRequest initRequest]
++ -[HMMediaGroupUpdateRequest isValidRequest]
++ -[HMMediaGroupUpdateRequest privateDescription]
++ -[HMMediaGroupUpdateRequest shortDescription]
++ -[HMMediaGroupsController homeTheaterSystemForAudioDestinationIdentifier:]
++ -[HMMediaGroupsController updateGroupWithRequest:completion:]
++ -[HMSetupAccessoryPayload setVersion:]
++ -[HMSetupAccessoryPayload version]
++ GCC_except_table10005
++ GCC_except_table10154
++ GCC_except_table10156
++ GCC_except_table10160
++ GCC_except_table10215
++ GCC_except_table10238
++ GCC_except_table10318
++ GCC_except_table10320
++ GCC_except_table10322
++ GCC_except_table10324
++ GCC_except_table10332
++ GCC_except_table10382
++ GCC_except_table10394
++ GCC_except_table10396
++ GCC_except_table10586
++ GCC_except_table10587
++ GCC_except_table10622
++ GCC_except_table10655
++ GCC_except_table10658
++ GCC_except_table10661
++ GCC_except_table10663
++ GCC_except_table10729
++ GCC_except_table10749
++ GCC_except_table10750
++ GCC_except_table10751
++ GCC_except_table10790
++ GCC_except_table10792
++ GCC_except_table10794
++ GCC_except_table10859
++ GCC_except_table10891
++ GCC_except_table10893
++ GCC_except_table10897
++ GCC_except_table10914
++ GCC_except_table10916
++ GCC_except_table10922
++ GCC_except_table10926
++ GCC_except_table10929
++ GCC_except_table10936
++ GCC_except_table10940
++ GCC_except_table10946
++ GCC_except_table10958
++ GCC_except_table10961
++ GCC_except_table10970
++ GCC_except_table10972
++ GCC_except_table10974
++ GCC_except_table10976
++ GCC_except_table10996
++ GCC_except_table11006
++ GCC_except_table11206
++ GCC_except_table11219
++ GCC_except_table11260
++ GCC_except_table11263
++ GCC_except_table11265
++ GCC_except_table11278
++ GCC_except_table11279
++ GCC_except_table11350
++ GCC_except_table11351
++ GCC_except_table11698
++ GCC_except_table11736
++ GCC_except_table11749
++ GCC_except_table12112
++ GCC_except_table12114
++ GCC_except_table12115
++ GCC_except_table12125
++ GCC_except_table12149
++ GCC_except_table12150
++ GCC_except_table12153
++ GCC_except_table12156
++ GCC_except_table12165
++ GCC_except_table12167
++ GCC_except_table12264
++ GCC_except_table12290
++ GCC_except_table12292
++ GCC_except_table12296
++ GCC_except_table12297
++ GCC_except_table12345
++ GCC_except_table12371
++ GCC_except_table12384
++ GCC_except_table12410
++ GCC_except_table12414
++ GCC_except_table12463
++ GCC_except_table12466
++ GCC_except_table12467
++ GCC_except_table12468
++ GCC_except_table12469
++ GCC_except_table12470
++ GCC_except_table12471
++ GCC_except_table12472
++ GCC_except_table12473
++ GCC_except_table12474
++ GCC_except_table12475
++ GCC_except_table12476
++ GCC_except_table12477
++ GCC_except_table12478
++ GCC_except_table12501
++ GCC_except_table12528
++ GCC_except_table1268
++ GCC_except_table12708
++ GCC_except_table12710
++ GCC_except_table12718
++ GCC_except_table12729
++ GCC_except_table12731
++ GCC_except_table12736
++ GCC_except_table12737
++ GCC_except_table12738
++ GCC_except_table1277
++ GCC_except_table12962
++ GCC_except_table13163
++ GCC_except_table13166
++ GCC_except_table13171
++ GCC_except_table13175
++ GCC_except_table13183
++ GCC_except_table13188
++ GCC_except_table13190
++ GCC_except_table13195
++ GCC_except_table13196
++ GCC_except_table13198
++ GCC_except_table13280
++ GCC_except_table13282
++ GCC_except_table13301
++ GCC_except_table13302
++ GCC_except_table13303
++ GCC_except_table13304
++ GCC_except_table13309
++ GCC_except_table13323
++ GCC_except_table13329
++ GCC_except_table13332
++ GCC_except_table13336
++ GCC_except_table13414
++ GCC_except_table13422
++ GCC_except_table13423
++ GCC_except_table13428
++ GCC_except_table13434
++ GCC_except_table13436
++ GCC_except_table13438
++ GCC_except_table13440
++ GCC_except_table13442
++ GCC_except_table13444
++ GCC_except_table13446
++ GCC_except_table1349
++ GCC_except_table1352
++ GCC_except_table1354
++ GCC_except_table1356
++ GCC_except_table13579
++ GCC_except_table1360
++ GCC_except_table13635
++ GCC_except_table13636
++ GCC_except_table13637
++ GCC_except_table13638
++ GCC_except_table13648
++ GCC_except_table13649
++ GCC_except_table13673
++ GCC_except_table13674
++ GCC_except_table13748
++ GCC_except_table13770
++ GCC_except_table13773
++ GCC_except_table13921
++ GCC_except_table14091
++ GCC_except_table14097
++ GCC_except_table14100
++ GCC_except_table14156
++ GCC_except_table14191
++ GCC_except_table14197
++ GCC_except_table14201
++ GCC_except_table14202
++ GCC_except_table14207
++ GCC_except_table14209
++ GCC_except_table14210
++ GCC_except_table14211
++ GCC_except_table14212
++ GCC_except_table14213
++ GCC_except_table14214
++ GCC_except_table14215
++ GCC_except_table14222
++ GCC_except_table14353
++ GCC_except_table14459
++ GCC_except_table14507
++ GCC_except_table14509
++ GCC_except_table14555
++ GCC_except_table14575
++ GCC_except_table14577
++ GCC_except_table14578
++ GCC_except_table1526
++ GCC_except_table1552
++ GCC_except_table1618
++ GCC_except_table1689
++ GCC_except_table1694
++ GCC_except_table1712
++ GCC_except_table1793
++ GCC_except_table1795
++ GCC_except_table1935
++ GCC_except_table1989
++ GCC_except_table1992
++ GCC_except_table2066
++ GCC_except_table2153
++ GCC_except_table2154
++ GCC_except_table2203
++ GCC_except_table2488
++ GCC_except_table2491
++ GCC_except_table2494
++ GCC_except_table2499
++ GCC_except_table2503
++ GCC_except_table2512
++ GCC_except_table2525
++ GCC_except_table2527
++ GCC_except_table2528
++ GCC_except_table2533
++ GCC_except_table2534
++ GCC_except_table2535
++ GCC_except_table2536
++ GCC_except_table3099
++ GCC_except_table3104
++ GCC_except_table3130
++ GCC_except_table3133
++ GCC_except_table3146
++ GCC_except_table3178
++ GCC_except_table3181
++ GCC_except_table3207
++ GCC_except_table3209
++ GCC_except_table3211
++ GCC_except_table3213
++ GCC_except_table3360
++ GCC_except_table3363
++ GCC_except_table3371
++ GCC_except_table3372
++ GCC_except_table3393
++ GCC_except_table3420
++ GCC_except_table3421
++ GCC_except_table3479
++ GCC_except_table3481
++ GCC_except_table3484
++ GCC_except_table3485
++ GCC_except_table3511
++ GCC_except_table3513
++ GCC_except_table3521
++ GCC_except_table3523
++ GCC_except_table3530
++ GCC_except_table3531
++ GCC_except_table3532
++ GCC_except_table3534
++ GCC_except_table3535
++ GCC_except_table3536
++ GCC_except_table3537
++ GCC_except_table3538
++ GCC_except_table3621
++ GCC_except_table3644
++ GCC_except_table3647
++ GCC_except_table3650
++ GCC_except_table3653
++ GCC_except_table3656
++ GCC_except_table3659
++ GCC_except_table3727
++ GCC_except_table3728
++ GCC_except_table3774
++ GCC_except_table3781
++ GCC_except_table3782
++ GCC_except_table3783
++ GCC_except_table3786
++ GCC_except_table3787
++ GCC_except_table3788
++ GCC_except_table3790
++ GCC_except_table3798
++ GCC_except_table3820
++ GCC_except_table3829
++ GCC_except_table3833
++ GCC_except_table3836
++ GCC_except_table3839
++ GCC_except_table3880
++ GCC_except_table3884
++ GCC_except_table3888
++ GCC_except_table3893
++ GCC_except_table3901
++ GCC_except_table3905
++ GCC_except_table3914
++ GCC_except_table3916
++ GCC_except_table4160
++ GCC_except_table4165
++ GCC_except_table4169
++ GCC_except_table4172
++ GCC_except_table4176
++ GCC_except_table4177
++ GCC_except_table4182
++ GCC_except_table4188
++ GCC_except_table4192
++ GCC_except_table4196
++ GCC_except_table4219
++ GCC_except_table4221
++ GCC_except_table4223
++ GCC_except_table4226
++ GCC_except_table4227
++ GCC_except_table4229
++ GCC_except_table4232
++ GCC_except_table4307
++ GCC_except_table4321
++ GCC_except_table4324
++ GCC_except_table4326
++ GCC_except_table4329
++ GCC_except_table4336
++ GCC_except_table4391
++ GCC_except_table4456
++ GCC_except_table4471
++ GCC_except_table4474
++ GCC_except_table4566
++ GCC_except_table4567
++ GCC_except_table4571
++ GCC_except_table4576
++ GCC_except_table4580
++ GCC_except_table4583
++ GCC_except_table4585
++ GCC_except_table4593
++ GCC_except_table4844
++ GCC_except_table4847
++ GCC_except_table4859
++ GCC_except_table4935
++ GCC_except_table4981
++ GCC_except_table5074
++ GCC_except_table5269
++ GCC_except_table5281
++ GCC_except_table5283
++ GCC_except_table5308
++ GCC_except_table5309
++ GCC_except_table5310
++ GCC_except_table5311
++ GCC_except_table5366
++ GCC_except_table5381
++ GCC_except_table5743
++ GCC_except_table5750
++ GCC_except_table5755
++ GCC_except_table5997
++ GCC_except_table6197
++ GCC_except_table6199
++ GCC_except_table6206
++ GCC_except_table6214
++ GCC_except_table6235
++ GCC_except_table6246
++ GCC_except_table6251
++ GCC_except_table6254
++ GCC_except_table6268
++ GCC_except_table6273
++ GCC_except_table6279
++ GCC_except_table6284
++ GCC_except_table6289
++ GCC_except_table6294
++ GCC_except_table6299
++ GCC_except_table6303
++ GCC_except_table6308
++ GCC_except_table6355
++ GCC_except_table6359
++ GCC_except_table6369
++ GCC_except_table6374
++ GCC_except_table6388
++ GCC_except_table6393
++ GCC_except_table6400
++ GCC_except_table6417
++ GCC_except_table6422
++ GCC_except_table6425
++ GCC_except_table6437
++ GCC_except_table6442
++ GCC_except_table6446
++ GCC_except_table6484
++ GCC_except_table6531
++ GCC_except_table6540
++ GCC_except_table6583
++ GCC_except_table6585
++ GCC_except_table6600
++ GCC_except_table6644
++ GCC_except_table6646
++ GCC_except_table6664
++ GCC_except_table6710
++ GCC_except_table6805
++ GCC_except_table6825
++ GCC_except_table6826
++ GCC_except_table6827
++ GCC_except_table6829
++ GCC_except_table6832
++ GCC_except_table6833
++ GCC_except_table6835
++ GCC_except_table7173
++ GCC_except_table7192
++ GCC_except_table7397
++ GCC_except_table7401
++ GCC_except_table7499
++ GCC_except_table7503
++ GCC_except_table7505
++ GCC_except_table7506
++ GCC_except_table7709
++ GCC_except_table7712
++ GCC_except_table7804
++ GCC_except_table7823
++ GCC_except_table7833
++ GCC_except_table7975
++ GCC_except_table7984
++ GCC_except_table7997
++ GCC_except_table8004
++ GCC_except_table8043
++ GCC_except_table8045
++ GCC_except_table8080
++ GCC_except_table8082
++ GCC_except_table8084
++ GCC_except_table8086
++ GCC_except_table8093
++ GCC_except_table8101
++ GCC_except_table8107
++ GCC_except_table8117
++ GCC_except_table8123
++ GCC_except_table8202
++ GCC_except_table8211
++ GCC_except_table8213
++ GCC_except_table8223
++ GCC_except_table8225
++ GCC_except_table8227
++ GCC_except_table8229
++ GCC_except_table8231
++ GCC_except_table8237
++ GCC_except_table8241
++ GCC_except_table8254
++ GCC_except_table8256
++ GCC_except_table8258
++ GCC_except_table8260
++ GCC_except_table8281
++ GCC_except_table8311
++ GCC_except_table8370
++ GCC_except_table8379
++ GCC_except_table8496
++ GCC_except_table8551
++ GCC_except_table8553
++ GCC_except_table8555
++ GCC_except_table8577
++ GCC_except_table8607
++ GCC_except_table8619
++ GCC_except_table8644
++ GCC_except_table8650
++ GCC_except_table8661
++ GCC_except_table8665
++ GCC_except_table8669
++ GCC_except_table8671
++ GCC_except_table8673
++ GCC_except_table8675
++ GCC_except_table8677
++ GCC_except_table8679
++ GCC_except_table8681
++ GCC_except_table8683
++ GCC_except_table8685
++ GCC_except_table8690
++ GCC_except_table8704
++ GCC_except_table8705
++ GCC_except_table8730
++ GCC_except_table8732
++ GCC_except_table8757
++ GCC_except_table8770
++ GCC_except_table8788
++ GCC_except_table8967
++ GCC_except_table9318
++ GCC_except_table9361
++ GCC_except_table9454
++ GCC_except_table9463
++ GCC_except_table9638
++ GCC_except_table9640
++ GCC_except_table9641
++ GCC_except_table9642
++ GCC_except_table9644
++ GCC_except_table9646
++ GCC_except_table9647
++ GCC_except_table9648
++ GCC_except_table9683
++ GCC_except_table9686
++ GCC_except_table9687
++ GCC_except_table9690
++ GCC_except_table9693
++ GCC_except_table9694
++ GCC_except_table9737
++ GCC_except_table9738
++ GCC_except_table9739
++ GCC_except_table9746
++ GCC_except_table9747
++ GCC_except_table9749
++ GCC_except_table9768
++ GCC_except_table9837
++ GCC_except_table9838
++ GCC_except_table9839
++ GCC_except_table9878
++ GCC_except_table9892
++ GCC_except_table9991
++ GCC_except_table9992
++ GCC_except_table9993
++ GCC_except_table9995
++ GCC_except_table9998
++ GCC_except_table9999
++ OBJC_IVAR_$_HMDemoModeStatus._intercomNotifications
++ OBJC_IVAR_$_HMDemoModeStatus._recognizeMyVoice
++ OBJC_IVAR_$_HMDemoModeStatus._setupPresets
++ OBJC_IVAR_$_HMMediaDestinationController._internalDelegate
++ OBJC_IVAR_$_HMSetupAccessoryPayload._version
++ _HMAccessorySetupManagerHandleNFCTapMessage
++ _HMClientConnectionUserPresenceStatusByAccessoryIdentifierKey
++ _HMClientConnectionUserPresenceStatusByAccessoryMessage
++ _HMClientConnectionUserPresenceStatusByAccessoryPresenceStatusKey
++ _HMDemoModeIntercomNotificationsKey
++ _HMDemoModeRecognizeMyVoiceKey
++ _HMDemoModeSetupPresetsKey
++ _HMFIsInternalBuild
++ _HMHomeManagerPingResponseTransportRestrictionKey
++ _HMHomeManagerPingTransportRestrictionBLE
++ _HMHomeManagerPingTransportRestrictionIDS
++ _HMHomeManagerPingTransportRestrictionKey
++ _HMHomeManagerPingTransportRestrictionNone
++ _HMHomeManagerPingTransportRestrictionRapport
++ _OBJC_CLASS_$_HMMediaGroupUpdateRequest
++ _OBJC_METACLASS_$_HMMediaGroupUpdateRequest
++ __77-[HMAccessorySetupManager handleNFCTapWithSetupURLStrings:completionHandler:]_block_invoke
++ __OBJC_$_CATEGORY_NSCoder_$_ObjectCache
++ __OBJC_$_CLASS_METHODS_HMHome(CaptionPlanSwift|HomeKit|HomeKit1|HomeKit2|SwiftExtensions|HomeKit3|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|AutomationBuilders)
++ __OBJC_$_CLASS_METHODS_HMMediaGroupUpdateRequest
++ __OBJC_$_INSTANCE_METHODS_HMHome(CaptionPlanSwift|HomeKit|HomeKit1|HomeKit2|SwiftExtensions|HomeKit3|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|AutomationBuilders)
++ __OBJC_$_INSTANCE_METHODS_HMMediaGroupUpdateRequest
++ __OBJC_$_INSTANCE_METHODS_NSCoder(ObjectCache|HMExtensions)
++ __OBJC_$_PROP_LIST_HMMediaGroupUpdateRequest
++ __OBJC_$_PROTOCOL_REFS_HMMediaDestinationControllerInternalDelegate
++ __OBJC_CLASS_PROTOCOLS_$_HMHome(CaptionPlanSwift|HomeKit|HomeKit1|HomeKit2|SwiftExtensions|HomeKit3|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|AutomationBuilders)
++ __OBJC_CLASS_PROTOCOLS_$_HMMediaGroupUpdateRequest
++ __OBJC_CLASS_RO_$_HMMediaGroupUpdateRequest
++ __OBJC_LABEL_PROTOCOL_$_HMMediaDestinationControllerInternalDelegate
++ __OBJC_METACLASS_RO_$_HMMediaGroupUpdateRequest
++ __OBJC_PROTOCOL_$_HMMediaDestinationControllerInternalDelegate
++ ___74-[HMMediaGroupsController homeTheaterSystemForAudioDestinationIdentifier:]_block_invoke
++ ___77-[HMAccessorySetupManager handleNFCTapWithSetupURLStrings:completionHandler:]_block_invoke
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_memcpy184_8
++ ___swift_memcpy232_8
++ ___swift_store_extra_inhabitant_indexTm
++ __swift_get_extra_inhabitant_index.37Tm
++ __swift_store_extra_inhabitant_index.38Tm
++ _associated conformance 7HomeKit36AccessoryHealthCommunicationProtocolOSHAASQ
++ _associated conformance So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0G3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0G3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0L3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0L3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0K3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0K3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestVAC19HMFMessagePrototypeO0H7MessageAC0H7PayloadAgHP_AG0L0
++ _associated conformance So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestVAC19HMFMessagePrototypeO0H7MessageAC15ResponsePayloadAgHP_AG0M0
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0J3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0J3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0L3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0L3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0K3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLOs0K3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestVAC19HMFMessagePrototypeO0H7MessageAC0H7PayloadAgHP_AG0L0
++ _associated conformance So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestVAC19HMFMessagePrototypeO0H7MessageAC15ResponsePayloadAgHP_AG0M0
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOs0L3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOs0L3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOs0K3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLOs0K3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestVAC19HMFMessagePrototypeO0H7MessageAC0H7PayloadAgHP_AG0L0
++ _associated conformance So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestVAC19HMFMessagePrototypeO0H7MessageAC15ResponsePayloadAgHP_AG0M0
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0L3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0L3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOSHACSQ
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0K3KeyACs23CustomStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLOs0K3KeyACs28CustomDebugStringConvertible
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestVAC19HMFMessagePrototypeO0H7MessageAC0H7PayloadAgHP_AG0L0
++ _associated conformance So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestVAC19HMFMessagePrototypeO0H7MessageAC15ResponsePayloadAgHP_AG0M0
++ _flat unique So8NSObject_p
++ _objc_msgSend$configureWithContext:dataSource:internalDelegate:
++ _objc_msgSend$isValidRequest
++ _objc_msgSend$selectedDestinationsLeafCount
++ _objc_msgSend$setIntercomNotifications:
++ _objc_msgSend$setInternalDelegate:
++ _objc_msgSend$setRecognizeMyVoice:
++ _objc_msgSend$setSetupPresets:
++ _symbolic SDySSSo8NSObjectCG
++ _symbolic Say_____G So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic Say_____G So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic Say_____G So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic Say_____G So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic ScCy___________pG 7HomeKit8PresenceV6StatusO s5ErrorP
++ _symbolic So18HMClientConnectionCXDXMT
++ _symbolic SuSg
++ _symbolic _____ 7HomeKit36AccessoryHealthCommunicationProtocolO
++ _symbolic _____ So16HMHomePodVariantV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE13AccessoryInfoV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE16AccessoryDetailsV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV0H7PayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV0H7PayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV0H7PayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0fG4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____ So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 7HomeKit8PresenceV6StatusO
++ _symbolic ______So17HMApplicationDataCt 10Foundation4UUIDV
++ _symbolic ___________t 10Foundation4UUIDV 7HomeKit8PresenceV6StatusO
++ _symbolic ___________t 10Foundation4UUIDV So18HMClientConnectionC7HomeKitE13AccessoryInfoV
++ _symbolic ___________t 10Foundation4UUIDV So18HMClientConnectionC7HomeKitE16AccessoryDetailsV
++ _symbolic ______p So8NSObjectP
++ _symbolic _____ySS______pG s18_DictionaryStorageC So8NSObjectP
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0K7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE13AccessoryInfoV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE23GetAccessoryInfoRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0K7PayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV15ResponsePayloadV10CodingKeys33_9F68069AA9ADA770BF3B3D55FFE7E793LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV15ResponsePayloadV10CodingKeys33_9D56C2CE1F5BFD4779446EEED6710DF7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV0iJ4ItemV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV15ResponsePayloadV10CodingKeys33_3735426AB49ECE116B6250A6FC302CEELLO
++ _symbolic _____y_____So17HMApplicationDataCG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 7HomeKit8PresenceV6StatusO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV So18HMClientConnectionC7HomeKitE13AccessoryInfoV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV So18HMClientConnectionC7HomeKitE16AccessoryDetailsV
++ _type_layout_string So18HMClientConnectionC7HomeKitE24FetchUserPresenceRequestV0H7PayloadV
++ _type_layout_string So18HMClientConnectionC7HomeKitE25GetApplicationDataRequestV0H7PayloadV
++ _type_layout_string So18HMClientConnectionC7HomeKitE26GetAccessoryDetailsRequestV0H7PayloadV
++ logCategory._hmf_once_t87
++ logCategory._hmf_once_v88
+- -[HMMediaDestinationController configureWithContext:dataSource:]
+- GCC_except_table10023
+- GCC_except_table10025
+- GCC_except_table10027
+- GCC_except_table10092
+- GCC_except_table10124
+- GCC_except_table10126
+- GCC_except_table10130
+- GCC_except_table10147
+- GCC_except_table10149
+- GCC_except_table10159
+- GCC_except_table10162
+- GCC_except_table10169
+- GCC_except_table10173
+- GCC_except_table10179
+- GCC_except_table10191
+- GCC_except_table10194
+- GCC_except_table10202
+- GCC_except_table10203
+- GCC_except_table10205
+- GCC_except_table10207
+- GCC_except_table10209
+- GCC_except_table10229
+- GCC_except_table10239
+- GCC_except_table10439
+- GCC_except_table10452
+- GCC_except_table10493
+- GCC_except_table10496
+- GCC_except_table10498
+- GCC_except_table10511
+- GCC_except_table10512
+- GCC_except_table10580
+- GCC_except_table10583
+- GCC_except_table10584
+- GCC_except_table10931
+- GCC_except_table10982
+- GCC_except_table11344
+- GCC_except_table11345
+- GCC_except_table11348
+- GCC_except_table11358
+- GCC_except_table11382
+- GCC_except_table11383
+- GCC_except_table11386
+- GCC_except_table11389
+- GCC_except_table11398
+- GCC_except_table11399
+- GCC_except_table11400
+- GCC_except_table11497
+- GCC_except_table11655
+- GCC_except_table11662
+- GCC_except_table11667
+- GCC_except_table11861
+- GCC_except_table11909
+- GCC_except_table12109
+- GCC_except_table12118
+- GCC_except_table12126
+- GCC_except_table12147
+- GCC_except_table12158
+- GCC_except_table12163
+- GCC_except_table12180
+- GCC_except_table12185
+- GCC_except_table12191
+- GCC_except_table12196
+- GCC_except_table12201
+- GCC_except_table12206
+- GCC_except_table12211
+- GCC_except_table12215
+- GCC_except_table12220
+- GCC_except_table12267
+- GCC_except_table12271
+- GCC_except_table12281
+- GCC_except_table12286
+- GCC_except_table12300
+- GCC_except_table12305
+- GCC_except_table12312
+- GCC_except_table12329
+- GCC_except_table12330
+- GCC_except_table12332
+- GCC_except_table12334
+- GCC_except_table12337
+- GCC_except_table12342
+- GCC_except_table12349
+- GCC_except_table12354
+- GCC_except_table12358
+- GCC_except_table12396
+- GCC_except_table12442
+- GCC_except_table12451
+- GCC_except_table12458
+- GCC_except_table12460
+- GCC_except_table12513
+- GCC_except_table12539
+- GCC_except_table1255
+- GCC_except_table12552
+- GCC_except_table12578
+- GCC_except_table12582
+- GCC_except_table12631
+- GCC_except_table12632
+- GCC_except_table12633
+- GCC_except_table12634
+- GCC_except_table12635
+- GCC_except_table12636
+- GCC_except_table12637
+- GCC_except_table1264
+- GCC_except_table12640
+- GCC_except_table12641
+- GCC_except_table12643
+- GCC_except_table12644
+- GCC_except_table12645
+- GCC_except_table12646
+- GCC_except_table12669
+- GCC_except_table12696
+- GCC_except_table12806
+- GCC_except_table12807
+- GCC_except_table12810
+- GCC_except_table12876
+- GCC_except_table12878
+- GCC_except_table12886
+- GCC_except_table12897
+- GCC_except_table12899
+- GCC_except_table12904
+- GCC_except_table12905
+- GCC_except_table12906
+- GCC_except_table13130
+- GCC_except_table13331
+- GCC_except_table13334
+- GCC_except_table13339
+- GCC_except_table1334
+- GCC_except_table13343
+- GCC_except_table13351
+- GCC_except_table13356
+- GCC_except_table13358
+- GCC_except_table1336
+- GCC_except_table13363
+- GCC_except_table13364
+- GCC_except_table13366
+- GCC_except_table1339
+- GCC_except_table1341
+- GCC_except_table1343
+- GCC_except_table13448
+- GCC_except_table13450
+- GCC_except_table13469
+- GCC_except_table13470
+- GCC_except_table13471
+- GCC_except_table13472
+- GCC_except_table13477
+- GCC_except_table13491
+- GCC_except_table13497
+- GCC_except_table13500
+- GCC_except_table13504
+- GCC_except_table13582
+- GCC_except_table13590
+- GCC_except_table13591
+- GCC_except_table13596
+- GCC_except_table13602
+- GCC_except_table13604
+- GCC_except_table13606
+- GCC_except_table13608
+- GCC_except_table13610
+- GCC_except_table13612
+- GCC_except_table13614
+- GCC_except_table13747
+- GCC_except_table13803
+- GCC_except_table13804
+- GCC_except_table13805
+- GCC_except_table13806
+- GCC_except_table13816
+- GCC_except_table13817
+- GCC_except_table13841
+- GCC_except_table13842
+- GCC_except_table13916
+- GCC_except_table13938
+- GCC_except_table13941
+- GCC_except_table14087
+- GCC_except_table14257
+- GCC_except_table14263
+- GCC_except_table14266
+- GCC_except_table14322
+- GCC_except_table14357
+- GCC_except_table14367
+- GCC_except_table14368
+- GCC_except_table14373
+- GCC_except_table14375
+- GCC_except_table14376
+- GCC_except_table14377
+- GCC_except_table14378
+- GCC_except_table14379
+- GCC_except_table14380
+- GCC_except_table14381
+- GCC_except_table14388
+- GCC_except_table14527
+- GCC_except_table14530
+- GCC_except_table14550
+- GCC_except_table14553
+- GCC_except_table1513
+- GCC_except_table1539
+- GCC_except_table1605
+- GCC_except_table1676
+- GCC_except_table1681
+- GCC_except_table1699
+- GCC_except_table1767
+- GCC_except_table1769
+- GCC_except_table1920
+- GCC_except_table1974
+- GCC_except_table1977
+- GCC_except_table2051
+- GCC_except_table2138
+- GCC_except_table2139
+- GCC_except_table2192
+- GCC_except_table2468
+- GCC_except_table2471
+- GCC_except_table2474
+- GCC_except_table2479
+- GCC_except_table2483
+- GCC_except_table2492
+- GCC_except_table2505
+- GCC_except_table2507
+- GCC_except_table2508
+- GCC_except_table2513
+- GCC_except_table2514
+- GCC_except_table2515
+- GCC_except_table2516
+- GCC_except_table2532
+- GCC_except_table2542
+- GCC_except_table2638
+- GCC_except_table2977
+- GCC_except_table2979
+- GCC_except_table3280
+- GCC_except_table3285
+- GCC_except_table3311
+- GCC_except_table3314
+- GCC_except_table3327
+- GCC_except_table3359
+- GCC_except_table3362
+- GCC_except_table3388
+- GCC_except_table3390
+- GCC_except_table3392
+- GCC_except_table3394
+- GCC_except_table3541
+- GCC_except_table3544
+- GCC_except_table3552
+- GCC_except_table3553
+- GCC_except_table3574
+- GCC_except_table3601
+- GCC_except_table3602
+- GCC_except_table3660
+- GCC_except_table3665
+- GCC_except_table3666
+- GCC_except_table3692
+- GCC_except_table3694
+- GCC_except_table3702
+- GCC_except_table3704
+- GCC_except_table3711
+- GCC_except_table3712
+- GCC_except_table3713
+- GCC_except_table3715
+- GCC_except_table3716
+- GCC_except_table3717
+- GCC_except_table3718
+- GCC_except_table3719
+- GCC_except_table3802
+- GCC_except_table3825
+- GCC_except_table3828
+- GCC_except_table3831
+- GCC_except_table3834
+- GCC_except_table3837
+- GCC_except_table3840
+- GCC_except_table3843
+- GCC_except_table3908
+- GCC_except_table3909
+- GCC_except_table3955
+- GCC_except_table3962
+- GCC_except_table3963
+- GCC_except_table3964
+- GCC_except_table3967
+- GCC_except_table3968
+- GCC_except_table3969
+- GCC_except_table3971
+- GCC_except_table3979
+- GCC_except_table4001
+- GCC_except_table4010
+- GCC_except_table4014
+- GCC_except_table4017
+- GCC_except_table4020
+- GCC_except_table4061
+- GCC_except_table4065
+- GCC_except_table4069
+- GCC_except_table4074
+- GCC_except_table4082
+- GCC_except_table4086
+- GCC_except_table4095
+- GCC_except_table4097
+- GCC_except_table4341
+- GCC_except_table4346
+- GCC_except_table4350
+- GCC_except_table4353
+- GCC_except_table4357
+- GCC_except_table4358
+- GCC_except_table4363
+- GCC_except_table4369
+- GCC_except_table4373
+- GCC_except_table4377
+- GCC_except_table4400
+- GCC_except_table4402
+- GCC_except_table4404
+- GCC_except_table4407
+- GCC_except_table4408
+- GCC_except_table4410
+- GCC_except_table4413
+- GCC_except_table4488
+- GCC_except_table4502
+- GCC_except_table4505
+- GCC_except_table4507
+- GCC_except_table4510
+- GCC_except_table4517
+- GCC_except_table4572
+- GCC_except_table4637
+- GCC_except_table4652
+- GCC_except_table4655
+- GCC_except_table4747
+- GCC_except_table4748
+- GCC_except_table4752
+- GCC_except_table4757
+- GCC_except_table4761
+- GCC_except_table4764
+- GCC_except_table4766
+- GCC_except_table4774
+- GCC_except_table5025
+- GCC_except_table5028
+- GCC_except_table5040
+- GCC_except_table5116
+- GCC_except_table5162
+- GCC_except_table5255
+- GCC_except_table5450
+- GCC_except_table5462
+- GCC_except_table5464
+- GCC_except_table5489
+- GCC_except_table5490
+- GCC_except_table5491
+- GCC_except_table5492
+- GCC_except_table5547
+- GCC_except_table5562
+- GCC_except_table5828
+- GCC_except_table5830
+- GCC_except_table5845
+- GCC_except_table5883
+- GCC_except_table5885
+- GCC_except_table5903
+- GCC_except_table6044
+- GCC_except_table6064
+- GCC_except_table6065
+- GCC_except_table6066
+- GCC_except_table6068
+- GCC_except_table6071
+- GCC_except_table6072
+- GCC_except_table6074
+- GCC_except_table6412
+- GCC_except_table6431
+- GCC_except_table6636
+- GCC_except_table6640
+- GCC_except_table6738
+- GCC_except_table6742
+- GCC_except_table6744
+- GCC_except_table6745
+- GCC_except_table6884
+- GCC_except_table6893
+- GCC_except_table7010
+- GCC_except_table7065
+- GCC_except_table7067
+- GCC_except_table7069
+- GCC_except_table7091
+- GCC_except_table7121
+- GCC_except_table7133
+- GCC_except_table7158
+- GCC_except_table7164
+- GCC_except_table7175
+- GCC_except_table7177
+- GCC_except_table7183
+- GCC_except_table7185
+- GCC_except_table7187
+- GCC_except_table7189
+- GCC_except_table7193
+- GCC_except_table7195
+- GCC_except_table7197
+- GCC_except_table7199
+- GCC_except_table7204
+- GCC_except_table7218
+- GCC_except_table7219
+- GCC_except_table7244
+- GCC_except_table7246
+- GCC_except_table7271
+- GCC_except_table7284
+- GCC_except_table7302
+- GCC_except_table7481
+- GCC_except_table7832
+- GCC_except_table7875
+- GCC_except_table7968
+- GCC_except_table7977
+- GCC_except_table8135
+- GCC_except_table8138
+- GCC_except_table8230
+- GCC_except_table8249
+- GCC_except_table8259
+- GCC_except_table8401
+- GCC_except_table8410
+- GCC_except_table8423
+- GCC_except_table8430
+- GCC_except_table8469
+- GCC_except_table8471
+- GCC_except_table8506
+- GCC_except_table8508
+- GCC_except_table8510
+- GCC_except_table8512
+- GCC_except_table8519
+- GCC_except_table8527
+- GCC_except_table8533
+- GCC_except_table8543
+- GCC_except_table8549
+- GCC_except_table8628
+- GCC_except_table8637
+- GCC_except_table8639
+- GCC_except_table8649
+- GCC_except_table8651
+- GCC_except_table8653
+- GCC_except_table8655
+- GCC_except_table8657
+- GCC_except_table8680
+- GCC_except_table8682
+- GCC_except_table8684
+- GCC_except_table8686
+- GCC_except_table8707
+- GCC_except_table8737
+- GCC_except_table8873
+- GCC_except_table8875
+- GCC_except_table8876
+- GCC_except_table8877
+- GCC_except_table8879
+- GCC_except_table8881
+- GCC_except_table8882
+- GCC_except_table8883
+- GCC_except_table8918
+- GCC_except_table8921
+- GCC_except_table8922
+- GCC_except_table8925
+- GCC_except_table8928
+- GCC_except_table8929
+- GCC_except_table8972
+- GCC_except_table8973
+- GCC_except_table8974
+- GCC_except_table8981
+- GCC_except_table8982
+- GCC_except_table8984
+- GCC_except_table9003
+- GCC_except_table9072
+- GCC_except_table9073
+- GCC_except_table9074
+- GCC_except_table9114
+- GCC_except_table9128
+- GCC_except_table9196
+- GCC_except_table9224
+- GCC_except_table9225
+- GCC_except_table9226
+- GCC_except_table9228
+- GCC_except_table9231
+- GCC_except_table9232
+- GCC_except_table9238
+- GCC_except_table9387
+- GCC_except_table9388
+- GCC_except_table9389
+- GCC_except_table9393
+- GCC_except_table9448
+- GCC_except_table9471
+- GCC_except_table9551
+- GCC_except_table9553
+- GCC_except_table9555
+- GCC_except_table9557
+- GCC_except_table9565
+- GCC_except_table9615
+- GCC_except_table9627
+- GCC_except_table9629
+- GCC_except_table9819
+- GCC_except_table9820
+- GCC_except_table9855
+- GCC_except_table9888
+- GCC_except_table9891
+- GCC_except_table9894
+- GCC_except_table9896
+- GCC_except_table9982
+- GCC_except_table9983
+- GCC_except_table9984
+- __OBJC_$_CATEGORY_NSCoder_$_HMExtensions
+- __OBJC_$_CLASS_METHODS_HMHome(HomeKit|CaptionPlanSwift|HomeKit1|HomeKit2|HomeKit3|SwiftExtensions|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|AutomationBuilders)
+- __OBJC_$_INSTANCE_METHODS_HMHome(HomeKit|CaptionPlanSwift|HomeKit1|HomeKit2|HomeKit3|SwiftExtensions|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|AutomationBuilders)
+- __OBJC_$_INSTANCE_METHODS_NSCoder(HMExtensions|ObjectCache)
+- __OBJC_CLASS_PROTOCOLS_$_HMHome(HomeKit|CaptionPlanSwift|HomeKit1|HomeKit2|HomeKit3|SwiftExtensions|AccessCode|WalletInternal|Wallet|Light|MediaGroupSettingsControllerFactory|ThreadResidentCommissioning|SiriEndpointProfilesMessengerFactory|HMActionExecution|Person|Person_Internal|Matter|CHIP|HMAccessory|HMRoom|HMZone|HMServiceGroup|HMUser|HMActionSet|HMTrigger|RemoteAccess|HMSoftwareUpdate|HMMediaProfile|NetworkRouter|HMUserActionPredictions|ThreadManagement|HMHomeHub|PowerAssertionInfo|HomeNetworkInfo|HomeLocationFeedback|MediaGroupReadinessCheck|HomeActivityState|ResidentSelection|HMModernMessaging|HMModernMessagingInternal|Trigger|Biome|Climate|AutomationBuilders)
+- ___swift_memcpy176_8
+- ___swift_memcpy224_8
+- _associated conformance So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOSHACSQ
+- _associated conformance So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOs0H3KeyACs23CustomStringConvertible
+- _associated conformance So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOs0H3KeyACs28CustomDebugStringConvertible
+- _associated conformance So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOSHACSQ
+- _associated conformance So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOs0K3KeyACs23CustomStringConvertible
+- _associated conformance So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLOs0K3KeyACs28CustomDebugStringConvertible
+- _associated conformance So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestVAC19HMFMessagePrototypeO0I7MessageAC0I7PayloadAgHP_AG0M0
+- _associated conformance So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestVAC19HMFMessagePrototypeO0I7MessageAC15ResponsePayloadAgHP_AG0N0
+- _objc_msgSend$configureWithContext:dataSource:
+- _symbolic Say_____G So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV
+- _symbolic _____ So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV
+- _symbolic _____ So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _symbolic _____ So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV
+- _symbolic _____ So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV
+- _symbolic _____ So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0L7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE22DeviceEntityProjectionV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0L7PayloadV10CodingKeys33_014DE342F7357D8CAE6EE7A4811C2DAALLO
+- _type_layout_string So18HMClientConnectionC7HomeKitE34ParkDeviceEntityProjectionsRequestV0I7PayloadV
+- logCategory._hmf_once_t81
+- logCategory._hmf_once_v82
+CStrings:
++ "-[HMAccessorySetupManager handleNFCTapWithSetupURLStrings:completionHandler:]"
++ "2!"
++ "Configuring destination controller: %@ context: %@ data source: %@ internal delegate: %@"
++ "Could not find entity identifiers in the message payload"
++ "Could not find serviceIdentifiers from the message payload: %s"
++ "Could not find uniqueIdentifiers from the message payload: %s"
++ "Error fetching user presence: %@"
++ "Error occurred while unarchiving data: %@"
++ "Failed to unarchive application data for %s"
++ "Failed to update group due to invalid request: %@"
++ "Failed to update group due to unsupported request: %@"
++ "Fetching accessory details for %ld entity identifiers"
++ "Fetching accessory info for %ld service identifiers"
++ "Fetching application data for : %s"
++ "Fetching presence for %ld user identifiers"
++ "Fetching user presence for accessory: %s"
++ "Finished fetching %ld accessory details items in %s"
++ "Finished fetching %ld accessory info items in %s"
++ "Finished fetching %ld application data in %s"
++ "HM.getAccessoryDetails"
++ "HM.getAccessoryInfo"
++ "HM.getApplicationData"
++ "HMASM.m.handleNFCTap"
++ "HMCC.UserPresenceStatusByAccessory"
++ "HMCC.fetchUserPresence"
++ "Handling NFC tap"
++ "Invalid response payload for user presence"
++ "Received presence status: %s for accessory: %s"
++ "Resolved presence for %ld of %ld users"
++ "Resolved presence: %{public}s"
++ "Unable to cast unarchived object to [String: NSObject]"
++ "Updating group with request: %@"
++ "[%{public}@] Configuring destination controller: %@ context: %@ data source: %@ internal delegate: %@"
++ "[%{public}@] Failed to hand off NFC tap: %@"
++ "[%{public}@] Failed to update group due to invalid request: %@"
++ "[%{public}@] Failed to update group due to unsupported request: %@"
++ "[%{public}@] Handed off NFC tap, presenting proximity setup: %{public}@"
++ "[%{public}@] Handing off NFC tap with %lu setup URL(s)"
++ "[%{public}@] Updating group with request: %@"
++ "[%{public}@] [%{public}@] Failed to hand off NFC tap: %@"
++ "[%{public}@] [%{public}@] Handed off NFC tap, presenting proximity setup: %{public}@"
++ "[%{public}@] [%{public}@] Handing off NFC tap with %lu setup URL(s)"
++ "ble"
++ "currentUserPresenceStatusForHomeContainingAccessory(withUniqueIdentifier:)"
++ "entityIdentifier"
++ "entityIdentifierListKey"
++ "homePodVariantRawValue"
++ "ids"
++ "intercomNotificationsForDemoV2"
++ "presenceStatus"
++ "productMarketingName"
++ "rapport"
++ "recognizeMyVoiceForDemoV2"
++ "responseTransportRestriction"
++ "serviceIdentifier"
++ "serviceIdentifierListKey"
++ "setupPresetsForDemoV2"
++ "transportRestriction"
++ "uniqueIdentifierListKey"
+- "Configuring destination controller: %@ context: %@ data source: %@"
+- "Finished parking %ld projections in %s"
+- "Parking %ld device entity projections"
+- "ProxPairing"
+- "[%{public}@] Configuring destination controller: %@ context: %@ data source: %@"
+- "hm.parkDeviceEntityProjections"
+- "relatedDeviceIds"
+```

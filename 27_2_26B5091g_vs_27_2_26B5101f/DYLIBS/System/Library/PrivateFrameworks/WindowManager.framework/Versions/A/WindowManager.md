@@ -1,0 +1,231 @@
+## WindowManager
+
+> `/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager`
+
+```diff
+
+-462.1.29.0.0
+-  __TEXT.__text: 0x11019c
+-  __TEXT.__objc_methlist: 0x22c8
+-  __TEXT.__const: 0x16b14
+-  __TEXT.__cstring: 0x2303
+-  __TEXT.__swift5_typeref: 0x46fd
+-  __TEXT.__swift5_capture: 0x4270
+-  __TEXT.__swift5_reflstr: 0x462d
+-  __TEXT.__swift5_assocty: 0x6b8
+-  __TEXT.__constg_swiftt: 0x406c
+-  __TEXT.__swift5_fieldmd: 0x4d2c
++462.1.36.0.0
++  __TEXT.__text: 0x10f354
++  __TEXT.__objc_methlist: 0x23f0
++  __TEXT.__const: 0x16ae4
++  __TEXT.__cstring: 0x2473
++  __TEXT.__swift5_typeref: 0x445d
++  __TEXT.__swift5_capture: 0x4430
++  __TEXT.__swift5_reflstr: 0x46ad
++  __TEXT.__swift5_assocty: 0x6d0
++  __TEXT.__constg_swiftt: 0x40f8
++  __TEXT.__swift5_fieldmd: 0x4de0
+   __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_proto: 0xfa0
+-  __TEXT.__swift5_types: 0x590
+-  __TEXT.__oslogstring: 0x3a6d
++  __TEXT.__swift5_proto: 0xfd0
++  __TEXT.__swift5_types: 0x59c
++  __TEXT.__oslogstring: 0x398d
+   __TEXT.__swift5_protos: 0x6c
+-  __TEXT.__swift5_mpenum: 0x60
++  __TEXT.__swift5_mpenum: 0x58
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0xc
+-  __TEXT.__unwind_info: 0x77b0
+-  __TEXT.__eh_frame: 0x43f8
++  __TEXT.__unwind_info: 0x79f8
++  __TEXT.__eh_frame: 0x46c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe40
+-  __DATA_CONST.__objc_classlist: 0x1a8
++  __DATA_CONST.__const: 0xed8
++  __DATA_CONST.__objc_classlist: 0x1b0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1070
++  __DATA_CONST.__objc_selrefs: 0x1100
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x14158
+-  __AUTH_CONST.__objc_const: 0x4d38
+-  __AUTH_CONST.__auth_got: 0xf98
+-  __AUTH.__objc_data: 0xed0
+-  __AUTH.__data: 0x1110
+-  __DATA.__data: 0x2e80
+-  __DATA.__bss: 0x1a4e0
++  __AUTH_CONST.__const: 0x14700
++  __AUTH_CONST.__objc_const: 0x4e70
++  __AUTH_CONST.__auth_got: 0xf78
++  __AUTH.__objc_data: 0xf98
++  __AUTH.__data: 0x1140
++  __DATA.__data: 0x2d40
++  __DATA.__bss: 0x1aa50
+   __DATA.__common: 0x80
+-  __DATA_DIRTY.__objc_data: 0xcd0
+-  __DATA_DIRTY.__data: 0x1c78
++  __DATA_DIRTY.__objc_data: 0xcc8
++  __DATA_DIRTY.__data: 0x1c70
+   __DATA_DIRTY.__bss: 0x4c00
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 12541
+-  Symbols:   3206
+-  CStrings:  465
++  Functions: 12695
++  Symbols:   3229
++  CStrings:  472
+ 
+Symbols:
++ _OBJC_CLASS_$_WindowManagerXPCAppExposeTarget
++ _OBJC_METACLASS_$_WindowManagerXPCAppExposeTarget
++ _PROTOCOLS_WindowManagerXPCAppExposeTarget
++ __CLASS_METHODS_WindowManagerXPCAppExposeTarget
++ __CLASS_PROPERTIES_WindowManagerXPCAppExposeTarget
++ __DATA_WindowManagerXPCAppExposeTarget
++ __INSTANCE_METHODS_WindowManagerXPCAppExposeTarget
++ __IVARS_WindowManagerXPCAppExposeTarget
++ __METACLASS_DATA_WindowManagerXPCAppExposeTarget
++ __PROTOCOLS_WindowManagerXPCAppExposeTarget
++ ___swift_memcpy21_8
++ ___swift_memcpy848_8
++ __swift_closure_destructor.36Tm
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOSHAASQ
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOSHAASQ
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _keypath_get_selector_ShowDesktopTouchEdgeInsetInInches
++ _objc_msgSend$CampoHideStartTimeout
++ _objc_msgSend$ControlCenterHideStartTimeout
++ _objc_msgSend$DockBottomShowRegionEdgePadding
++ _objc_msgSend$DockHideStartTimeout
++ _objc_msgSend$MenuBarHideStartTimeout
++ _objc_msgSend$NotificationCenterHideStartTimeout
++ _objc_msgSend$ShowDesktopTouchEdgeInsetInInches
++ _objc_msgSend$StageManagerStripHideStartTimeout
++ _objc_msgSend$StageManagerStripReferenceScale
++ _objc_msgSend$setCampoHideStartTimeout:
++ _objc_msgSend$setControlCenterHideStartTimeout:
++ _objc_msgSend$setDockBottomShowRegionEdgePadding:
++ _objc_msgSend$setDockHideStartTimeout:
++ _objc_msgSend$setMenuBarHideStartTimeout:
++ _objc_msgSend$setNotificationCenterHideStartTimeout:
++ _objc_msgSend$setShowDesktopTouchEdgeInsetInInches:
++ _objc_msgSend$setStageManagerStripHideStartTimeout:
++ _objc_msgSend$setStageManagerStripReferenceScale:
++ _objc_msgSend$xpcSetAppExposeHoverTarget:completion:
++ _swift_getOpaqueTypeConformance2
++ _symbolic Say_____ySo14NSUserDefaultsCypSgGG s24ReferenceWritableKeyPathC
++ _symbolic _____ 13WindowManager0aB18XPCAppExposeTargetC
++ _symbolic _____ 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____ 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____3key______Sg5valuet s6UInt64V s6UInt32V
++ _symbolic _____5value______9blockedByt 8Gestures13ProgressValueV AA13GestureNodeIDV
++ _symbolic ______AA13parentSpaceID_____06windowC0t s6UInt64V s6UInt32V
++ _symbolic ______AA13parentSpaceIDt s6UInt64V
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____3key______Sg5valuetG s23_ContiguousArrayStorageC s6UInt64V s6UInt32V
++ _symbolic _____y_____G 8Gestures12GesturePhaseO AA13ProgressValueV
++ _symbolic _____y_____G 8Gestures17GestureRecognizerC AA21OpaqueDataComponentV2V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager11SpaceChangeO04TileD14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager11SpaceChangeO04TileD16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager11SpaceChangeO04TileD14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager11SpaceChangeO04TileD16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures19OpaqueDataPredicateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures19OpaqueDataPredicateV9ConditionV
++ _symbolic _____y______Qo_ 8Gestures16GestureComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA03PanC2V2V
++ _symbolic _____y______Qo_ 8Gestures16GestureComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA07EdgePanC0V
++ _symbolic _____y______y______y______y_So14NSUserDefaultsCypSgGGGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC9MergeManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y______y_So14NSUserDefaultsCypSgGGGytG 7Combine10PublishersO3MapV AC9MergeManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y______y______y_So14NSUserDefaultsCypSgGGGytG_____yyt_____GG 7Combine10PublishersO5MergeV AC3MapV AC0C4ManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y______y______y______y______y______y_So14NSUserDefaultsCypSgGGGytG_____yyt_____GGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC5MergeV AC3MapV AC0D4ManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y_____y______Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA03PanD2V2V
++ _symbolic _____y_____y______Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA07EdgePanD0V
++ _symbolic _____y_____y______Qo__Qo_ 8Gestures16GestureComponentPA2A03PanC5ValueV0E0RtzrlE19translationProgress5along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgedC0V
++ _symbolic _____y_____y______Qo__Qo_ 8Gestures16GestureComponentPA2A03PanC5ValueV0E0RtzrlE19translationProgress5along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0dC2V2V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 8Gestures16GestureComponentPA2A13ProgressValueV0E0RtzrlE013commitOnFinalE08reaching11inertiaTimeQrSd_AA0K8DurationVtFQO Ac2A03PancE0VAGRSrlE011translationD05along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgemC0V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 8Gestures16GestureComponentPA2A13ProgressValueV0E0RtzrlE013commitOnFinalE08reaching11inertiaTimeQrSd_AA0K8DurationVtFQO Ac2A03PancE0VAGRSrlE011translationD05along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0mC2V2V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPA2A13ProgressValueV0F0RtzrlE013commitOnFinalF08reaching11inertiaTimeQrSd_AA0L8DurationVtFQO Ae2A03PandF0VAIRSrlE011translationE05along9referenceQrAA20TranslationDirectionO_SdtFQO AeAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgenD0V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPA2A13ProgressValueV0F0RtzrlE013commitOnFinalF08reaching11inertiaTimeQrSd_AA0L8DurationVtFQO Ae2A03PandF0VAIRSrlE011translationE05along9referenceQrAA20TranslationDirectionO_SdtFQO AeAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0nD2V2V
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_235
+- _OUTLINED_FUNCTION_236
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- _OUTLINED_FUNCTION_242
+- ___swift_memcpy832_8
+- __swift_closure_destructor.37Tm
+- _objc_msgSend$xpcSetSpaceChangeDeltasEnabledWithExposeCoordinator:enabled:completion:
+- _symbolic SDy__________G 8Gestures15OpaqueDataEventV8FieldKeyV AC0E0O
+- _symbolic _____ 8Gestures15OpaqueDataEventV
+- _symbolic _____ 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____ 8Gestures15OpaqueDataEventV7PayloadV
+- _symbolic _____y_AAy______y______G_____GSDy__________GG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV AJ7PayloadV AJ05FieldD0V AJ0L0O
+- _symbolic _____y_AAy______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGGASG_____y_ANy______yAF_QPGGAG_QPGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC0B8EvaluateV AA0B0V
+- _symbolic _____y_SbG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_SdG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA19OpaqueDataComponentV
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA20RegionPanComponentV2V
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA22RegionEdgePanComponentV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV 8Gestures15OpaqueDataEventV8FieldKeyV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______QPG 10Foundation9PredicateV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______QPGSg 10Foundation9PredicateV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______SgG 10Foundation20PredicateExpressionsO5ValueV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______y_ABy______y______G_____GSDy__________GG_____y_AHGAIG 10Foundation20PredicateExpressionsO22DictionaryKeySubscriptV AC0E4PathV AC8VariableV 8Gestures15OpaqueDataEventV AL7PayloadV AL05FieldE0V AL0N0O AC5ValueV
+- _symbolic _____y______y______GSdSgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV AJ7PayloadV
+- _symbolic _____y______y______QPGG 10Foundation20PredicateExpressionsO5ValueV AA0B0V 8Gestures15OpaqueDataEventV
+- _symbolic _____y______y______y_ACy______y______G_____GSDy__________GG_____y_AIGAJGAMy_AJSgGG 10Foundation20PredicateExpressionsO5EqualV AC22DictionaryKeySubscriptV AC0F4PathV AC8VariableV 8Gestures15OpaqueDataEventV AN7PayloadV AN05FieldF0V AN0O0O AC5ValueV
+- _symbolic _____y______y______y_ACy______y______G_____GSDy__________GG_____y_AIGAJGAjCy_ADy_AJGSdSgGSdG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0H4PathV AC8VariableV 8Gestures15OpaqueDataEventV AN7PayloadV AN05FieldH0V AN0Q0O AC5ValueV
+- _symbolic _____y______y______y______QPGG_____y_ADG_QPG 10Foundation20PredicateExpressionsO0B8EvaluateV AC5ValueV AA0B0V 8Gestures15OpaqueDataEventV AC8VariableV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGGASG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGG_____y_ANy______yAF_QPGGAG_QPGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC0B8EvaluateV AA0B0V
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGG_____y______y______y_ApkDy_AEy_AKGSdSgGSdGANy_SdGGA_GG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC10ComparisonV AC11NilCoalesceV AC15OptionalFlatMapV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGAkDy_AEy_AKGSdSgGSdGANy_SdGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0J4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldJ0V AP0S0O AC5ValueV
+- _symbolic _____y______y______y______y______QPGG_____y_AEG_QPGAJG 10Foundation20PredicateExpressionsO11DisjunctionV AC0B8EvaluateV AC5ValueV AA0B0V 8Gestures15OpaqueDataEventV AC8VariableV
+- _symbolic _____y______y______y______y______y_AEy______y______G_____GSDy__________GG_____y_AKGALGAlEy_AFy_ALGSdSgGSdGAOy_SdGGAVG 10Foundation20PredicateExpressionsO10ComparisonV AC11NilCoalesceV AC15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0K4PathV AC8VariableV 8Gestures15OpaqueDataEventV AR7PayloadV AR05FieldK0V AR0T0O AC5ValueV
+- _symbolic _____y______y______y______yypSg_____GytG_____yytAFGGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC5MergeV AC3MapV AA12AnyPublisherV s5NeverO AA18PassthroughSubjectC
+- _symbolic _____y______y______yypSg_____GytG_____yytAEGG 7Combine10PublishersO5MergeV AC3MapV AA12AnyPublisherV s5NeverO AA18PassthroughSubjectC
+- _symbolic _____y______yypSg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______yypSg_____G_____y______y_So14NSUserDefaultsCACGGG 7Combine10PublishersO5MergeV AA12AnyPublisherV s5NeverO AC4DropV So8NSObjectC10FoundationE017KeyValueObservingE0V
+- _symbolic _____y______yypSg_____GytG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO
+- _symbolic _____yypSg_____G 7Combine12AnyPublisherV s5NeverO
+- _symbolic _____yypSg_____G 7Combine5EmptyV s5NeverO
+CStrings:
++ "CampoHideStartTimeout"
++ "ControlCenterHideStartTimeout"
++ "DockBottomShowRegionEdgePadding"
++ "DockHideStartTimeout"
++ "MenuBarHideStartTimeout"
++ "NotificationCenterHideStartTimeout"
++ "StageManagerStripHideStartTimeout"
++ "StageManagerStripReferenceScale"
++ "WindowManager.WindowManagerXPCAppExposeTarget"
++ "tileWindowJoined"
+- "AdminXPCConnection setSpaceChangeDeltasEnabled %{bool,public}d"
+- "AdminXPCListener didSetSpaceChangeDeltasEnabled: %{bool,public}d"
+- "Asynchronously setting space change deltas enabled %{bool,public}d"
+```
